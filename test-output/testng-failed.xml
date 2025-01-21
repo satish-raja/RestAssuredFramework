@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [REST-Assured Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="test.com.api.testng.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="Authentication and API Tests(failed)">
+    <classes>
+      <class name="test.com.api.testng.tests.ImagesTest">
+        <methods>
+          <include name="testSearchImages"/>
+          <include name="testDeleteImage"/>
+          <include name="setup"/>
+          <include name="testGetImages"/>
+          <include name="testGetImageAnalysisById"/>
+          <include name="testGetImageById"/>
+          <include name="setupBeforeSuite"/>
+          <include name="testUploadImage"/>
+        </methods>
+      </class> <!-- test.com.api.testng.tests.ImagesTest -->
+    </classes>
+  </test> <!-- Authentication and API Tests(failed) -->
+</suite> <!-- Failed suite [REST-Assured Suite] -->

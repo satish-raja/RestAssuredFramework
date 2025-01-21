@@ -1,0 +1,7 @@
+Attempt 1: GET https://api.thecatapi.com/v1/images/JzoCbMw3c/analysis
+Request Headers: x-api-key=live_hqmX64b4j4RBGMgKaXT4YokmXvCBDWKk9H4HdifiRRDuUxPVqgJqmjCP4AgB34OJ
+Accept=*/*
+Content-Type=application/json
+Elapsed Time: 3ms
+Retry Interval: 2000ms
+Attempt 1 succeeded with status code: 200

@@ -1,0 +1,167 @@
+2025-01-22 04:05:34 DEBUG org.testng.TestNG - suiteXmlPath: "D:\DemoWorkspace\RestAssuredFramework\TestngRunner\api-test-suite.xml"
+2025-01-22 04:05:34 INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\DemoWorkspace\RestAssuredFramework\TestngRunner\api-test-suite.xml
+
+2025-01-22 04:05:35 INFO  test.com.api.testng.listeners.TestListener - Test Suite Started: Authentication and API Tests
+2025-01-22 04:05:35 INFO  test.com.api.testng.listeners.TestListener - Test Started: testPingHealthCheck
+2025-01-22 04:05:35 INFO  test.com.api.testng.tests.BookingTest - TEST: testPingHealthCheck execution started
+2025-01-22 04:05:35 INFO  test.com.api.testng.listeners.TestListener - Test Started: testSearchImages
+2025-01-22 04:05:35 INFO  test.com.api.testng.tests.ImagesTest - TEST: testSearchImages, execution started
+2025-01-22 04:05:35 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:05:35 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:05:36 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:05:36 INFO  test.com.api.testng.tests.ImagesTest - TEST: testSearchImages, execution completed successfully
+2025-01-22 04:05:36 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testSearchImages
+2025-01-22 04:05:37 INFO  test.com.api.testng.listeners.TestListener - Test Started: testUploadImage
+2025-01-22 04:05:37 INFO  test.com.api.testng.tests.ImagesTest - TEST: testUploadImage, execution started
+2025-01-22 04:05:37 ERROR test.com.api.testng.tests.ImagesTest - File not found at: D:\DemoWorkspace\RestAssuredFramework\resources\image_1.jpeg
+2025-01-22 04:05:37 ERROR test.com.api.testng.listeners.TestListener - Test Failed: testUploadImage
+2025-01-22 04:05:37 ERROR test.com.api.testng.listeners.TestListener - Exception: Required test resource missing: resources/image_1.jpeg
+2025-01-22 04:05:37 INFO  test.com.api.testng.listeners.TestListener - Test Started: testGetImageById
+2025-01-22 04:05:37 INFO  test.com.api.testng.tests.ImagesTest - TEST: testGetImageById, execution started
+2025-01-22 04:05:37 ERROR test.com.api.testng.listeners.TestListener - Test Failed: testGetImageById
+2025-01-22 04:05:37 ERROR test.com.api.testng.listeners.TestListener - Exception: Cannot invoke "java.lang.CharSequence.toString()" because "replacement" is null
+2025-01-22 04:05:37 INFO  test.com.api.testng.listeners.TestListener - Test Started: testGetImageAnalysisById
+2025-01-22 04:05:37 INFO  test.com.api.testng.tests.ImagesTest - TEST: testGetImageAnalysisById, execution started
+2025-01-22 04:05:37 ERROR test.com.api.testng.listeners.TestListener - Test Failed: testGetImageAnalysisById
+2025-01-22 04:05:37 ERROR test.com.api.testng.listeners.TestListener - Exception: Cannot invoke "java.lang.CharSequence.toString()" because "replacement" is null
+2025-01-22 04:05:37 INFO  test.com.api.testng.listeners.TestListener - Test Started: testGetImages
+2025-01-22 04:05:37 INFO  test.com.api.testng.tests.ImagesTest - TEST: testGetImages, execution started
+2025-01-22 04:05:37 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:05:37 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 201
+2025-01-22 04:05:37 INFO  test.com.api.testng.tests.BookingTest - TEST: testPingHealthCheck execution completed successfully
+2025-01-22 04:05:37 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testPingHealthCheck
+2025-01-22 04:05:37 INFO  test.com.api.testng.listeners.TestListener - Test Started: testAuthCreateToken
+2025-01-22 04:05:37 INFO  test.com.api.testng.tests.BookingTest - TEST: testAuthCreateToken execution started
+2025-01-22 04:05:37 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:05:38 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:05:38 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:05:38 INFO  test.com.api.testng.tests.BookingTest - TEST: testAuthCreateToken execution completed successfully
+2025-01-22 04:05:38 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testAuthCreateToken
+2025-01-22 04:05:38 INFO  test.com.api.testng.listeners.TestListener - Test Started: testCreateBooking
+2025-01-22 04:05:38 INFO  test.com.api.testng.tests.BookingTest - TEST: testCreateBooking execution started
+2025-01-22 04:05:38 ERROR test.com.api.testng.listeners.TestListener - Test Failed: testGetImages
+2025-01-22 04:05:38 ERROR test.com.api.testng.listeners.TestListener - Exception: 1 expectation failed.
+JSON path id doesn't match.
+Expected: a collection containing null
+  Actual: <[kQfioPphT, KARwHg4Gx, HE9F3ayDs, I1hzU6A09, tCIAwIznG, USH-Kmd-C, fTyN0m38A, ABawUw8v9, J41Ht74Gh, 5oLc06iPx]>
+
+2025-01-22 04:05:38 INFO  test.com.api.testng.listeners.TestListener - Test Started: testDeleteImage
+2025-01-22 04:05:38 INFO  test.com.api.testng.tests.ImagesTest - TEST: testDeleteImage, execution started
+2025-01-22 04:05:38 ERROR test.com.api.testng.listeners.TestListener - Test Failed: testDeleteImage
+2025-01-22 04:05:38 ERROR test.com.api.testng.listeners.TestListener - Exception: Cannot invoke "java.lang.CharSequence.toString()" because "replacement" is null
+2025-01-22 04:05:38 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:05:40 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:05:40 INFO  test.com.api.testng.tests.BookingTest - TEST: testCreateBooking execution completed successfully
+2025-01-22 04:05:40 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testCreateBooking
+2025-01-22 04:05:40 INFO  test.com.api.testng.listeners.TestListener - Test Started: testGetBookingDetails
+2025-01-22 04:05:40 INFO  test.com.api.testng.tests.BookingTest - TEST: testGetBookingDetails execution started
+2025-01-22 04:05:40 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:05:41 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:05:41 INFO  test.com.api.testng.tests.BookingTest - TEST: testGetBookingDetails execution completed successfully
+2025-01-22 04:05:41 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testGetBookingDetails
+2025-01-22 04:05:41 INFO  test.com.api.testng.listeners.TestListener - Test Started: testUpdateBooking
+2025-01-22 04:05:41 INFO  test.com.api.testng.tests.BookingTest - TEST: testUpdateBooking execution started
+2025-01-22 04:05:41 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:05:42 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:05:42 INFO  test.com.api.testng.tests.BookingTest - TEST: testUpdateBooking execution completed successfully
+2025-01-22 04:05:42 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testUpdateBooking
+2025-01-22 04:05:42 INFO  test.com.api.testng.listeners.TestListener - Test Started: testPartialUpdateBooking
+2025-01-22 04:05:42 INFO  test.com.api.testng.tests.BookingTest - TEST: testPartialUpdateBooking execution started
+2025-01-22 04:05:42 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:05:43 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:05:43 INFO  test.com.api.testng.tests.BookingTest - TEST: testPartialUpdateBooking execution completed successfully
+2025-01-22 04:05:43 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testPartialUpdateBooking
+2025-01-22 04:05:43 INFO  test.com.api.testng.listeners.TestListener - Test Started: testDeleteBooking
+2025-01-22 04:05:43 INFO  test.com.api.testng.tests.BookingTest - TEST: testDeleteBooking execution started
+2025-01-22 04:05:43 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:05:45 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 201
+2025-01-22 04:05:45 INFO  test.com.api.testng.tests.BookingTest - TEST: testDeleteBooking execution completed successfully
+2025-01-22 04:05:45 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testDeleteBooking
+2025-01-22 04:05:45 INFO  test.com.api.testng.listeners.TestListener - Test Suite Finished: Authentication and API Tests
+2025-01-22 04:07:23 DEBUG org.testng.TestNG - suiteXmlPath: "D:\DemoWorkspace\RestAssuredFramework\TestngRunner\api-test-suite.xml"
+2025-01-22 04:07:24 INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\DemoWorkspace\RestAssuredFramework\TestngRunner\api-test-suite.xml
+
+2025-01-22 04:07:24 INFO  test.com.api.testng.listeners.TestListener - Test Suite Started: Authentication and API Tests
+2025-01-22 04:07:24 INFO  test.com.api.testng.listeners.TestListener - Test Started: testPingHealthCheck
+2025-01-22 04:07:24 INFO  test.com.api.testng.tests.BookingTest - TEST: testPingHealthCheck execution started
+2025-01-22 04:07:24 INFO  test.com.api.testng.listeners.TestListener - Test Started: testSearchImages
+2025-01-22 04:07:24 INFO  test.com.api.testng.tests.ImagesTest - TEST: testSearchImages, execution started
+2025-01-22 04:07:25 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:25 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:26 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:07:27 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 201
+2025-01-22 04:07:27 INFO  test.com.api.testng.tests.BookingTest - TEST: testPingHealthCheck execution completed successfully
+2025-01-22 04:07:27 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testPingHealthCheck
+2025-01-22 04:07:27 INFO  test.com.api.testng.tests.ImagesTest - TEST: testSearchImages, execution completed successfully
+2025-01-22 04:07:27 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testSearchImages
+2025-01-22 04:07:27 INFO  test.com.api.testng.listeners.TestListener - Test Started: testAuthCreateToken
+2025-01-22 04:07:27 INFO  test.com.api.testng.listeners.TestListener - Test Started: testUploadImage
+2025-01-22 04:07:27 INFO  test.com.api.testng.tests.BookingTest - TEST: testAuthCreateToken execution started
+2025-01-22 04:07:27 INFO  test.com.api.testng.tests.ImagesTest - TEST: testUploadImage, execution started
+2025-01-22 04:07:27 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:27 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:28 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:07:29 INFO  test.com.api.testng.tests.BookingTest - TEST: testAuthCreateToken execution completed successfully
+2025-01-22 04:07:29 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testAuthCreateToken
+2025-01-22 04:07:29 INFO  test.com.api.testng.listeners.TestListener - Test Started: testCreateBooking
+2025-01-22 04:07:29 INFO  test.com.api.testng.tests.BookingTest - TEST: testCreateBooking execution started
+2025-01-22 04:07:29 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:30 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:07:30 INFO  test.com.api.testng.tests.BookingTest - TEST: testCreateBooking execution completed successfully
+2025-01-22 04:07:30 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testCreateBooking
+2025-01-22 04:07:30 INFO  test.com.api.testng.listeners.TestListener - Test Started: testGetBookingDetails
+2025-01-22 04:07:30 INFO  test.com.api.testng.tests.BookingTest - TEST: testGetBookingDetails execution started
+2025-01-22 04:07:30 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:31 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 201
+2025-01-22 04:07:31 INFO  test.com.api.testng.tests.ImagesTest - Image uploaded successfully with ID: JzoCbMw3c
+2025-01-22 04:07:31 INFO  test.com.api.testng.tests.ImagesTest - TEST: testUploadImage, execution completed successfully
+2025-01-22 04:07:31 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testUploadImage
+2025-01-22 04:07:31 INFO  test.com.api.testng.listeners.TestListener - Test Started: testGetImageById
+2025-01-22 04:07:31 INFO  test.com.api.testng.tests.ImagesTest - TEST: testGetImageById, execution started
+2025-01-22 04:07:31 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:31 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:07:31 INFO  test.com.api.testng.tests.BookingTest - TEST: testGetBookingDetails execution completed successfully
+2025-01-22 04:07:31 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testGetBookingDetails
+2025-01-22 04:07:31 INFO  test.com.api.testng.listeners.TestListener - Test Started: testUpdateBooking
+2025-01-22 04:07:31 INFO  test.com.api.testng.tests.BookingTest - TEST: testUpdateBooking execution started
+2025-01-22 04:07:32 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:32 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:07:32 INFO  test.com.api.testng.tests.ImagesTest - Image URL: https://cdn2.thecatapi.com/images/JzoCbMw3c.jpg
+2025-01-22 04:07:32 INFO  test.com.api.testng.tests.ImagesTest - TEST: testGetImageById, execution completed successfully
+2025-01-22 04:07:32 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testGetImageById
+2025-01-22 04:07:32 INFO  test.com.api.testng.listeners.TestListener - Test Started: testGetImageAnalysisById
+2025-01-22 04:07:32 INFO  test.com.api.testng.tests.ImagesTest - TEST: testGetImageAnalysisById, execution started
+2025-01-22 04:07:32 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:33 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:07:33 INFO  test.com.api.testng.tests.BookingTest - TEST: testUpdateBooking execution completed successfully
+2025-01-22 04:07:33 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testUpdateBooking
+2025-01-22 04:07:33 INFO  test.com.api.testng.listeners.TestListener - Test Started: testPartialUpdateBooking
+2025-01-22 04:07:33 INFO  test.com.api.testng.tests.BookingTest - TEST: testPartialUpdateBooking execution started
+2025-01-22 04:07:33 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:34 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:07:34 INFO  test.com.api.testng.tests.BookingTest - TEST: testPartialUpdateBooking execution completed successfully
+2025-01-22 04:07:34 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testPartialUpdateBooking
+2025-01-22 04:07:34 INFO  test.com.api.testng.listeners.TestListener - Test Started: testDeleteBooking
+2025-01-22 04:07:34 INFO  test.com.api.testng.tests.BookingTest - TEST: testDeleteBooking execution started
+2025-01-22 04:07:34 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:35 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 201
+2025-01-22 04:07:35 INFO  test.com.api.testng.tests.BookingTest - TEST: testDeleteBooking execution completed successfully
+2025-01-22 04:07:35 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testDeleteBooking
+2025-01-22 04:07:42 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:07:42 INFO  test.com.api.testng.tests.ImagesTest - TEST: testGetImageAnalysisById, execution completed successfully
+2025-01-22 04:07:42 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testGetImageAnalysisById
+2025-01-22 04:07:42 INFO  test.com.api.testng.listeners.TestListener - Test Started: testGetImages
+2025-01-22 04:07:42 INFO  test.com.api.testng.tests.ImagesTest - TEST: testGetImages, execution started
+2025-01-22 04:07:42 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:42 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 200
+2025-01-22 04:07:42 INFO  test.com.api.testng.tests.ImagesTest - TEST: testGetImages, execution completed successfully
+2025-01-22 04:07:42 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testGetImages
+2025-01-22 04:07:42 INFO  test.com.api.testng.listeners.TestListener - Test Started: testDeleteImage
+2025-01-22 04:07:42 INFO  test.com.api.testng.tests.ImagesTest - TEST: testDeleteImage, execution started
+2025-01-22 04:07:42 INFO  test.com.api.testng.utils.RetryFilter - Retry Interval: 2000ms
+2025-01-22 04:07:43 INFO  test.com.api.testng.utils.RetryFilter - Attempt 1 succeeded with status code: 204
+2025-01-22 04:07:43 INFO  test.com.api.testng.tests.ImagesTest - TEST: testDeleteImage, execution completed successfully
+2025-01-22 04:07:43 INFO  test.com.api.testng.listeners.TestListener - Test Passed: testDeleteImage
+2025-01-22 04:07:43 INFO  test.com.api.testng.listeners.TestListener - Test Suite Finished: Authentication and API Tests

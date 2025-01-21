@@ -1,0 +1,5 @@
+Attempt 1: GET https://restful-booker.herokuapp.com/booking/2482
+Request Headers: Accept=*/*
+Elapsed Time: 1ms
+Retry Interval: 2000ms
+Attempt 1 succeeded with status code: 200

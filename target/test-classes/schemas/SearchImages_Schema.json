@@ -1,0 +1,201 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "breeds": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "weight": {
+              "type": "object",
+              "properties": {
+                "imperial": {
+                  "type": "string"
+                },
+                "metric": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "imperial",
+                "metric"
+              ]
+            },
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "cfa_url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "vetstreet_url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "vcahospitals_url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "temperament": {
+              "type": "string"
+            },
+            "origin": {
+              "type": "string"
+            },
+            "country_codes": {
+              "type": "string"
+            },
+            "country_code": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "life_span": {
+              "type": "string"
+            },
+            "indoor": {
+              "type": "number"
+            },
+            "lap": {
+              "type": "number"
+            },
+            "alt_names": {
+              "type": "string"
+            },
+            "adaptability": {
+              "type": "number"
+            },
+            "affection_level": {
+              "type": "number"
+            },
+            "child_friendly": {
+              "type": "number"
+            },
+            "dog_friendly": {
+              "type": "number"
+            },
+            "energy_level": {
+              "type": "number"
+            },
+            "grooming": {
+              "type": "number"
+            },
+            "health_issues": {
+              "type": "number"
+            },
+            "intelligence": {
+              "type": "number"
+            },
+            "shedding_level": {
+              "type": "number"
+            },
+            "social_needs": {
+              "type": "number"
+            },
+            "stranger_friendly": {
+              "type": "number"
+            },
+            "vocalisation": {
+              "type": "number"
+            },
+            "experimental": {
+              "type": "number"
+            },
+            "hairless": {
+              "type": "number"
+            },
+            "natural": {
+              "type": "number"
+            },
+            "rare": {
+              "type": "number"
+            },
+            "rex": {
+              "type": "number"
+            },
+            "suppressed_tail": {
+              "type": "number"
+            },
+            "short_legs": {
+              "type": "number"
+            },
+            "wikipedia_url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "hypoallergenic": {
+              "type": "number"
+            },
+            "reference_image_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "weight",
+            "id",
+            "name",
+            "temperament",
+            "origin",
+            "country_codes",
+            "country_code",
+            "description",
+            "life_span",
+            "indoor",
+            "lap",
+            "alt_names",
+            "adaptability",
+            "affection_level",
+            "child_friendly",
+            "dog_friendly",
+            "energy_level",
+            "grooming",
+            "health_issues",
+            "intelligence",
+            "shedding_level",
+            "social_needs",
+            "stranger_friendly",
+            "vocalisation",
+            "experimental",
+            "hairless",
+            "natural",
+            "rare",
+            "rex",
+            "suppressed_tail",
+            "short_legs",
+            "wikipedia_url",
+            "hypoallergenic",
+            "reference_image_id"
+          ]
+        }
+      },
+      "id": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri"
+      },
+      "width": {
+        "type": "number"
+      },
+      "height": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "breeds",
+      "id",
+      "url",
+      "width",
+      "height"
+    ]
+  }
+}

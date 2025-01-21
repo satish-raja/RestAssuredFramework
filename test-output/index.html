@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-REST_Assured_Suite" class="navigator-link">
+              <span class="suite-name border-passed">REST-Assured Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-REST_Assured_Suite" class="navigator-link ">
+                    <span>D:\DemoWorkspace\RestAssuredFramework\TestngRunner\api-test-suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-REST_Assured_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-REST_Assured_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-REST_Assured_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-REST_Assured_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-REST_Assured_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-REST_Assured_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-REST_Assured_Suite" class="hide-methods passed suite-REST_Assured_Suite"> (hide)</a> <!-- hide-methods passed suite-REST_Assured_Suite -->
+                      <a href="#" panel-name="suite-REST_Assured_Suite" class="show-methods passed suite-REST_Assured_Suite"> (show)</a> <!-- show-methods passed suite-REST_Assured_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-REST_Assured_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.BookingTest" class="method navigator-link" hash-for-method="testAuthCreateToken">testAuthCreateToken</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.BookingTest" class="method navigator-link" hash-for-method="testCreateBooking">testCreateBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.BookingTest" class="method navigator-link" hash-for-method="testDeleteBooking">testDeleteBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.ImagesTest" class="method navigator-link" hash-for-method="testDeleteImage">testDeleteImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.BookingTest" class="method navigator-link" hash-for-method="testGetBookingDetails">testGetBookingDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.ImagesTest" class="method navigator-link" hash-for-method="testGetImageAnalysisById">testGetImageAnalysisById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.ImagesTest" class="method navigator-link" hash-for-method="testGetImageById">testGetImageById</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.ImagesTest" class="method navigator-link" hash-for-method="testGetImages">testGetImages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.BookingTest" class="method navigator-link" hash-for-method="testPartialUpdateBooking">testPartialUpdateBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.BookingTest" class="method navigator-link" hash-for-method="testPingHealthCheck">testPingHealthCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.ImagesTest" class="method navigator-link" hash-for-method="testSearchImages">testSearchImages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.BookingTest" class="method navigator-link" hash-for-method="testUpdateBooking">testUpdateBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-REST_Assured_Suite" title="test.com.api.testng.tests.ImagesTest" class="method navigator-link" hash-for-method="testUploadImage">testUploadImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-REST_Assured_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-REST_Assured_Suite" class="panel REST_Assured_Suite">
+          <div class="suite-REST_Assured_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.com.api.testng.tests.ImagesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteImage">
+                  </a> <!-- testDeleteImage -->
+                  <span class="method-name">testDeleteImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetImageAnalysisById">
+                  </a> <!-- testGetImageAnalysisById -->
+                  <span class="method-name">testGetImageAnalysisById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetImageById">
+                  </a> <!-- testGetImageById -->
+                  <span class="method-name">testGetImageById</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetImages">
+                  </a> <!-- testGetImages -->
+                  <span class="method-name">testGetImages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchImages">
+                  </a> <!-- testSearchImages -->
+                  <span class="method-name">testSearchImages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUploadImage">
+                  </a> <!-- testUploadImage -->
+                  <span class="method-name">testUploadImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_Assured_Suite-class-passed -->
+          <div class="suite-REST_Assured_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.com.api.testng.tests.BookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAuthCreateToken">
+                  </a> <!-- testAuthCreateToken -->
+                  <span class="method-name">testAuthCreateToken</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateBooking">
+                  </a> <!-- testCreateBooking -->
+                  <span class="method-name">testCreateBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteBooking">
+                  </a> <!-- testDeleteBooking -->
+                  <span class="method-name">testDeleteBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetBookingDetails">
+                  </a> <!-- testGetBookingDetails -->
+                  <span class="method-name">testGetBookingDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPartialUpdateBooking">
+                  </a> <!-- testPartialUpdateBooking -->
+                  <span class="method-name">testPartialUpdateBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPingHealthCheck">
+                  </a> <!-- testPingHealthCheck -->
+                  <span class="method-name">testPingHealthCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUpdateBooking">
+                  </a> <!-- testUpdateBooking -->
+                  <span class="method-name">testUpdateBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-REST_Assured_Suite-class-passed -->
+        </div> <!-- panel REST_Assured_Suite -->
+        <div panel-name="test-xml-REST_Assured_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DemoWorkspace\RestAssuredFramework\TestngRunner\api-test-suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;REST-Assured Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;test.com.api.testng.listeners.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;Authentication and API Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.com.api.testng.tests.BookingTest&quot;/&gt;
+      &lt;class name=&quot;test.com.api.testng.tests.ImagesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Authentication and API Tests --&gt;
+&lt;/suite&gt; &lt;!-- REST-Assured Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-REST_Assured_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for REST-Assured Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Authentication and API Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-REST_Assured_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for REST-Assured Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-REST_Assured_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for REST-Assured Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_REST_Assured_Suite');
+function tableData_REST_Assured_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetImageAnalysisById')
+data.setCell(0, 2, 'test.com.api.testng.tests.ImagesTest')
+data.setCell(0, 3, 10071);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testUploadImage')
+data.setCell(1, 2, 'test.com.api.testng.tests.ImagesTest')
+data.setCell(1, 3, 4013);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testPingHealthCheck')
+data.setCell(2, 2, 'test.com.api.testng.tests.BookingTest')
+data.setCell(2, 3, 2617);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testSearchImages')
+data.setCell(3, 2, 'test.com.api.testng.tests.ImagesTest')
+data.setCell(3, 3, 2431);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testAuthCreateToken')
+data.setCell(4, 2, 'test.com.api.testng.tests.BookingTest')
+data.setCell(4, 3, 1938);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testCreateBooking')
+data.setCell(5, 2, 'test.com.api.testng.tests.BookingTest')
+data.setCell(5, 3, 1467);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testUpdateBooking')
+data.setCell(6, 2, 'test.com.api.testng.tests.BookingTest')
+data.setCell(6, 3, 1268);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testPartialUpdateBooking')
+data.setCell(7, 2, 'test.com.api.testng.tests.BookingTest')
+data.setCell(7, 3, 1248);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDeleteBooking')
+data.setCell(8, 2, 'test.com.api.testng.tests.BookingTest')
+data.setCell(8, 3, 1234);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testGetBookingDetails')
+data.setCell(9, 2, 'test.com.api.testng.tests.BookingTest')
+data.setCell(9, 3, 1228);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetImages')
+data.setCell(10, 2, 'test.com.api.testng.tests.ImagesTest')
+data.setCell(10, 3, 780);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testGetImageById')
+data.setCell(11, 2, 'test.com.api.testng.tests.ImagesTest')
+data.setCell(11, 3, 751);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testDeleteImage')
+data.setCell(12, 2, 'test.com.api.testng.tests.ImagesTest')
+data.setCell(12, 3, 730);
+window.suiteTableData['REST_Assured_Suite']= { tableData: data, tableDiv: 'times-div-REST_Assured_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <div id="times-div-REST_Assured_Suite">
+              </div> <!-- times-div-REST_Assured_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-REST_Assured_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for REST-Assured Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-REST_Assured_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.com.api.testng.tests.ImagesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setupBeforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-REST_Assured_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.com.api.testng.tests.BookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupBeforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.com.api.testng.tests.ImagesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.com.api.testng.tests.BookingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPingHealthCheck</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.com.api.testng.tests.ImagesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSearchImages</span>
+                <span class="method-start">343 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testUploadImage</span>
+                <span class="method-start">2831 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.com.api.testng.tests.BookingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testAuthCreateToken</span>
+                <span class="method-start">2831 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateBooking</span>
+                <span class="method-start">4774 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetBookingDetails</span>
+                <span class="method-start">6244 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.com.api.testng.tests.ImagesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetImageById</span>
+                <span class="method-start">6846 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.com.api.testng.tests.BookingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testUpdateBooking</span>
+                <span class="method-start">7474 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.com.api.testng.tests.ImagesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetImageAnalysisById</span>
+                <span class="method-start">7613 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.com.api.testng.tests.BookingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPartialUpdateBooking</span>
+                <span class="method-start">8745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteBooking</span>
+                <span class="method-start">9995 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.com.api.testng.tests.ImagesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetImages</span>
+                <span class="method-start">17686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDeleteImage</span>
+                <span class="method-start">18468 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
