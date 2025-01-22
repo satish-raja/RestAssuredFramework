@@ -68,19 +68,21 @@ public class APIHelper {
         return response.as(Image.class);
     }
 
-    // Get Image analysis by ID
-    public static void getImageAnalysisById(RequestSpecification spec, String imageId, String schemaPath) {
-        given(spec)
-            .when()
-                .get(Endpoints.IMAGE_ANALYSIS_BY_ID.replace("{id}", imageId))
-            .then()
-                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath(schemaPath))
-                .statusCode(200)
-                .body("[0].moderation_labels", is(empty()))
-                .body("[0].vendor", equalTo("AWS Rekognition"))
-                .body("[0].image_id", equalTo(imageId))
-                .body("[0].created_at", matchesPattern("\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z"));
+ // Get Image analysis by ID
+    public static Response getImageAnalysisById(RequestSpecification spec, String imageId, String schemaPath) {
+        return given(spec)
+                .when()
+                    .get(Endpoints.IMAGE_ANALYSIS_BY_ID.replace("{id}", imageId))
+                .then()
+                    .body(JsonSchemaValidator.matchesJsonSchemaInClasspath(schemaPath))
+                    .statusCode(200)
+                    .body("[0].moderation_labels", is(empty()))
+                    .body("[0].vendor", equalTo("AWS Rekognition"))
+                    .body("[0].image_id", equalTo(imageId))
+                    .body("[0].created_at", matchesPattern("\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}\\.\\d{3}Z"))
+                .extract().response(); // Extract and return the response
     }
+
 
     // Get Images
     public static void getImages(RequestSpecification spec, Map<String, Object> queryParams, String schemaPath, String imageId, String expectedUrl, String filename) {
