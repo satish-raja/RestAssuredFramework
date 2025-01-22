@@ -6,6 +6,7 @@ import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -16,6 +17,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Step;
 import io.qameta.allure.Story;
+import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import main.com.api.testng.models.Image;
 import main.com.api.testng.models.UploadImageResponse;
@@ -116,9 +118,22 @@ public class ImagesTest   extends ApiTestBase {
     @Step("Retrieving image analysis by ID and validating response schema.")
     public void testGetImageAnalysisById() {
         logTestStart("testGetImageAnalysisById");
-        APIHelper.getImageAnalysisById(commonRequestSpec, imageId, getSchemaPath("GetImageAnalysisById_Schema.json"));
+        
+        // Get the response
+        Response response = APIHelper.getImageAnalysisById(commonRequestSpec, imageId, getSchemaPath("GetImageAnalysisById_Schema.json"));
+
+        // Check if response is null
+        if (response == null) {
+            logger.error("Received null response from API for image analysis with ID: " + imageId);
+            Assert.fail("API call to retrieve image analysis returned null");
+        } else {
+            // Additional assertions can go here if needed
+            logger.info("Received response for image analysis: " + response.asString());
+        }
+
         logTestCompletion("testGetImageAnalysisById");
     }
+
 
     @Story("Story-05")
     @Test(priority = 5, dependsOnMethods = "testGetImageAnalysisById", alwaysRun = true)
