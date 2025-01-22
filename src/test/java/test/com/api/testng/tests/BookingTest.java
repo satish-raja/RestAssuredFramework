@@ -51,18 +51,36 @@ public class BookingTest extends ApiTestBase {
     private Faker fake = new Faker();
     private BookingData bookingData = new BookingData();
 
+    /**
+     * Logs the start of a test.
+     *
+     * @param testName the name of the test being executed
+     */
     private void logTestStart(String testName) {
         logger.info("TEST: " + testName + " execution started");
     }
 
+    /**
+     * Logs the completion of a test.
+     *
+     * @param testName the name of the test completed
+     */
     private void logTestCompletion(String testName) {
         logger.info("TEST: " + testName + " execution completed successfully");
     }
     
+    /**
+     * Logs a test failure message.
+     *
+     * @param message the failure message to log
+     */
     public void logTestFailure(String message) {
         logger.error(message);
     }
 
+    /**
+     * Test to ping the health check endpoint.
+     */
     @Description("Test to ping the health check endpoint.")
     @Severity(SeverityLevel.CRITICAL)
     @Story("Story-01")
@@ -75,7 +93,7 @@ public class BookingTest extends ApiTestBase {
             .when()
                 .get(Endpoints.PING_ENDPOINT)
             .then()
-            	.log().body()
+                .log().body()
                 .assertThat()
                 .statusCode(201)
                 .extract().response().asString();
@@ -83,6 +101,9 @@ public class BookingTest extends ApiTestBase {
         logTestCompletion("testPingHealthCheck");
     }
 
+    /**
+     * Test to authenticate and create a token.
+     */
     @Description("Test to authenticate and create a token.")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Story-02")
@@ -129,6 +150,9 @@ public class BookingTest extends ApiTestBase {
         logTestCompletion("testAuthCreateToken");
     }
 
+    /**
+     * Test to create a new booking.
+     */
     @Description("Test to create a new booking.")
     @Severity(SeverityLevel.CRITICAL)
     @Story("Story-03")
@@ -160,10 +184,10 @@ public class BookingTest extends ApiTestBase {
                 bookingData.setBookingdates(bookingDates);
             } else {
                 // Log error if Map is not of the correct type
-            	logger.error("Expected a Map<String, String> for booking dates, but received a different type.");
+                logger.error("Expected a Map<String, String> for booking dates, but received a different type.");
             }
         } else {
-        	logger.error("Booking dates data is not of expected type Map<String, String>.");
+            logger.error("Booking dates data is not of expected type Map<String, String>.");
         }
 
         bookingData.setAdditionalneeds((String) bookingDataMap.get("additionalneeds"));
@@ -206,6 +230,9 @@ public class BookingTest extends ApiTestBase {
         logTestCompletion("testCreateBooking");
     }
 
+    /**
+     * Test to get the details of a specific booking.
+     */
     @Description("Test to get the details of a specific booking.")
     @Severity(SeverityLevel.NORMAL)
     @Story("Story-04")
@@ -214,15 +241,15 @@ public class BookingTest extends ApiTestBase {
     public void testGetBookingDetails() {
         logTestStart("testGetBookingDetails");
         Response resp = given()
-        					.filter(AllureRestAssuredUtil.getAllureFilter())
-        				.when()
-        					.get(Endpoints.BOOKING_BY_ID.replace("{bookingId}", String.valueOf(bookingId)))
-        				.then()
-                        	.log().body()
-				            .body(matchesJsonSchemaInClasspath("schemas/GetBookingDetails_Schema.json"))
-				            .assertThat()
-				            .statusCode(200)
-				            .extract().response();
+                            .filter(AllureRestAssuredUtil.getAllureFilter())
+                        .when()
+                            .get(Endpoints.BOOKING_BY_ID.replace("{bookingId}", String.valueOf(bookingId)))
+                        .then()
+                            .log().body()
+                            .body(matchesJsonSchemaInClasspath("schemas/GetBookingDetails_Schema.json"))
+                            .assertThat()
+                            .statusCode(200)
+                            .extract().response();
         
         // Deserialize the response to CreateUpdateBookingResponse class
         UpdateBookingResponse responseBooking = resp.as(UpdateBookingResponse.class);
@@ -240,6 +267,9 @@ public class BookingTest extends ApiTestBase {
         logTestCompletion("testGetBookingDetails");
     }
 
+    /**
+     * Test to update an existing booking.
+     */
     @Description("Test to update an existing booking.")
     @Severity(SeverityLevel.CRITICAL)
     @Story("Story-05")
@@ -315,7 +345,9 @@ public class BookingTest extends ApiTestBase {
         logTestCompletion("testUpdateBooking");
     }
 
-
+    /**
+     * Test to partially update an existing booking.
+     */
     @Description("Test to partially update an existing booking.")
     @Severity(SeverityLevel.MINOR)
     @Story("Story-06")
@@ -364,7 +396,9 @@ public class BookingTest extends ApiTestBase {
         logTestCompletion("testPartialUpdateBooking");
     }
 
-
+    /**
+     * Test to delete a booking.
+     */
     @Description("Test to delete a booking.")
     @Severity(SeverityLevel.CRITICAL)
     @Story("Story-07")
@@ -373,16 +407,16 @@ public class BookingTest extends ApiTestBase {
     public void testDeleteBooking() {
         logTestStart("testDeleteBooking");
         String resp = given()
-        		.filter(AllureRestAssuredUtil.getAllureFilter())        		
+                .filter(AllureRestAssuredUtil.getAllureFilter())        		
                 .header("Content-Type", "application/json")
                 .header("cookie", "token=" + token)
             .when()
                 .delete(Endpoints.BOOKING_BY_ID.replace("{bookingId}", String.valueOf(bookingId)))
             .then()
-	            .log().body()
-	            .assertThat()
-	            .statusCode(201)
-	            .extract().response().asString();
+                .log().body()
+                .assertThat()
+                .statusCode(201)
+                .extract().response().asString();
         assertEquals(resp, "Created");
         logTestCompletion("testDeleteBooking");
     }
