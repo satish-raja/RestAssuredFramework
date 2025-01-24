@@ -32,11 +32,8 @@ jobs:
     - name: Set up JDK 17
       uses: actions/setup-java@v2
       with:
-        distribution: 'temurin'  # Specify the Java distribution (e.g., adopt, zulu, temurin)
+        distribution: 'temurin'
         java-version: '17'
-        java-package: 'jdk'
-        architecture: 'x64'
-        check-latest: false
 
     - name: Cache Maven dependencies
       uses: actions/cache@v2
