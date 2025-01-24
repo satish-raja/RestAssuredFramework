@@ -50,5 +50,3 @@ jobs:
       uses: advanced-security/maven-dependency-submission-action@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
