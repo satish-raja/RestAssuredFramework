@@ -1,0 +1,6 @@
+Attempt 1: POST https://restful-booker.herokuapp.com/auth
+Request Headers: Accept=*/*
+Content-Type=application/json
+Elapsed Time: 1ms
+Retry Interval: 2000ms
+Attempt 1 succeeded with status code: 200

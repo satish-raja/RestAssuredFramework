@@ -1,0 +1,7 @@
+Attempt 1: PUT https://restful-booker.herokuapp.com/booking/4316
+Request Headers: cookie=token=ae58ed435bd1684
+Accept=*/*
+Content-Type=application/json
+Elapsed Time: 1ms
+Retry Interval: 2000ms
+Attempt 1 succeeded with status code: 200

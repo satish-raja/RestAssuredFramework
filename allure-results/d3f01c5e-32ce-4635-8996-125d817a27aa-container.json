@@ -1,0 +1,1 @@
+{"uuid":"d3f01c5e-32ce-4635-8996-125d817a27aa","name":"REST-Assured Suite","children":["e8c54db1-b432-44d8-a826-de22a8a02718"],"befores":[{"name":"setupBeforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1737775772502,"stop":1737775772747}],"afters":[],"start":1737775772491,"stop":1737775783054}

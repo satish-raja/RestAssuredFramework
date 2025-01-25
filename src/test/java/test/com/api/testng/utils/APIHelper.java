@@ -10,19 +10,126 @@ import static org.hamcrest.Matchers.matchesPattern;
 import java.io.File;
 import java.util.Map;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import io.restassured.RestAssured;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import main.com.api.testng.models.Image;
 import main.com.api.testng.models.UploadImageResponse;
 import test.com.api.testng.endpoints.Endpoints;
+import test.com.api.testng.tests.BookingTest;
 
 public class APIHelper {
+	
+    private static final Logger logger = LogManager.getLogger(APIHelper.class);
 
     // Set the base URI for API requests
     public static void setBaseURI(String baseURI) {
-        io.restassured.RestAssured.baseURI = baseURI;
+        RestAssured.baseURI = baseURI;
     }
+    
+    /**
+     * GET
+     */
+    public static Response sendGetRequest(RequestSpecification spec, String endpoint, int expectedStatusCode) {
+        return given()
+                .spec(spec)
+                .when()
+                .get(endpoint)
+                .then()
+                .statusCode(expectedStatusCode)
+                .extract()
+                .response();
+    }
+    
+    /**
+     * POST
+     */
+    public static Response sendPostRequest(RequestSpecification spec, String endpoint, int expectedStatusCode) {
+        return given()
+                .spec(spec)
+                .when()
+                .post(endpoint)
+                .then()
+                .statusCode(expectedStatusCode)
+                .extract()
+                .response();
+    }
+    
+    /**
+     * PUT
+     */
+    public static Response sendPutRequest(RequestSpecification spec, String endpoint, int expectedStatusCode) {
+        return given()
+                .spec(spec)
+                .when()
+                .put(endpoint)
+                .then()
+                .statusCode(expectedStatusCode)
+                .extract()
+                .response();
+    }
+    
+    /**
+     * PATCH
+     */
+    public static Response sendPatchRequest(RequestSpecification spec, String endpoint, int expectedStatusCode) {
+        return given()
+                .spec(spec)
+                .when()
+                .patch(endpoint)
+                .then()
+                .statusCode(expectedStatusCode)
+                .extract()
+                .response();
+    }
+    
+    /**
+     * DELETE
+     */
+    public static Response sendDeleteRequest(RequestSpecification spec, String endpoint, int expectedStatusCode) {
+        return given()
+                .spec(spec)
+                .when()
+                .delete(endpoint)
+                .then()
+                .statusCode(expectedStatusCode)
+                .extract()
+                .response();
+    }
+    
+    /**
+     * Validates the response against the provided JSON schema file.
+     *
+     * @param response     The API response to validate.
+     * @param schemaPath   The classpath location of the JSON schema file.
+     */
+    public static void validateResponseSchema(Response response, String schemaPath) {
+        try {
+            logger.info("Validating response schema with schema file: {}", schemaPath);
+
+            // Perform schema validation
+            response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath(schemaPath));
+
+            logger.info("Response schema validation passed for schema: {}", schemaPath);
+        } catch (AssertionError e) {
+            logger.error("Response schema validation failed. Response: {}", response.asString());
+            throw new AssertionError("Schema validation failed: " + e.getMessage(), e);
+        } catch (Exception e) {
+            logger.error("An error occurred during schema validation. Response: {}", response.asString(), e);
+            throw new RuntimeException("Schema validation encountered an error: " + e.getMessage(), e);
+        }
+    }
+    
+    public static <T> T validateAndDeserializeResponse(Response response, Class<T> responseClass) {
+        // Log and deserialize the response
+        return response.as(responseClass);
+    }
+    
+    
 
     // Sending GET or POST request and validating schema
     public static Response sendAPIRequest(RequestSpecification spec, String endpoint, String method, int expectedStatusCode, String schemaPath) {

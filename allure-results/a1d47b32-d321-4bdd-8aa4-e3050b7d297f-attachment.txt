@@ -1,7 +1,0 @@
-Attempt 1: DELETE https://restful-booker.herokuapp.com/booking/2482
-Request Headers: cookie=token=4e19eb5842ce34c
-Accept=*/*
-Content-Type=application/json
-Elapsed Time: 0ms
-Retry Interval: 2000ms
-Attempt 1 succeeded with status code: 201

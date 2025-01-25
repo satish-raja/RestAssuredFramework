@@ -20,4 +20,12 @@ public class ResponseSpecProvider {
             .expectStatusCode(200) // Status code 200
             .build();
     }
+    
+    public static ResponseSpecification getCommonResponseSpec(int statusCode) {
+        return new ResponseSpecBuilder()
+            .expectStatusCode(statusCode)
+            .build();
+    }
+    
+    
 }
