@@ -44,16 +44,10 @@ public class ImagesTest   extends ApiTestBase {
 
     @BeforeClass
     public void setup() {
+    	APIHelper.setBaseURI(Endpoints.BASE_URL);
         commonRequestSpec = RequestSpecProvider.getCommonRequestSpec();
         fileUploadRequestSpec = RequestSpecProvider.getFileUploadRequestSpec();
-    }
-
-    private void logTestStart(String testName) {
-        logger.info("TEST: " + testName + ", execution started");
-    }
-
-    private void logTestCompletion(String testName) {
-        logger.info("TEST: " + testName + ", execution completed successfully");
+        logger.info("Base URI set to: " + Endpoints.BASE_URL);
     }
 
     @Story("Story-01")

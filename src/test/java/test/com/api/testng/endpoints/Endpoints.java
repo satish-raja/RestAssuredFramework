@@ -10,6 +10,11 @@ public class Endpoints {
      * The base URL for the API.
      */
     public static final String BASE_URL = "https://api.thecatapi.com/v1";
+    
+    /**
+     * The base URL for the BookingTest API.
+     */
+    public static final String BOOKING_BASE_URL = "https://restful-booker.herokuapp.com";
 
     /**
      * The API key for authentication to The Cat API.
@@ -49,4 +54,13 @@ public class Endpoints {
     public static final String BOOKING_BY_ID = "/booking/{bookingId}";
     public static final String AUTH_ENDPOINT = "/auth";
     public static final String PING_ENDPOINT = "/ping";
+    
+    
+    /**
+     * Schemas
+     */
+
+    public static final String CREATE_BOOKING_SCHEMA = "schemas/CreateBooking_Schema.json";
+    public static final String BOOKING_DETAILS_SCHEMA = "schemas/GetBookingDetails_Schema.json";
+    
 }

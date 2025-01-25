@@ -4,6 +4,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import test.com.api.testng.endpoints.Endpoints;
+import test.com.api.testng.utils.AllureRestAssuredUtil;
 
 /**
  * Provides common request specifications for interacting with the API.
@@ -19,9 +20,43 @@ public class RequestSpecProvider {
      */
     public static RequestSpecification getCommonRequestSpec() {
         return new RequestSpecBuilder()
-            .setBaseUri(Endpoints.BASE_URL)
             .addHeader("x-api-key", Endpoints.API_KEY)
             .setContentType(ContentType.JSON) // Set default content type if applicable
+            .build();
+    }
+	
+    public static RequestSpecification getCommonRequestSpec(String url, String headerKey, String headerValue, ContentType contentType) {
+        return new RequestSpecBuilder()
+        	.setBaseUri(url)        		
+        	.addFilter(AllureRestAssuredUtil.getAllureFilter())
+            .addHeader(headerKey, headerValue)
+            .setContentType(contentType)
+            .build();
+    }
+    
+    public static RequestSpecification getCommonRequestSpec(String url, String headerKey, String headerValue, ContentType contentType, Object sBody) {
+        return new RequestSpecBuilder()
+        	.setBaseUri(url)
+        	.addFilter(AllureRestAssuredUtil.getAllureFilter())
+            .addHeader(headerKey, headerValue)
+            .setContentType(contentType)
+            .setBody(sBody)
+            .build();
+    }
+    
+    public static RequestSpecification getCommonRequestSpec(String url, ContentType contentType, Object sBody) {
+        return new RequestSpecBuilder()
+        	.setBaseUri(url)
+        	.addFilter(AllureRestAssuredUtil.getAllureFilter())
+            .setContentType(contentType)
+            .setBody(sBody)
+            .build();
+    }
+    
+    public static RequestSpecification getCommonRequestSpec(String url) {
+        return new RequestSpecBuilder()
+        	.setBaseUri(url)
+        	.addFilter(AllureRestAssuredUtil.getAllureFilter())
             .build();
     }
 
