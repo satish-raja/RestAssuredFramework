@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:36:06 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=111
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"7de613a675dbc03060a9f65f31fa63c7"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992734
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=70
+X-Ratelimit-Reset=14
+X-Request-Id=9dd3ae7c-0ae4-4429-8088-04a5cc6c91f7
+X-Runtime=0.081058
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lXrZlKE48K808461Qp8TnYqmJx6I8n7%2BX0xCknreAMTwi%2F37RU12Wn%2FmXBoQ5y6FtZQ%2FKbnqwEw8i6oYkOPqVgi%2BRKcuC%2BiTVsvAIA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c2b7134b906bb6-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992734,
+  "name" : "Ezequiel McCullough",
+  "email" : "yung.torphy@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 998 ms

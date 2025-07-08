@@ -1,0 +1,1 @@
+{"id":"e1c610c9bed09e38635f35cf14dfe6ed","fullName":"com.api.tests.GetUserTests.testGetSingleUser_InvalidId_ShouldReturn404","name":"🔴 Fetch single user by invalid ID - Should return 404","status":"passed","testResultsByEnv":{"default":"ffde6e2eee7e306dfd947e3a581f7cc4"}}

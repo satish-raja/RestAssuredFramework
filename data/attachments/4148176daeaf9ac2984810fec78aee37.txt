@@ -1,0 +1,14 @@
+📌 Test Name: dd62cc78-2bdf-4727-9f5b-65f94fae36b3
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Lucie McLaughlin",
+  "gender" : "female",
+  "email" : "desmond.towne@gmail.com",
+  "status" : "active"
+}

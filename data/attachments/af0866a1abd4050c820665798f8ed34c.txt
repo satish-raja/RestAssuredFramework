@@ -1,0 +1,14 @@
+📌 Test Name: bf7805a1-36e3-4ec2-b27d-8a7c65be4fc5
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Linda Bogan",
+  "gender" : "male",
+  "email" : "danny.nicolas@yahoo.com",
+  "status" : "active"
+}

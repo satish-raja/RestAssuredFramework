@@ -1,0 +1,1 @@
+{"id":"f92b3f9d74ef37abecd60e48c8bd3e06","fullName":"com.api.tests.security.AuthTokenNegativeTests.testInvalidToken_ShouldReturn401","name":"🔴 Accessing API with invalid token returns 401","status":"passed","testResultsByEnv":{"default":"df567244c0004d9c7fe44f76dff8030c"}}

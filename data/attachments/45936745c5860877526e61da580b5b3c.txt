@@ -1,0 +1,14 @@
+📌 Test Name: 4bcd23b1-8b9e-4793-a6b7-3da79d6dbd3d
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Marcos Crist Sr.",
+  "gender" : "male",
+  "email" : "ezequiel.zboncak@gmail.com",
+  "status" : "active"
+}

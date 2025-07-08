@@ -1,0 +1,10 @@
+[
+    {
+        "field": "title",
+        "message": "can't be blank"
+    },
+    {
+        "field": "body",
+        "message": "can't be blank"
+    }
+]

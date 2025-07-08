@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:35:48 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=109
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"cf974fdc61613dc35ddf7172add110f7"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992727
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=85
+X-Ratelimit-Reset=4
+X-Request-Id=0eaefe77-81ca-476b-a3a0-1d813389df64
+X-Runtime=0.085892
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WufQ7IUkxujQnTpMX666Xy6f8oDBWER7OFztgf9ugD9CEt7M0VdBIUjH8U4dCa%2F2aCEXAgupaHQ1CE0L%2BKfs8dVn2ABO1aBdVKI%3D"}]}
+Server=cloudflare
+CF-RAY=95c2b69ffe672fec-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992727,
+  "name" : "Kanesha Wintheiser",
+  "email" : "hoyt.pollich@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 1009 ms

@@ -1,0 +1,14 @@
+📌 Test Name: aafdc3b4-c916-4d07-bab1-bfd5ca2151ba
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Pamelia Maggio",
+  "gender" : "male",
+  "email" : "guy.bruen@hotmail.com",
+  "status" : "active"
+}

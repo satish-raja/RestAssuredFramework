@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:35:41 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=104
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"61d76432c8c43e04d94dc1ef387be8c3"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992724
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=88
+X-Ratelimit-Reset=2
+X-Request-Id=6d1aa06d-3c1e-4daa-a417-fef9b4e79ac5
+X-Runtime=0.072300
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=H%2FV6zbkjnASbhL0BI0ksTi1AfrW1xtg4PDKPUir%2FeLKZ8VlmZCyQrzWq81FzIisYtEM8gfvDVazUGIZqjln8mg0%2B5D1%2Fxp8hoSv5Ew%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c2b676cbd54695-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992724,
+  "name" : "Pamelia Maggio",
+  "email" : "guy.bruen@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 984 ms

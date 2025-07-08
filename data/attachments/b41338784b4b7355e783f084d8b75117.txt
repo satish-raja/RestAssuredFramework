@@ -1,0 +1,13 @@
+📌 Test Name: 89ed8675-351b-4069-b85c-05ff182193c1
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219341/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Griselda Koss",
+  "email" : "coleman.donnelly@gmail.com",
+  "body" : "Initial comment content"
+}

@@ -1,0 +1,13 @@
+📌 Test Name: 23500630-c14b-48b4-b553-4720a644443a
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/posts/219340/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Ashlea",
+  "email" : "bennie.wuckert@gmail.com",
+  "body" : "Nice post!"
+}

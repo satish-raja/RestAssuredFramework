@@ -1,0 +1,13 @@
+📌 Test Name: 035797cb-a25c-4579-a7e7-c3ea223efc7c
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/comments/156682
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Cole",
+  "email" : "judson.lind@gmail.com",
+  "body" : "Comment to be deleted"
+}

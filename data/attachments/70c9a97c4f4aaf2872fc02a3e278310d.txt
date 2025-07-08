@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:35:50 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=109
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"ed9b1d3464867ab2c7f1a55e1f185144"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992728
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=84
+X-Ratelimit-Reset=5
+X-Request-Id=fc8f5a1d-da70-4a6f-ace7-59af21187a1c
+X-Runtime=0.054523
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=u2sx0ElaZf1StVmxSDHQ7MPn2NvpJY3%2BnRXy0NBoRzfMPZbzRKCUDX%2FFHoIIMzlK5assQ86k5cmFrIpaIKcXGEInAjY5OdyfZiKLtQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c2b6afbc392e1b-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992728,
+  "name" : "Delete Twice User",
+  "email" : "irish.stark@yahoo.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 398 ms

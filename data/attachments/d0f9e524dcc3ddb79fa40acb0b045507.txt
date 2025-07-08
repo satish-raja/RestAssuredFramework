@@ -1,0 +1,14 @@
+📌 Test Name: c7f6095d-b200-4c29-8b6c-64fe32a6e193
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Malorie Olson",
+  "gender" : "male",
+  "email" : "wilbur.becker@gmail.com",
+  "status" : "active"
+}

@@ -1,0 +1,1 @@
+{"id":"7d401b8c9926f0a1bff69abf65be09fc","fullName":"com.api.tests.GetPostTests.testGetPostByInvalidId_ShouldReturn404","name":"🔴 Get non-existent post should return 404","status":"passed","testResultsByEnv":{"default":"7351c2acae31c35fb9e3ae99ec309ac9"}}

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:35:51 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=113
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"b0ec442c648d46a0b25325b9894b884f"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992729
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=81
+X-Ratelimit-Reset=7
+X-Request-Id=9092e9ae-bb0b-4136-b90c-c54dc29a2633
+X-Runtime=0.090508
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Wy5D1IzvmX2Tsb8ZJqMHIEHg4XJNAP66WyUVe0C403wSNayOjaxB2Gltjim5sgrFl017RSQNiaCLbJLiEtTn4O5o5PFiCD%2FoHeZl9Q%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c2b6b78d37ae2f-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992729,
+  "name" : "Osvaldo Wintheiser MD",
+  "email" : "sid.schaden@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 485 ms

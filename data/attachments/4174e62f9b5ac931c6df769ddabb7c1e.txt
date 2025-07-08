@@ -1,0 +1,14 @@
+📌 Test Name: d63b7128-26f3-4730-a49e-83b862511e32
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Ezequiel McCullough",
+  "gender" : "male",
+  "email" : "yung.torphy@hotmail.com",
+  "status" : "active"
+}
