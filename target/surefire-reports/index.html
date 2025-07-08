@@ -148,7 +148,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-API_Automation_Test_Suite" title="com.api.tests.CreateUserTests" class="method navigator-link" hash-for-method="testCreateUser_InvalidData_ShouldFail(, missing-name@hotmail.com, male, active, Missing name)">testCreateUser_InvalidData_ShouldFail(, missing-name@hotmail.com, male, active, Missing name)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-API_Automation_Test_Suite" title="com.api.tests.CreateUserTests" class="method navigator-link" hash-for-method="testCreateUser_InvalidData_ShouldFail(, missing-name@yahoo.com, male, active, Missing name)">testCreateUser_InvalidData_ShouldFail(, missing-name@yahoo.com, male, active, Missing name)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -343,6 +343,32 @@
           <div class="suite-API_Automation_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.api.tests.security.AuthTokenNegativeTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidToken_ShouldReturn401">
+                  </a> <!-- testInvalidToken_ShouldReturn401 -->
+                  <span class="method-name">testInvalidToken_ShouldReturn401</span>
+                  <em>
+(? Accessing API with invalid token returns 401)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMissingToken_ShouldReturn401Or404">
+                  </a> <!-- testMissingToken_ShouldReturn401Or404 -->
+                  <span class="method-name">testMissingToken_ShouldReturn401Or404</span>
+                  <em>
+(? Accessing API without token returns 401 or 404)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-API_Automation_Test_Suite-class-passed -->
+          <div class="suite-API_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.api.tests.GetUserTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -495,10 +521,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testCreateUser_InvalidData_ShouldFail(, missing-name@hotmail.com, male, active, Missing name)">
-                  </a> <!-- testCreateUser_InvalidData_ShouldFail(, missing-name@hotmail.com, male, active, Missing name) -->
+                  <a name="testCreateUser_InvalidData_ShouldFail(, missing-name@yahoo.com, male, active, Missing name)">
+                  </a> <!-- testCreateUser_InvalidData_ShouldFail(, missing-name@yahoo.com, male, active, Missing name) -->
                   <span class="method-name">testCreateUser_InvalidData_ShouldFail</span>
-                  <span class="parameters">(,missing-name@hotmail.com,male,active,Missing name)</span>
+                  <span class="parameters">(,missing-name@yahoo.com,male,active,Missing name)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -647,32 +673,6 @@
                   <span class="method-name">testUpdateComment_ShouldSucceed</span>
                   <em>
 (? Update a comment successfully)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-API_Automation_Test_Suite-class-passed -->
-          <div class="suite-API_Automation_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.api.tests.security.AuthTokenNegativeTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testInvalidToken_ShouldReturn401">
-                  </a> <!-- testInvalidToken_ShouldReturn401 -->
-                  <span class="method-name">testInvalidToken_ShouldReturn401</span>
-                  <em>
-(? Accessing API with invalid token returns 401)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testMissingToken_ShouldReturn401Or404">
-                  </a> <!-- testMissingToken_ShouldReturn401Or404 -->
-                  <span class="method-name">testMissingToken_ShouldReturn401Or404</span>
-                  <em>
-(? Accessing API without token returns 401 or 404)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1018,176 +1018,176 @@ data.addRows(42);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testDeleteUser_Twice_ShouldReturn404OnSecondAttempt')
 data.setCell(0, 2, 'com.api.tests.DeleteUserTests')
-data.setCell(0, 3, 2636);
+data.setCell(0, 3, 2801);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testUpdateUser_InvalidEmail_ShouldReturn422')
-data.setCell(1, 2, 'com.api.tests.UpdateUserTests')
-data.setCell(1, 3, 2196);
+data.setCell(1, 1, 'testDeleteUser_ValidId_ShouldSucceed')
+data.setCell(1, 2, 'com.api.tests.DeleteUserTests')
+data.setCell(1, 3, 2166);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testDeleteUser_ValidId_ShouldSucceed')
-data.setCell(2, 2, 'com.api.tests.DeleteUserTests')
-data.setCell(2, 3, 2151);
+data.setCell(2, 1, 'testUpdateUser_InvalidEmail_ShouldReturn422')
+data.setCell(2, 2, 'com.api.tests.UpdateUserTests')
+data.setCell(2, 3, 2101);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testUpdateUser_ValidData_ShouldSucceed')
 data.setCell(3, 2, 'com.api.tests.UpdateUserTests')
-data.setCell(3, 3, 2055);
+data.setCell(3, 3, 2076);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testCreateUser_InvalidData_ShouldFail')
-data.setCell(4, 2, 'com.api.tests.CreateUserTests')
-data.setCell(4, 3, 1859);
+data.setCell(4, 1, 'testDeletePostWithoutAuthToken_ShouldReturnUnauthorizedOrNotFound')
+data.setCell(4, 2, 'com.api.tests.DeletePostTests')
+data.setCell(4, 3, 2048);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testDeletePostWithoutAuthToken_ShouldReturnUnauthorizedOrNotFound')
-data.setCell(5, 2, 'com.api.tests.DeletePostTests')
-data.setCell(5, 3, 1728);
+data.setCell(5, 1, 'testCreateUser_InvalidData_ShouldFail')
+data.setCell(5, 2, 'com.api.tests.CreateUserTests')
+data.setCell(5, 3, 1882);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testCreateUser_InvalidData_ShouldFail')
-data.setCell(6, 2, 'com.api.tests.CreateUserTests')
-data.setCell(6, 3, 1424);
+data.setCell(6, 1, 'testGetSingleUser_ValidId_ShouldReturnUser')
+data.setCell(6, 2, 'com.api.tests.GetUserTests')
+data.setCell(6, 3, 1382);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testCreateUser_InvalidData_ShouldFail')
+data.setCell(7, 1, 'testCreateUser_ValidData_ShouldSucceed')
 data.setCell(7, 2, 'com.api.tests.CreateUserTests')
-data.setCell(7, 3, 1227);
+data.setCell(7, 3, 1247);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testGetCommentByInvalidId_ShouldReturn404')
-data.setCell(8, 2, 'com.api.tests.GetCommentTests')
-data.setCell(8, 3, 1186);
+data.setCell(8, 1, 'testGetPostById_ShouldReturnCorrectPost')
+data.setCell(8, 2, 'com.api.tests.GetPostTests')
+data.setCell(8, 3, 1198);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testGetDeletedPost_ShouldReturn404')
-data.setCell(9, 2, 'com.api.tests.DeletePostTests')
+data.setCell(9, 1, 'testGetAllUsers_ShouldReturnUserList')
+data.setCell(9, 2, 'com.api.tests.GetUserTests')
 data.setCell(9, 3, 1149);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testGetAllUsers_ShouldReturnUserList')
-data.setCell(10, 2, 'com.api.tests.GetUserTests')
-data.setCell(10, 3, 1149);
+data.setCell(10, 1, 'testUpdatePost_ShouldSucceed')
+data.setCell(10, 2, 'com.api.tests.UpdatePostTests')
+data.setCell(10, 3, 1093);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testGetSingleUser_InvalidId_ShouldReturn404')
-data.setCell(11, 2, 'com.api.tests.GetUserTests')
-data.setCell(11, 3, 1084);
+data.setCell(11, 1, 'testGetAllPosts_ShouldReturnList')
+data.setCell(11, 2, 'com.api.tests.GetPostTests')
+data.setCell(11, 3, 1078);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testDeleteComment_ShouldReturn204')
-data.setCell(12, 2, 'com.api.tests.DeleteCommentTests')
-data.setCell(12, 3, 1076);
+data.setCell(12, 1, 'testDeletePost_ShouldSucceed')
+data.setCell(12, 2, 'com.api.tests.DeletePostTests')
+data.setCell(12, 3, 1073);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testDeleteUser_InvalidId_ShouldReturn404')
-data.setCell(13, 2, 'com.api.tests.DeleteUserTests')
-data.setCell(13, 3, 1068);
+data.setCell(13, 1, 'testDeletePostTwice_ShouldReturn404')
+data.setCell(13, 2, 'com.api.tests.DeletePostTests')
+data.setCell(13, 3, 1072);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testCreateComment_MissingBody_ShouldFail')
-data.setCell(14, 2, 'com.api.tests.CreateCommentTests')
-data.setCell(14, 3, 1059);
+data.setCell(14, 1, 'testCreatePost_ShouldSucceed')
+data.setCell(14, 2, 'com.api.tests.CreatePostTests')
+data.setCell(14, 3, 1055);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testCreateUser_InvalidData_ShouldFail')
-data.setCell(15, 2, 'com.api.tests.CreateUserTests')
-data.setCell(15, 3, 1054);
+data.setCell(15, 1, 'testUpdateComment_ShouldSucceed')
+data.setCell(15, 2, 'com.api.tests.UpdateCommentTests')
+data.setCell(15, 3, 1047);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testUpdatePostWithEmptyPayload_ShouldReturn422')
-data.setCell(16, 2, 'com.api.tests.UpdatePostTests')
-data.setCell(16, 3, 1050);
+data.setCell(16, 1, 'testCreateUser_InvalidData_ShouldFail')
+data.setCell(16, 2, 'com.api.tests.CreateUserTests')
+data.setCell(16, 3, 1046);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'testCreateUser_InvalidData_ShouldFail')
-data.setCell(17, 2, 'com.api.tests.CreateUserTests')
-data.setCell(17, 3, 1045);
+data.setCell(17, 1, 'testGetAllCommentsForPost_ShouldReturnList')
+data.setCell(17, 2, 'com.api.tests.GetCommentTests')
+data.setCell(17, 3, 1040);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'testGetPostById_ShouldReturnCorrectPost')
-data.setCell(18, 2, 'com.api.tests.GetPostTests')
-data.setCell(18, 3, 1045);
+data.setCell(18, 1, 'testCreateUser_InvalidData_ShouldFail')
+data.setCell(18, 2, 'com.api.tests.CreateUserTests')
+data.setCell(18, 3, 1037);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'testGetAllCommentsForPost_ShouldReturnList')
-data.setCell(19, 2, 'com.api.tests.GetCommentTests')
-data.setCell(19, 3, 1028);
+data.setCell(19, 1, 'testDeletePostWithInvalidId_ShouldReturn404')
+data.setCell(19, 2, 'com.api.tests.DeletePostTests')
+data.setCell(19, 3, 1033);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'testCreateComment_MissingEmail_ShouldFail')
+data.setCell(20, 1, 'testCreateComment_InvalidEmailFormat_ShouldFail')
 data.setCell(20, 2, 'com.api.tests.CreateCommentTests')
-data.setCell(20, 3, 1026);
+data.setCell(20, 3, 1030);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'testCreateComment_InvalidPostId_ShouldFail')
-data.setCell(21, 2, 'com.api.tests.CreateCommentTests')
-data.setCell(21, 3, 1014);
+data.setCell(21, 1, 'testGetPostByInvalidId_ShouldReturn404')
+data.setCell(21, 2, 'com.api.tests.GetPostTests')
+data.setCell(21, 3, 1025);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'testGetPostByInvalidId_ShouldReturn404')
-data.setCell(22, 2, 'com.api.tests.GetPostTests')
-data.setCell(22, 3, 1012);
+data.setCell(22, 1, 'testDeleteUser_InvalidId_ShouldReturn404')
+data.setCell(22, 2, 'com.api.tests.DeleteUserTests')
+data.setCell(22, 3, 1020);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'testDeletePost_ShouldSucceed')
-data.setCell(23, 2, 'com.api.tests.DeletePostTests')
-data.setCell(23, 3, 1009);
+data.setCell(23, 1, 'testGetSingleUser_InvalidId_ShouldReturn404')
+data.setCell(23, 2, 'com.api.tests.GetUserTests')
+data.setCell(23, 3, 1020);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'testDeletePostWithInvalidId_ShouldReturn404')
+data.setCell(24, 1, 'testGetDeletedPost_ShouldReturn404')
 data.setCell(24, 2, 'com.api.tests.DeletePostTests')
 data.setCell(24, 3, 1008);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'testGetSingleUser_ValidId_ShouldReturnUser')
-data.setCell(25, 2, 'com.api.tests.GetUserTests')
-data.setCell(25, 3, 1005);
+data.setCell(25, 1, 'testCreateComment_MissingBody_ShouldFail')
+data.setCell(25, 2, 'com.api.tests.CreateCommentTests')
+data.setCell(25, 3, 1007);
 data.setCell(26, 0, 26)
-data.setCell(26, 1, 'testInvalidToken_ShouldReturn401')
-data.setCell(26, 2, 'com.api.tests.security.AuthTokenNegativeTests')
-data.setCell(26, 3, 997);
+data.setCell(26, 1, 'testUpdatePostWithoutAuthToken_ShouldReturn401or404')
+data.setCell(26, 2, 'com.api.tests.UpdatePostTests')
+data.setCell(26, 3, 1005);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'testUpdatePostWithoutAuthToken_ShouldReturn401or404')
-data.setCell(27, 2, 'com.api.tests.UpdatePostTests')
-data.setCell(27, 3, 986);
+data.setCell(27, 1, 'testCreateComment_InvalidPostId_ShouldFail')
+data.setCell(27, 2, 'com.api.tests.CreateCommentTests')
+data.setCell(27, 3, 1001);
 data.setCell(28, 0, 28)
-data.setCell(28, 1, 'testDeletePostTwice_ShouldReturn404')
-data.setCell(28, 2, 'com.api.tests.DeletePostTests')
-data.setCell(28, 3, 973);
+data.setCell(28, 1, 'testGetCommentByInvalidId_ShouldReturn404')
+data.setCell(28, 2, 'com.api.tests.GetCommentTests')
+data.setCell(28, 3, 991);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'testDeleteCommentAgain_ShouldReturn404')
-data.setCell(29, 2, 'com.api.tests.DeleteCommentTests')
-data.setCell(29, 3, 965);
+data.setCell(29, 1, 'testUpdateUser_InvalidId_ShouldReturn404')
+data.setCell(29, 2, 'com.api.tests.UpdateUserTests')
+data.setCell(29, 3, 986);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'testCreateUser_ValidData_ShouldSucceed')
-data.setCell(30, 2, 'com.api.tests.CreateUserTests')
-data.setCell(30, 3, 948);
+data.setCell(30, 1, 'testUpdatePostWithInvalidId_ShouldReturn404')
+data.setCell(30, 2, 'com.api.tests.UpdatePostTests')
+data.setCell(30, 3, 980);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'testUpdateUser_InvalidId_ShouldReturn404')
-data.setCell(31, 2, 'com.api.tests.UpdateUserTests')
-data.setCell(31, 3, 847);
+data.setCell(31, 1, 'testCreateUser_InvalidData_ShouldFail')
+data.setCell(31, 2, 'com.api.tests.CreateUserTests')
+data.setCell(31, 3, 774);
 data.setCell(32, 0, 32)
-data.setCell(32, 1, 'testUpdatePost_ShouldSucceed')
-data.setCell(32, 2, 'com.api.tests.UpdatePostTests')
-data.setCell(32, 3, 758);
+data.setCell(32, 1, 'testCreateUser_InvalidData_ShouldFail')
+data.setCell(32, 2, 'com.api.tests.CreateUserTests')
+data.setCell(32, 3, 756);
 data.setCell(33, 0, 33)
-data.setCell(33, 1, 'testCreateComment_ValidData_ShouldSucceed')
+data.setCell(33, 1, 'testCreateComment_MissingName_ShouldFail')
 data.setCell(33, 2, 'com.api.tests.CreateCommentTests')
-data.setCell(33, 3, 733);
+data.setCell(33, 3, 756);
 data.setCell(34, 0, 34)
-data.setCell(34, 1, 'testGetAllPosts_ShouldReturnList')
-data.setCell(34, 2, 'com.api.tests.GetPostTests')
-data.setCell(34, 3, 729);
+data.setCell(34, 1, 'testCreateComment_ValidData_ShouldSucceed')
+data.setCell(34, 2, 'com.api.tests.CreateCommentTests')
+data.setCell(34, 3, 753);
 data.setCell(35, 0, 35)
-data.setCell(35, 1, 'testCreatePost_ShouldSucceed')
-data.setCell(35, 2, 'com.api.tests.CreatePostTests')
-data.setCell(35, 3, 712);
+data.setCell(35, 1, 'testUpdatePostWithEmptyPayload_ShouldReturn422')
+data.setCell(35, 2, 'com.api.tests.UpdatePostTests')
+data.setCell(35, 3, 739);
 data.setCell(36, 0, 36)
-data.setCell(36, 1, 'testUpdateComment_ShouldSucceed')
-data.setCell(36, 2, 'com.api.tests.UpdateCommentTests')
-data.setCell(36, 3, 711);
+data.setCell(36, 1, 'testGetCommentById_ShouldReturnCorrectComment')
+data.setCell(36, 2, 'com.api.tests.GetCommentTests')
+data.setCell(36, 3, 709);
 data.setCell(37, 0, 37)
-data.setCell(37, 1, 'testUpdatePostWithInvalidId_ShouldReturn404')
-data.setCell(37, 2, 'com.api.tests.UpdatePostTests')
-data.setCell(37, 3, 709);
+data.setCell(37, 1, 'testCreateComment_MissingEmail_ShouldFail')
+data.setCell(37, 2, 'com.api.tests.CreateCommentTests')
+data.setCell(37, 3, 704);
 data.setCell(38, 0, 38)
-data.setCell(38, 1, 'testCreateComment_MissingName_ShouldFail')
-data.setCell(38, 2, 'com.api.tests.CreateCommentTests')
-data.setCell(38, 3, 699);
+data.setCell(38, 1, 'testDeleteComment_ShouldReturn204')
+data.setCell(38, 2, 'com.api.tests.DeleteCommentTests')
+data.setCell(38, 3, 547);
 data.setCell(39, 0, 39)
-data.setCell(39, 1, 'testGetCommentById_ShouldReturnCorrectComment')
-data.setCell(39, 2, 'com.api.tests.GetCommentTests')
-data.setCell(39, 3, 698);
+data.setCell(39, 1, 'testDeleteCommentAgain_ShouldReturn404')
+data.setCell(39, 2, 'com.api.tests.DeleteCommentTests')
+data.setCell(39, 3, 504);
 data.setCell(40, 0, 40)
-data.setCell(40, 1, 'testCreateComment_InvalidEmailFormat_ShouldFail')
-data.setCell(40, 2, 'com.api.tests.CreateCommentTests')
-data.setCell(40, 3, 674);
+data.setCell(40, 1, 'testMissingToken_ShouldReturn401Or404')
+data.setCell(40, 2, 'com.api.tests.security.AuthTokenNegativeTests')
+data.setCell(40, 3, 504);
 data.setCell(41, 0, 41)
-data.setCell(41, 1, 'testMissingToken_ShouldReturn401Or404')
+data.setCell(41, 1, 'testInvalidToken_ShouldReturn401')
 data.setCell(41, 2, 'com.api.tests.security.AuthTokenNegativeTests')
-data.setCell(41, 3, 663);
+data.setCell(41, 3, 490);
 window.suiteTableData['API_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-API_Automation_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 47 seconds</span>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
               <div id="times-div-API_Automation_Test_Suite">
               </div> <!-- times-div-API_Automation_Test_Suite -->
             </div> <!-- times-div -->
@@ -1209,6 +1209,13 @@ return data;
               <span class="ignored-class-name">com.api.tests.CreatePostTests</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">generateAllureEnvironment</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.api.tests.security.AuthTokenNegativeTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testExpiredToken_ShouldReturn401Or403</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -1262,13 +1269,6 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.api.tests.security.AuthTokenNegativeTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">testExpiredToken_ShouldReturn401Or403</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
               <span class="ignored-class-name">com.api.tests.UpdateUserTests</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">generateAllureEnvironment</span>
@@ -1307,591 +1307,597 @@ return data;
               <div class="chronological-class-name">com.api.tests.CreateUserTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">56 ms</span>
+                <span class="method-start">45 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail(java.lang.String,jav...)</span>
-                <span class="method-start">658 ms</span>
+                <span class="method-start">567 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testCreateUser_InvalidData_ShouldFail(, missing-name@hotmail.com, male, active, Missing name)</span>
-                <span class="method-start">711 ms</span>
+                <span class="method-name">testCreateUser_InvalidData_ShouldFail(, missing-name@yahoo.com, male, active, Missing name)</span>
+                <span class="method-start">618 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreateUser_InvalidData_ShouldFail status=SUCCESS method=CreateUserTests.testCre...)</span>
-                <span class="method-start">2577 ms</span>
+                <span class="method-start">2508 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail(java.lang.String,jav...)</span>
-                <span class="method-start">2580 ms</span>
+                <span class="method-start">2510 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateUser_InvalidData_ShouldFail(Test User, , female, active, Missing email)</span>
-                <span class="method-start">2581 ms</span>
+                <span class="method-start">2511 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreateUser_InvalidData_ShouldFail status=SUCCESS method=CreateUserTests.testCre...)</span>
-                <span class="method-start">3637 ms</span>
+                <span class="method-start">3270 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail(java.lang.String,jav...)</span>
-                <span class="method-start">3638 ms</span>
+                <span class="method-start">3271 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateUser_InvalidData_ShouldFail(Test User, not-an-email, female, active, Invalid email format)</span>
-                <span class="method-start">3639 ms</span>
+                <span class="method-start">3272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreateUser_InvalidData_ShouldFail status=SUCCESS method=CreateUserTests.testCre...)</span>
-                <span class="method-start">4686 ms</span>
+                <span class="method-start">4048 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail(java.lang.String,jav...)</span>
-                <span class="method-start">4687 ms</span>
+                <span class="method-start">4049 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateUser_InvalidData_ShouldFail(Test User, bad-gender@gmail.com, unknown, active, Invalid gender)</span>
-                <span class="method-start">4689 ms</span>
+                <span class="method-start">4050 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreateUser_InvalidData_ShouldFail status=SUCCESS method=CreateUserTests.testCre...)</span>
-                <span class="method-start">6115 ms</span>
+                <span class="method-start">5098 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">logTestStart(public void com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail(java.lang.String,jav...)</span>
-                <span class="method-start">6116 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateUser_InvalidData_ShouldFail(Test User, bad-status@yahoo.com, male, running, Invalid status)</span>
-                <span class="method-start">6117 ms</span>
+                <span class="method-start">5099 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">logTestStart(public void com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail(java.lang.String,jav...)</span>
+                <span class="method-start">5099 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreateUser_InvalidData_ShouldFail status=SUCCESS method=CreateUserTests.testCre...)</span>
-                <span class="method-start">7346 ms</span>
+                <span class="method-start">6137 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateUserTests.testCreateUser_ValidData_ShouldSucceed())</span>
-                <span class="method-start">7349 ms</span>
+                <span class="method-start">6140 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateUser_ValidData_ShouldSucceed</span>
-                <span class="method-start">7350 ms</span>
+                <span class="method-start">6141 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreateUser_ValidData_ShouldSucceed status=SUCCESS method=CreateUserTests.testCr...)</span>
-                <span class="method-start">8300 ms</span>
+                <span class="method-start">7390 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.GetUserTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">8301 ms</span>
+                <span class="method-start">7392 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.GetUserTests.testGetAllUsers_ShouldReturnUserList())</span>
-                <span class="method-start">9087 ms</span>
+                <span class="method-start">8499 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetAllUsers_ShouldReturnUserList</span>
-                <span class="method-start">9088 ms</span>
+                <span class="method-start">8500 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testGetAllUsers_ShouldReturnUserList status=SUCCESS method=GetUserTests.testGetAllU...)</span>
-                <span class="method-start">10240 ms</span>
+                <span class="method-start">9651 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.GetUserTests.testGetSingleUser_InvalidId_ShouldReturn404())</span>
-                <span class="method-start">10242 ms</span>
+                <span class="method-start">9652 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetSingleUser_InvalidId_ShouldReturn404</span>
-                <span class="method-start">10243 ms</span>
+                <span class="method-start">9653 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testGetSingleUser_InvalidId_ShouldReturn404 status=SUCCESS method=GetUserTests.test...)</span>
-                <span class="method-start">11329 ms</span>
+                <span class="method-start">10675 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.GetUserTests.testGetSingleUser_ValidId_ShouldReturnUser())</span>
-                <span class="method-start">11332 ms</span>
+                <span class="method-start">10678 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetSingleUser_ValidId_ShouldReturnUser</span>
-                <span class="method-start">11333 ms</span>
+                <span class="method-start">10679 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testGetSingleUser_ValidId_ShouldReturnUser status=SUCCESS method=GetUserTests.testG...)</span>
-                <span class="method-start">12340 ms</span>
+                <span class="method-start">12065 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.UpdateUserTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">12341 ms</span>
+                <span class="method-start">12067 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.UpdateUserTests.testUpdateUser_InvalidEmail_ShouldReturn422())</span>
-                <span class="method-start">12343 ms</span>
+                <span class="method-start">12069 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdateUser_InvalidEmail_ShouldReturn422</span>
-                <span class="method-start">12345 ms</span>
+                <span class="method-start">12070 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testUpdateUser_InvalidEmail_ShouldReturn422 status=SUCCESS method=UpdateUserTests.t...)</span>
-                <span class="method-start">14542 ms</span>
+                <span class="method-start">14172 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.UpdateUserTests.testUpdateUser_InvalidId_ShouldReturn404())</span>
-                <span class="method-start">14543 ms</span>
+                <span class="method-start">14174 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdateUser_InvalidId_ShouldReturn404</span>
-                <span class="method-start">14544 ms</span>
+                <span class="method-start">14174 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testUpdateUser_InvalidId_ShouldReturn404 status=SUCCESS method=UpdateUserTests.test...)</span>
-                <span class="method-start">15393 ms</span>
+                <span class="method-start">15161 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.UpdateUserTests.testUpdateUser_ValidData_ShouldSucceed())</span>
-                <span class="method-start">15394 ms</span>
+                <span class="method-start">15162 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdateUser_ValidData_ShouldSucceed</span>
-                <span class="method-start">15394 ms</span>
+                <span class="method-start">15163 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testUpdateUser_ValidData_ShouldSucceed status=SUCCESS method=UpdateUserTests.testUp...)</span>
-                <span class="method-start">17452 ms</span>
+                <span class="method-start">17240 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.DeleteUserTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">17455 ms</span>
+                <span class="method-start">17241 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.DeleteUserTests.testDeleteUser_InvalidId_ShouldReturn404())</span>
-                <span class="method-start">17460 ms</span>
+                <span class="method-start">17243 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeleteUser_InvalidId_ShouldReturn404</span>
-                <span class="method-start">17462 ms</span>
+                <span class="method-start">17244 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testDeleteUser_InvalidId_ShouldReturn404 status=SUCCESS method=DeleteUserTests.test...)</span>
-                <span class="method-start">18532 ms</span>
+                <span class="method-start">18266 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testDeleteUser_Twice_ShouldReturn404OnSecondAttempt</span>
-                <span class="method-start">18534 ms</span>
+                <span class="method-start">18267 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.DeleteUserTests.testDeleteUser_Twice_ShouldReturn404OnSecondAttempt())</span>
-                <span class="method-start">18534 ms</span>
+                <span class="method-start">18267 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testDeleteUser_Twice_ShouldReturn404OnSecondAttempt status=SUCCESS method=DeleteUse...)</span>
-                <span class="method-start">21171 ms</span>
+                <span class="method-start">21070 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.DeleteUserTests.testDeleteUser_ValidId_ShouldSucceed())</span>
-                <span class="method-start">21173 ms</span>
+                <span class="method-start">21071 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeleteUser_ValidId_ShouldSucceed</span>
-                <span class="method-start">21174 ms</span>
+                <span class="method-start">21072 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testDeleteUser_ValidId_ShouldSucceed status=SUCCESS method=DeleteUserTests.testDele...)</span>
-                <span class="method-start">23326 ms</span>
+                <span class="method-start">23239 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.CreatePostTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">23327 ms</span>
+                <span class="method-start">23240 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreatePostTests.testCreatePost_ShouldSucceed())</span>
-                <span class="method-start">24375 ms</span>
+                <span class="method-start">24311 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreatePost_ShouldSucceed</span>
-                <span class="method-start">24376 ms</span>
+                <span class="method-start">24312 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreatePost_ShouldSucceed status=SUCCESS method=CreatePostTests.testCreatePost_S...)</span>
-                <span class="method-start">25092 ms</span>
+                <span class="method-start">25370 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.GetPostTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">25093 ms</span>
+                <span class="method-start">25372 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.GetPostTests.testGetAllPosts_ShouldReturnList())</span>
-                <span class="method-start">27237 ms</span>
+                <span class="method-start">27338 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetAllPosts_ShouldReturnList</span>
-                <span class="method-start">27238 ms</span>
+                <span class="method-start">27339 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testGetAllPosts_ShouldReturnList status=SUCCESS method=GetPostTests.testGetAllPosts...)</span>
-                <span class="method-start">27969 ms</span>
+                <span class="method-start">28419 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.GetPostTests.testGetPostById_ShouldReturnCorrectPost())</span>
-                <span class="method-start">27970 ms</span>
+                <span class="method-start">28420 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetPostById_ShouldReturnCorrectPost</span>
-                <span class="method-start">27970 ms</span>
+                <span class="method-start">28420 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testGetPostById_ShouldReturnCorrectPost status=SUCCESS method=GetPostTests.testGetP...)</span>
-                <span class="method-start">29016 ms</span>
+                <span class="method-start">29619 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.GetPostTests.testGetPostByInvalidId_ShouldReturn404())</span>
-                <span class="method-start">29017 ms</span>
+                <span class="method-start">29620 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetPostByInvalidId_ShouldReturn404</span>
-                <span class="method-start">29018 ms</span>
+                <span class="method-start">29621 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testGetPostByInvalidId_ShouldReturn404 status=SUCCESS method=GetPostTests.testGetPo...)</span>
-                <span class="method-start">30031 ms</span>
+                <span class="method-start">30647 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.UpdatePostTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">30032 ms</span>
+                <span class="method-start">30648 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.UpdatePostTests.testUpdatePostWithEmptyPayload_ShouldReturn422())</span>
-                <span class="method-start">32135 ms</span>
+                <span class="method-start">32800 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdatePostWithEmptyPayload_ShouldReturn422</span>
-                <span class="method-start">32136 ms</span>
+                <span class="method-start">32801 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testUpdatePostWithEmptyPayload_ShouldReturn422 status=SUCCESS method=UpdatePostTest...)</span>
-                <span class="method-start">33187 ms</span>
+                <span class="method-start">33541 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.UpdatePostTests.testUpdatePostWithInvalidId_ShouldReturn404())</span>
-                <span class="method-start">33188 ms</span>
+                <span class="method-start">33542 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdatePostWithInvalidId_ShouldReturn404</span>
-                <span class="method-start">33189 ms</span>
+                <span class="method-start">33543 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testUpdatePostWithInvalidId_ShouldReturn404 status=SUCCESS method=UpdatePostTests.t...)</span>
-                <span class="method-start">33899 ms</span>
+                <span class="method-start">34524 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.UpdatePostTests.testUpdatePostWithoutAuthToken_ShouldReturn401or404())</span>
-                <span class="method-start">33900 ms</span>
+                <span class="method-start">34525 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdatePostWithoutAuthToken_ShouldReturn401or404</span>
-                <span class="method-start">33900 ms</span>
+                <span class="method-start">34526 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testUpdatePostWithoutAuthToken_ShouldReturn401or404 status=SUCCESS method=UpdatePos...)</span>
-                <span class="method-start">34887 ms</span>
+                <span class="method-start">35532 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">testUpdatePost_ShouldSucceed</span>
-                <span class="method-start">34889 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.UpdatePostTests.testUpdatePost_ShouldSucceed())</span>
-                <span class="method-start">34889 ms</span>
+                <span class="method-start">35533 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUpdatePost_ShouldSucceed</span>
+                <span class="method-start">35534 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testUpdatePost_ShouldSucceed status=SUCCESS method=UpdatePostTests.testUpdatePost_S...)</span>
-                <span class="method-start">35648 ms</span>
+                <span class="method-start">36628 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.DeletePostTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">35650 ms</span>
+                <span class="method-start">36629 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">logTestStart(public void com.api.tests.DeletePostTests.testDeletePostWithInvalidId_ShouldReturn404())</span>
-                <span class="method-start">37489 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeletePostWithInvalidId_ShouldReturn404</span>
-                <span class="method-start">37490 ms</span>
+                <span class="method-start">38827 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">logTestStart(public void com.api.tests.DeletePostTests.testDeletePostWithInvalidId_ShouldReturn404())</span>
+                <span class="method-start">38827 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testDeletePostWithInvalidId_ShouldReturn404 status=SUCCESS method=DeletePostTests.t...)</span>
-                <span class="method-start">38499 ms</span>
+                <span class="method-start">39861 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.DeletePostTests.testDeletePostWithoutAuthToken_ShouldReturnUnauthorizedOrN...)</span>
-                <span class="method-start">38501 ms</span>
+                <span class="method-start">39862 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeletePostWithoutAuthToken_ShouldReturnUnauthorizedOrNotFound</span>
-                <span class="method-start">38501 ms</span>
+                <span class="method-start">39863 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testDeletePostWithoutAuthToken_ShouldReturnUnauthorizedOrNotFound status=SUCCESS me...)</span>
-                <span class="method-start">40230 ms</span>
+                <span class="method-start">41912 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.DeletePostTests.testDeletePost_ShouldSucceed())</span>
-                <span class="method-start">40232 ms</span>
+                <span class="method-start">41913 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeletePost_ShouldSucceed</span>
-                <span class="method-start">40232 ms</span>
+                <span class="method-start">41914 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testDeletePost_ShouldSucceed status=SUCCESS method=DeletePostTests.testDeletePost_S...)</span>
-                <span class="method-start">41242 ms</span>
+                <span class="method-start">42988 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.DeletePostTests.testDeletePostTwice_ShouldReturn404())</span>
-                <span class="method-start">41244 ms</span>
+                <span class="method-start">42990 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeletePostTwice_ShouldReturn404</span>
-                <span class="method-start">41245 ms</span>
+                <span class="method-start">42991 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testDeletePostTwice_ShouldReturn404 status=SUCCESS method=DeletePostTests.testDelet...)</span>
-                <span class="method-start">42220 ms</span>
+                <span class="method-start">44064 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">testGetDeletedPost_ShouldReturn404</span>
-                <span class="method-start">42221 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.DeletePostTests.testGetDeletedPost_ShouldReturn404())</span>
-                <span class="method-start">42221 ms</span>
+                <span class="method-start">44065 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetDeletedPost_ShouldReturn404</span>
+                <span class="method-start">44065 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testGetDeletedPost_ShouldReturn404 status=SUCCESS method=DeletePostTests.testGetDel...)</span>
-                <span class="method-start">43371 ms</span>
+                <span class="method-start">45074 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.CreateCommentTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">43372 ms</span>
+                <span class="method-start">45075 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateCommentTests.testCreateComment_InvalidEmailFormat_ShouldFail())</span>
-                <span class="method-start">45172 ms</span>
+                <span class="method-start">47139 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateComment_InvalidEmailFormat_ShouldFail</span>
-                <span class="method-start">45173 ms</span>
+                <span class="method-start">47140 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreateComment_InvalidEmailFormat_ShouldFail status=SUCCESS method=CreateComment...)</span>
-                <span class="method-start">45848 ms</span>
+                <span class="method-start">48172 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateCommentTests.testCreateComment_InvalidPostId_ShouldFail())</span>
-                <span class="method-start">45848 ms</span>
+                <span class="method-start">48172 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateComment_InvalidPostId_ShouldFail</span>
-                <span class="method-start">45850 ms</span>
+                <span class="method-start">48174 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreateComment_InvalidPostId_ShouldFail status=SUCCESS method=CreateCommentTests...)</span>
-                <span class="method-start">46865 ms</span>
+                <span class="method-start">49176 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateCommentTests.testCreateComment_MissingBody_ShouldFail())</span>
-                <span class="method-start">46866 ms</span>
+                <span class="method-start">49177 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateComment_MissingBody_ShouldFail</span>
-                <span class="method-start">46867 ms</span>
+                <span class="method-start">49178 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreateComment_MissingBody_ShouldFail status=SUCCESS method=CreateCommentTests.t...)</span>
-                <span class="method-start">47928 ms</span>
+                <span class="method-start">50186 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateCommentTests.testCreateComment_MissingEmail_ShouldFail())</span>
-                <span class="method-start">47928 ms</span>
+                <span class="method-start">50187 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateComment_MissingEmail_ShouldFail</span>
-                <span class="method-start">47929 ms</span>
+                <span class="method-start">50188 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testCreateComment_MissingEmail_ShouldFail status=SUCCESS method=CreateCommentTests....)</span>
-                <span class="method-start">48956 ms</span>
+                <span class="method-start">50894 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateCommentTests.testCreateComment_MissingName_ShouldFail())</span>
-                <span class="method-start">48957 ms</span>
+                <span class="method-start">50895 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateComment_MissingName_ShouldFail</span>
-                <span class="method-start">48957 ms</span>
+                <span class="method-start">50895 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">logTestResult([TestResult name=testCreateComment_MissingName_ShouldFail status=SUCCESS method=CreateCommentTests.t...)</span>
-                <span class="method-start">49657 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.CreateCommentTests.testCreateComment_ValidData_ShouldSucceed())</span>
-                <span class="method-start">49658 ms</span>
+                <span class="method-start">51652 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">logTestResult([TestResult name=testCreateComment_MissingName_ShouldFail status=SUCCESS method=CreateCommentTests.t...)</span>
+                <span class="method-start">51652 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testCreateComment_ValidData_ShouldSucceed</span>
-                <span class="method-start">49659 ms</span>
+                <span class="method-start">51654 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">logTestResult([TestResult name=testCreateComment_ValidData_ShouldSucceed status=SUCCESS method=CreateCommentTests....)</span>
-                <span class="method-start">50394 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.GetCommentTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">50395 ms</span>
+                <span class="method-start">52409 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">logTestStart(public void com.api.tests.GetCommentTests.testGetAllCommentsForPost_ShouldReturnList())</span>
-                <span class="method-start">53660 ms</span>
-              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.CreateCommentTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logTestResult([TestResult name=testCreateComment_ValidData_ShouldSucceed status=SUCCESS method=CreateCommentTests....)</span>
+                <span class="method-start">52409 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.api.tests.GetCommentTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetAllCommentsForPost_ShouldReturnList</span>
-                <span class="method-start">53661 ms</span>
+                <span class="method-start">55265 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">logTestStart(public void com.api.tests.GetCommentTests.testGetAllCommentsForPost_ShouldReturnList())</span>
+                <span class="method-start">55265 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testGetAllCommentsForPost_ShouldReturnList status=SUCCESS method=GetCommentTests.te...)</span>
-                <span class="method-start">54690 ms</span>
+                <span class="method-start">56306 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.GetCommentTests.testGetCommentById_ShouldReturnCorrectComment())</span>
-                <span class="method-start">54691 ms</span>
+                <span class="method-start">56307 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetCommentById_ShouldReturnCorrectComment</span>
-                <span class="method-start">54692 ms</span>
+                <span class="method-start">56308 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testGetCommentById_ShouldReturnCorrectComment status=SUCCESS method=GetCommentTests...)</span>
-                <span class="method-start">55391 ms</span>
+                <span class="method-start">57018 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.GetCommentTests.testGetCommentByInvalidId_ShouldReturn404())</span>
-                <span class="method-start">55392 ms</span>
+                <span class="method-start">57019 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetCommentByInvalidId_ShouldReturn404</span>
-                <span class="method-start">55393 ms</span>
+                <span class="method-start">57020 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testGetCommentByInvalidId_ShouldReturn404 status=SUCCESS method=GetCommentTests.tes...)</span>
-                <span class="method-start">56580 ms</span>
+                <span class="method-start">58012 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.UpdateCommentTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">56581 ms</span>
+                <span class="method-start">58013 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.UpdateCommentTests.testUpdateComment_ShouldSucceed())</span>
-                <span class="method-start">59350 ms</span>
+                <span class="method-start">60597 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testUpdateComment_ShouldSucceed</span>
-                <span class="method-start">59351 ms</span>
+                <span class="method-start">60598 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testUpdateComment_ShouldSucceed status=SUCCESS method=UpdateCommentTests.testUpdate...)</span>
-                <span class="method-start">60063 ms</span>
+                <span class="method-start">61647 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.DeleteCommentTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">60064 ms</span>
+                <span class="method-start">61648 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.DeleteCommentTests.testDeleteComment_ShouldReturn204())</span>
-                <span class="method-start">62826 ms</span>
+                <span class="method-start">63593 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeleteComment_ShouldReturn204</span>
-                <span class="method-start">62827 ms</span>
+                <span class="method-start">63594 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testDeleteComment_ShouldReturn204 status=SUCCESS method=DeleteCommentTests.testDele...)</span>
-                <span class="method-start">63905 ms</span>
+                <span class="method-start">64142 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.DeleteCommentTests.testDeleteCommentAgain_ShouldReturn404())</span>
-                <span class="method-start">63906 ms</span>
+                <span class="method-start">64143 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDeleteCommentAgain_ShouldReturn404</span>
-                <span class="method-start">63907 ms</span>
+                <span class="method-start">64144 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testDeleteCommentAgain_ShouldReturn404 status=SUCCESS method=DeleteCommentTests.tes...)</span>
-                <span class="method-start">64873 ms</span>
+                <span class="method-start">64649 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.api.tests.security.AuthTokenNegativeTests</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">testInvalidToken_ShouldReturn401</span>
-                <span class="method-start">64897 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.security.AuthTokenNegativeTests.testInvalidToken_ShouldReturn401())</span>
-                <span class="method-start">64897 ms</span>
+                <span class="method-start">64674 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidToken_ShouldReturn401</span>
+                <span class="method-start">64675 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testInvalidToken_ShouldReturn401 status=SUCCESS method=AuthTokenNegativeTests.testI...)</span>
-                <span class="method-start">65895 ms</span>
+                <span class="method-start">65166 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">logTestStart(public void com.api.tests.security.AuthTokenNegativeTests.testMissingToken_ShouldReturn401Or404())</span>
-                <span class="method-start">65896 ms</span>
+                <span class="method-start">65167 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMissingToken_ShouldReturn401Or404</span>
-                <span class="method-start">65896 ms</span>
+                <span class="method-start">65167 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">logTestResult([TestResult name=testMissingToken_ShouldReturn401Or404 status=SUCCESS method=AuthTokenNegativeTests....)</span>
-                <span class="method-start">66560 ms</span>
+                <span class="method-start">65672 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

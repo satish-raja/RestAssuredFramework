@@ -1,8 +1,0 @@
-📌 Test Name: dbc295a5-1991-433b-ab91-96d90ebafb3e
-📤 Method: GET
-🔗 URI: https://gorest.co.in/public/v2/users/123456
-📦 Headers:
-Accept: application/json
-Authorization: *****MASKED*****
-📤 Body:
-null
