@@ -1,0 +1,14 @@
+📌 Test Name: ae10464c-b73b-4f3c-87ca-6a6d1dfa223d
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Bradford Buckridge",
+  "gender" : "male",
+  "email" : "natashia.rohan@hotmail.com",
+  "status" : "active"
+}

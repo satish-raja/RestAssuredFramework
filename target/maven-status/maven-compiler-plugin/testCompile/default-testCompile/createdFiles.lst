@@ -1,0 +1,14 @@
+com\api\tests\DeleteUserTests.class
+com\api\tests\security\AuthTokenNegativeTests.class
+com\api\tests\DeletePostTests.class
+com\api\tests\DeleteCommentTests.class
+com\api\tests\base\BaseTest.class
+com\api\tests\CreatePostTests.class
+com\api\tests\UpdateUserTests.class
+com\api\tests\GetUserTests.class
+com\api\tests\GetCommentTests.class
+com\api\tests\CreateUserTests.class
+com\api\tests\UpdateCommentTests.class
+com\api\tests\UpdatePostTests.class
+com\api\tests\CreateCommentTests.class
+com\api\tests\GetPostTests.class

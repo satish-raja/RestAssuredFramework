@@ -1,0 +1,13 @@
+📌 Test Name: dcb35786-4119-4b1a-9ffd-a2a28fb07b4a
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219251/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "No Body",
+  "email" : "sharmaine.heaney@hotmail.com",
+  "body" : null
+}

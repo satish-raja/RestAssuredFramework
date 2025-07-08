@@ -1,0 +1,14 @@
+📌 Test Name: e4a7e16e-eac7-43cb-90ce-48d5b54ba77a
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Idella Heidenreich",
+  "gender" : "male",
+  "email" : "jaqueline.zieme@hotmail.com",
+  "status" : "active"
+}

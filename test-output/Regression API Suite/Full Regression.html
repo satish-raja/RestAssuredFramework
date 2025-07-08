@@ -1,0 +1,280 @@
+<html>
+<head>
+<title>TestNG:  Full Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Full Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jul 06 01:41:22 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>60 seconds (60735 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.api.tests.CreatePostTests.testCreatePost_ShouldSucceed()'><b>testCreatePost_ShouldSucceed</b><br>Test class: com.api.tests.CreatePostTests<br>Test method: 🟢 Create post for a valid user</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.CreatePostTests@2c715e84</td></tr>
+<tr>
+<td title='com.api.tests.UpdatePostTests.testUpdatePostWithoutAuthToken_ShouldReturn401or404()'><b>testUpdatePostWithoutAuthToken_ShouldReturn401or404</b><br>Test class: com.api.tests.UpdatePostTests<br>Test method: 🔴 Update post without auth token should return 401 or 404</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.UpdatePostTests@3b9d6699</td></tr>
+<tr>
+<td title='com.api.tests.DeletePostTests.testDeletePostWithoutAuthToken_ShouldReturnUnauthorizedOrNotFound()'><b>testDeletePostWithoutAuthToken_ShouldReturnUnauthorizedOrNotFound</b><br>Test class: com.api.tests.DeletePostTests<br>Test method: 🔴 Delete post without authorization token should return 401 or 404 based on GoRest behavior</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.DeletePostTests@72b16078</td></tr>
+<tr>
+<td title='com.api.tests.CreateCommentTests.testCreateComment_MissingBody_ShouldReturn422()'><b>testCreateComment_MissingBody_ShouldReturn422</b><br>Test class: com.api.tests.CreateCommentTests<br>Test method: 🔴 Create comment with missing body should return 422</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.CreateCommentTests@22c86919</td></tr>
+<tr>
+<td title='com.api.tests.GetPostTests.testGetAllPosts_ShouldReturnList()'><b>testGetAllPosts_ShouldReturnList</b><br>Test class: com.api.tests.GetPostTests<br>Test method: 🟢 Get all posts</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.GetPostTests@47428937</td></tr>
+<tr>
+<td title='com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail()'><b>testCreateUser_InvalidData_ShouldFail</b><br>Test class: com.api.tests.CreateUserTests<br>Parameters: Test User, not-an-email, female, active, Invalid email format</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.CreateUserTests@f415a95</td></tr>
+<tr>
+<td title='com.api.tests.UpdateUserTests.testUpdateUser_InvalidEmail_ShouldReturn422()'><b>testUpdateUser_InvalidEmail_ShouldReturn422</b><br>Test class: com.api.tests.UpdateUserTests<br>Test method: 🔴 Update with invalid email - Should return 422</td>
+<td></td>
+<td>2</td>
+<td>com.api.tests.UpdateUserTests@46074492</td></tr>
+<tr>
+<td title='com.api.tests.GetPostTests.testGetPostByInvalidId_ShouldReturn404()'><b>testGetPostByInvalidId_ShouldReturn404</b><br>Test class: com.api.tests.GetPostTests<br>Test method: 🔴 Get non-existent post should return 404</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.GetPostTests@47428937</td></tr>
+<tr>
+<td title='com.api.tests.GetUserTests.testGetSingleUser_InvalidId_ShouldReturn404()'><b>testGetSingleUser_InvalidId_ShouldReturn404</b><br>Test class: com.api.tests.GetUserTests<br>Test method: 🔴 Fetch single user by invalid ID - Should return 404 Not Found</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.GetUserTests@64da2a7</td></tr>
+<tr>
+<td title='com.api.tests.CreateCommentTests.testCreateComment_InvalidEmail_ShouldReturn422()'><b>testCreateComment_InvalidEmail_ShouldReturn422</b><br>Test class: com.api.tests.CreateCommentTests<br>Test method: 🔴 Create comment with invalid email should return 422</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.CreateCommentTests@22c86919</td></tr>
+<tr>
+<td title='com.api.tests.DeleteCommentTests.testDeleteCommentAgain_ShouldReturn404()'><b>testDeleteCommentAgain_ShouldReturn404</b><br>Test class: com.api.tests.DeleteCommentTests<br>Test method: 🔴 Deleting already deleted comment should return 404</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.DeleteCommentTests@62417a16</td></tr>
+<tr>
+<td title='com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail()'><b>testCreateUser_InvalidData_ShouldFail</b><br>Test class: com.api.tests.CreateUserTests<br>Parameters: , missing-name@yahoo.com, male, active, Missing name</td>
+<td></td>
+<td>2</td>
+<td>com.api.tests.CreateUserTests@f415a95</td></tr>
+<tr>
+<td title='com.api.tests.CreateCommentTests.testCreateComment_MissingName_ShouldReturn422()'><b>testCreateComment_MissingName_ShouldReturn422</b><br>Test class: com.api.tests.CreateCommentTests<br>Test method: 🔴 Create comment with missing name should return 422</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.CreateCommentTests@22c86919</td></tr>
+<tr>
+<td title='com.api.tests.DeletePostTests.testDeletePostWithInvalidId_ShouldReturn404()'><b>testDeletePostWithInvalidId_ShouldReturn404</b><br>Test class: com.api.tests.DeletePostTests<br>Test method: 🔴 Delete post with invalid ID should return 404</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.DeletePostTests@72b16078</td></tr>
+<tr>
+<td title='com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail()'><b>testCreateUser_InvalidData_ShouldFail</b><br>Test class: com.api.tests.CreateUserTests<br>Parameters: Test User, bad-status@gmail.com, male, running, Invalid status</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.CreateUserTests@f415a95</td></tr>
+<tr>
+<td title='com.api.tests.CreateCommentTests.testCreateComment_InvalidPostId_ShouldReturn422()'><b>testCreateComment_InvalidPostId_ShouldReturn422</b><br>Test class: com.api.tests.CreateCommentTests<br>Test method: 🔴 Create comment for non-existent post should return 422</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.CreateCommentTests@22c86919</td></tr>
+<tr>
+<td title='com.api.tests.DeleteUserTests.testDeleteUser_ValidId_ShouldSucceed()'><b>testDeleteUser_ValidId_ShouldSucceed</b><br>Test class: com.api.tests.DeleteUserTests<br>Test method: 🟢 Delete existing user - Should return 204</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.DeleteUserTests@d78795</td></tr>
+<tr>
+<td title='com.api.tests.GetCommentTests.testGetAllCommentsForPost_ShouldReturnList()'><b>testGetAllCommentsForPost_ShouldReturnList</b><br>Test class: com.api.tests.GetCommentTests<br>Test method: 🟢 Get all comments for a post</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.GetCommentTests@70fab835</td></tr>
+<tr>
+<td title='com.api.tests.DeleteUserTests.testDeleteUser_Twice_ShouldReturn404OnSecondAttempt()'><b>testDeleteUser_Twice_ShouldReturn404OnSecondAttempt</b><br>Test class: com.api.tests.DeleteUserTests<br>Test method: 🔴 Delete same user twice - Second attempt should return 404</td>
+<td></td>
+<td>2</td>
+<td>com.api.tests.DeleteUserTests@d78795</td></tr>
+<tr>
+<td title='com.api.tests.DeletePostTests.testDeletePost_ShouldSucceed()'><b>testDeletePost_ShouldSucceed</b><br>Test class: com.api.tests.DeletePostTests<br>Test method: 🟢 Delete a post by ID</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.DeletePostTests@72b16078</td></tr>
+<tr>
+<td title='com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail()'><b>testCreateUser_InvalidData_ShouldFail</b><br>Test class: com.api.tests.CreateUserTests<br>Parameters: Test User, , female, active, Missing email</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.CreateUserTests@f415a95</td></tr>
+<tr>
+<td title='com.api.tests.CreateCommentTests.testCreateComment_MissingEmail_ShouldReturn422()'><b>testCreateComment_MissingEmail_ShouldReturn422</b><br>Test class: com.api.tests.CreateCommentTests<br>Test method: 🔴 Create comment with missing email should return 422</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.CreateCommentTests@22c86919</td></tr>
+<tr>
+<td title='com.api.tests.GetUserTests.testGetSingleUser_ValidId_ShouldReturnUser()'><b>testGetSingleUser_ValidId_ShouldReturnUser</b><br>Test class: com.api.tests.GetUserTests<br>Test method: 🟢 Fetch single user by valid ID - Should return 200 and user details</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.GetUserTests@64da2a7</td></tr>
+<tr>
+<td title='com.api.tests.UpdatePostTests.testUpdatePost_ShouldSucceed()'><b>testUpdatePost_ShouldSucceed</b><br>Test class: com.api.tests.UpdatePostTests<br>Test method: 🟢 Update post title and body</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.UpdatePostTests@3b9d6699</td></tr>
+<tr>
+<td title='com.api.tests.UpdatePostTests.testUpdatePostWithEmptyPayload_ShouldReturn422()'><b>testUpdatePostWithEmptyPayload_ShouldReturn422</b><br>Test class: com.api.tests.UpdatePostTests<br>Test method: 🔴 Update post with empty payload should return 422</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.UpdatePostTests@3b9d6699</td></tr>
+<tr>
+<td title='com.api.tests.DeletePostTests.testDeletePostTwice_ShouldReturn404()'><b>testDeletePostTwice_ShouldReturn404</b><br>Test class: com.api.tests.DeletePostTests<br>Test method: 🔴 Deleting same post again should return 404</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.DeletePostTests@72b16078</td></tr>
+<tr>
+<td title='com.api.tests.DeletePostTests.testGetDeletedPost_ShouldReturn404()'><b>testGetDeletedPost_ShouldReturn404</b><br>Test class: com.api.tests.DeletePostTests<br>Test method: 🔴 Get deleted post should return 404</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.DeletePostTests@72b16078</td></tr>
+<tr>
+<td title='com.api.tests.DeleteCommentTests.testDeleteComment_ShouldReturn204()'><b>testDeleteComment_ShouldReturn204</b><br>Test class: com.api.tests.DeleteCommentTests<br>Test method: 🟢 Delete comment by ID</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.DeleteCommentTests@62417a16</td></tr>
+<tr>
+<td title='com.api.tests.UpdateUserTests.testUpdateUser_InvalidId_ShouldReturn404()'><b>testUpdateUser_InvalidId_ShouldReturn404</b><br>Test class: com.api.tests.UpdateUserTests<br>Test method: 🔴 Update with invalid user ID - Should return 404</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.UpdateUserTests@46074492</td></tr>
+<tr>
+<td title='com.api.tests.UpdatePostTests.testUpdatePostWithInvalidId_ShouldReturn404()'><b>testUpdatePostWithInvalidId_ShouldReturn404</b><br>Test class: com.api.tests.UpdatePostTests<br>Test method: 🔴 Update post with invalid ID should return 404</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.UpdatePostTests@3b9d6699</td></tr>
+<tr>
+<td title='com.api.tests.GetCommentTests.testGetCommentByInvalidId_ShouldReturn404()'><b>testGetCommentByInvalidId_ShouldReturn404</b><br>Test class: com.api.tests.GetCommentTests<br>Test method: 🔴 Get comment with invalid ID should return 404</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.GetCommentTests@70fab835</td></tr>
+<tr>
+<td title='com.api.tests.CreateCommentTests.testCreateComment_ShouldSucceed()'><b>testCreateComment_ShouldSucceed</b><br>Test class: com.api.tests.CreateCommentTests<br>Test method: 🟢 Add comment to a post</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.CreateCommentTests@22c86919</td></tr>
+<tr>
+<td title='com.api.tests.GetCommentTests.testGetCommentById_ShouldReturnCorrectComment()'><b>testGetCommentById_ShouldReturnCorrectComment</b><br>Test class: com.api.tests.GetCommentTests<br>Test method: 🟢 Get specific comment by ID</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.GetCommentTests@70fab835</td></tr>
+<tr>
+<td title='com.api.tests.GetPostTests.testGetPostById_ShouldReturnCorrectPost()'><b>testGetPostById_ShouldReturnCorrectPost</b><br>Test class: com.api.tests.GetPostTests<br>Test method: 🟢 Get post by ID</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.GetPostTests@47428937</td></tr>
+<tr>
+<td title='com.api.tests.DeleteUserTests.testDeleteUser_InvalidId_ShouldReturn404()'><b>testDeleteUser_InvalidId_ShouldReturn404</b><br>Test class: com.api.tests.DeleteUserTests<br>Test method: 🔴 Delete non-existent user - Should return 404</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.DeleteUserTests@d78795</td></tr>
+<tr>
+<td title='com.api.tests.UpdateCommentTests.testUpdateComment_ShouldSucceed()'><b>testUpdateComment_ShouldSucceed</b><br>Test class: com.api.tests.UpdateCommentTests<br>Test method: 🟢 Update a comment's content</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.UpdateCommentTests@1b0a7baf</td></tr>
+<tr>
+<td title='com.api.tests.CreateUserTests.testCreateUser_InvalidData_ShouldFail()'><b>testCreateUser_InvalidData_ShouldFail</b><br>Test class: com.api.tests.CreateUserTests<br>Parameters: Test User, bad-gender@yahoo.com, unknown, active, Invalid gender</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.CreateUserTests@f415a95</td></tr>
+<tr>
+<td title='com.api.tests.GetUserTests.testGetAllUsers_ShouldReturnUserList()'><b>testGetAllUsers_ShouldReturnUserList</b><br>Test class: com.api.tests.GetUserTests<br>Test method: 🟢 Fetch all users - Should return 200 and at least one user</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.GetUserTests@64da2a7</td></tr>
+<tr>
+<td title='com.api.tests.CreateUserTests.testCreateUser_ValidData_ShouldSucceed()'><b>testCreateUser_ValidData_ShouldSucceed</b><br>Test class: com.api.tests.CreateUserTests<br>Test method: 🟢 Create user with valid data</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.CreateUserTests@f415a95</td></tr>
+<tr>
+<td title='com.api.tests.UpdateUserTests.testUpdateUser_ValidData_ShouldSucceed()'><b>testUpdateUser_ValidData_ShouldSucceed</b><br>Test class: com.api.tests.UpdateUserTests<br>Test method: 🟢 Update existing user with valid data - Should return 200</td>
+<td></td>
+<td>1</td>
+<td>com.api.tests.UpdateUserTests@46074492</td></tr>
+</table><p>
+</body>
+</html>

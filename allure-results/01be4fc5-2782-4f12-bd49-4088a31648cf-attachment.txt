@@ -1,0 +1,13 @@
+📌 Test Name: 2d872406-6d7f-4828-b0d9-b5512f3a8eed
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219253/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Aurelio Murray",
+  "email" : "sherita.hahn@gmail.com",
+  "body" : "Initial comment content"
+}

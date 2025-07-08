@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 17:24:10 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=111
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"9ef85a66cfa88d09afcf24bb1a77c77a"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992145
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=70c63b55-2d3e-4cbb-9ef2-a8bf752b16b6
+X-Runtime=0.052892
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=28yHR%2Fx3arre1RSAsiYC5s1rTD7NxRGfSkQ7XfgY7F97ARN64scRE2ZvXG3eRb7JNuxUkHZmwpg4869oYTdR%2FSCNkIUcRSY4hXY%3D"}]}
+Server=cloudflare
+CF-RAY=95c1460a8fa36925-FRA
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992145,
+  "name" : "Delete Twice User",
+  "email" : "kelvin.abbott@yahoo.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 1007 ms

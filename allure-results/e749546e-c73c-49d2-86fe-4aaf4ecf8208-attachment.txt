@@ -1,0 +1,14 @@
+📌 Test Name: 4a18d898-0628-4b40-a2b5-caca705731ed
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Cheri Hand",
+  "gender" : "male",
+  "email" : "deb.pacocha@gmail.com",
+  "status" : "active"
+}

@@ -1,0 +1,14 @@
+📌 Test Name: d766a8f1-b2a8-4b4f-adaa-32ea9f990f28
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/users/9999999
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Ghost User",
+  "gender" : "male",
+  "email" : "ghost@example.com",
+  "status" : "active"
+}

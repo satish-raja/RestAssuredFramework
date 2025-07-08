@@ -1,0 +1,7 @@
+{
+  "name": "Local Execution via Maven",
+  "type": "freelancer",
+  "url": "https://github.com/satish-raja/RestAssuredFramework",
+  "buildName": "Manual Trigger",
+  "buildOrder": "001"
+}

@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Tue, 08 Jul 2025 17:24:51 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"66e5446276c08d130175cac9f883422f"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=c6d5ffba-c79d-47c9-8828-f1b814012311
+X-Runtime=0.056389
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=BgOaImfxBhy3WkrCOPDMgT83%2B8M%2FghiOTtZYCfxazol0%2BwQtjUWrYcjAs8VuoyO1CAEs51jN8qEh3F4Z2LZWEkcCQZJX67mThmR2Dw%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c147097f653660-FRA
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "name" : "Ms. Naoma Kilback",
+  "email" : "jamison.rath@gmail.com",
+  "body" : "✅ Updated comment body",
+  "id" : 156639,
+  "post_id" : 219253
+}
+⏱️ Duration: 699 ms

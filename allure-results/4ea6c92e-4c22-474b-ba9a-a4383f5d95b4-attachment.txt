@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 17:23:59 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=113
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"2d9f0630d9e617d711617453921ad339"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992141
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=a909121d-636a-40b0-836c-9c2e974324f4
+X-Runtime=0.065428
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Xn3Z5ArNFHtRZ2fHMCShtTUAQklMiuLGixzJ4l0%2FO7%2BNe%2BrkNtyKgG8OwXgs5rG5jDWwNgTOjR7n7IK8JXVp3%2FIxfG6fHvpC9toOWQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c145c4efe5dc8a-FRA
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992141,
+  "name" : "Bradford Buckridge",
+  "email" : "natashia.rohan@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 746 ms

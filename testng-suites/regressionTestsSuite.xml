@@ -1,0 +1,18 @@
+<suite name="Regression API Suite">
+  <test name="Full Regression">
+    <classes>
+      <class name="com.api.tests.CreateUserTests"/>
+      <class name="com.api.tests.GetUserTests"/>
+      <class name="com.api.tests.UpdateUserTests"/>
+      <class name="com.api.tests.DeleteUserTests"/>
+      <class name="com.api.tests.CreatePostTests"/>
+      <class name="com.api.tests.GetPostTests"/>
+      <class name="com.api.tests.UpdatePostTests"/>
+      <class name="com.api.tests.DeletePostTests"/>
+      <class name="com.api.tests.CreateCommentTests"/>
+      <class name="com.api.tests.GetCommentTests"/>
+      <class name="com.api.tests.UpdateCommentTests"/>
+      <class name="com.api.tests.DeleteCommentTests"/>
+    </classes>
+  </test>
+</suite>

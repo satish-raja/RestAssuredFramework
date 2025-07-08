@@ -1,0 +1,14 @@
+📌 Test Name: 2d872406-6d7f-4828-b0d9-b5512f3a8eed
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mr. Jewell Barrows",
+  "gender" : "male",
+  "email" : "kermit.botsford@hotmail.com",
+  "status" : "active"
+}

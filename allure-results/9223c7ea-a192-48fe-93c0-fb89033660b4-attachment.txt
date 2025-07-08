@@ -1,0 +1,14 @@
+📌 Test Name: 62cc1542-6158-48db-a032-24f6fa8a8e67
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Matthew Rice",
+  "gender" : "female",
+  "email" : "tyesha.zemlak@yahoo.com",
+  "status" : "active"
+}

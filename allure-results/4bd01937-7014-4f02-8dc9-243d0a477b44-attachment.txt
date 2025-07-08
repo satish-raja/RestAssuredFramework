@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 17:24:51 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=106
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"17515b4c63412cd5254143a2de0ce2a3"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992154
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=96ed1763-39b2-4f78-ac6b-e990c330e5f1
+X-Runtime=0.056182
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GRqucDwUh6XY89VL5ZJymXPdTUun24t%2BN14VyXguIWbpXPQFQEPy306KibfJrdVQDMgRRZ%2FtcYRYpnnq6ZWa27g6BSaIP33McD2llA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c1470dee64dc80-FRA
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992154,
+  "name" : "Matthew Rice",
+  "email" : "tyesha.zemlak@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 685 ms

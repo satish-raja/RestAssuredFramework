@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  
+  <Appenders>
+    <!-- ✅ Console logging only -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+
+  <Loggers>
+    <!-- ✅ Suppress noisy TestNG internals -->
+    <Logger name="org.testng.internal.Utils" level="warn" additivity="false">
+      <AppenderRef ref="Console"/>
+    </Logger>
+
+    <!-- ✅ Root logger (your test classes, services, utilities) -->
+    <Root level="info">
+      <AppenderRef ref="Console"/>
+    </Root>
+  </Loggers>
+
+</Configuration>

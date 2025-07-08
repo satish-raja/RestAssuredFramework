@@ -1,0 +1,14 @@
+📌 Test Name: 897354dd-e61d-4c24-af5b-7f0bfd3e3b24
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Delete Twice User",
+  "gender" : "male",
+  "email" : "kelvin.abbott@yahoo.com",
+  "status" : "inactive"
+}

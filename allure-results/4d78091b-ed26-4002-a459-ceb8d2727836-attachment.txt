@@ -1,0 +1,13 @@
+📌 Test Name: 03ce1f76-5a2b-4961-a980-84f50eb0baf4
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/comments/156640
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Christine",
+  "email" : "blake.walter@yahoo.com",
+  "body" : "Comment to be deleted"
+}

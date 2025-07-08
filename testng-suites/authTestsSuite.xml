@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Auth Token and Security Suite" verbose="1" parallel="false">
+
+  <!-- ✅ ChainTest Reporting Listener -->
+  <listeners>
+    <listener class-name="com.api.listeners.ChainTestListener"/>
+  </listeners>
+
+  <!-- 🔐 Security & Token Validation Tests -->
+  <test name="🔐 Auth and Security Tests">
+    <groups>
+      <run>
+        <include name="security"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.api.tests.security"/>
+    </packages>
+  </test>
+
+</suite>

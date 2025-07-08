@@ -1,0 +1,13 @@
+📌 Test Name: 1b6127b7-0421-4f12-aac2-21b46958cf94
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/posts/219252/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mikel",
+  "email" : "raphael.reichert@hotmail.com",
+  "body" : "Nice post!"
+}

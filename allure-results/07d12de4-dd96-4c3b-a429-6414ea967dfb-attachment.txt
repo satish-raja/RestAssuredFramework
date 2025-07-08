@@ -1,0 +1,14 @@
+📌 Test Name: 9c2d71ff-1ef3-4488-842a-2db0f23920bc
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mr. Alberto Schimmel",
+  "gender" : "female",
+  "email" : "janett.runolfsdottir@hotmail.com",
+  "status" : "active"
+}

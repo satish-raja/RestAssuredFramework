@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 17:24:07 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=117
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"69bf0d367a04081328d49b4d37577c93"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992144
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=72dd9c5e-8613-4dbc-9dba-ac275666f4cf
+X-Runtime=0.085063
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kg7T2Y9QFfjPBEpf3ihbGa%2FIjMnroZxha4gavBWnipTCSMLVT0oF9CgyTA6XsGNjdisBPJfiPoVWbYw4CGSRqgmhKNm758lnetyv9Q%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c145f6bde7f466-FRA
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992144,
+  "name" : "Guillermo Herzog Jr.",
+  "email" : "jackie.oberbrunner@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 1028 ms

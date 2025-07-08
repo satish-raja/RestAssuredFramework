@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 17:24:42 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=111
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"2dc1b4ec655bfd29cbb51f0c84c3e012"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992152
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=c93f5f5b-36b0-49c9-bbc6-2cba07173de4
+X-Runtime=0.056425
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=husJnxsogHL54vGFyAgeMeimXaGMr30q9EM%2Bkabw6ZnH6rCJt0s9ZYKgLRLdz9GfhsX5qywOBxqIdHYaFDSgx8fLvVNfixDNiWFxsA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c146d17acedb0e-FRA
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992152,
+  "name" : "Janetta McCullough",
+  "email" : "darcey.pagac@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 992 ms

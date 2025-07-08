@@ -1,0 +1,44 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Tue, 08 Jul 2025 17:24:01 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"9e34dd5dade0a0c48201f9cc0a45f329"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Links-Current=https://gorest.co.in/public/v2/users?page=1
+X-Links-Next=
+X-Links-Previous=
+X-Pagination-Limit=10
+X-Pagination-Page=1
+X-Pagination-Pages=1
+X-Pagination-Total=1
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=2ef09aaa-25d9-4a18-a001-92adfd8bccb8
+X-Runtime=0.071383
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=BL%2B3Rh8mHyLVgfF%2FvB1Ewf8ArBOLAnl5Pn7Y1l19N%2FRVAm31i%2BWpFOvxM9BDPNP1J92FAU%2BanORHntDol3%2F94r4Kan0AGlvd0gekmA%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c145cf7c66368a-FRA
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+[ {
+  "id" : 7992142,
+  "name" : "Cecil Nikolaus",
+  "email" : "noelle.buckridge@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+} ]
+⏱️ Duration: 1075 ms

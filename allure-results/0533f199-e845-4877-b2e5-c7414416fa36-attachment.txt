@@ -1,0 +1,14 @@
+📌 Test Name: fc5462e7-0314-4a6d-8733-3d3375f12675
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/99999999
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Cecil Nikolaus",
+  "gender" : "male",
+  "email" : "noelle.buckridge@hotmail.com",
+  "status" : "active"
+}

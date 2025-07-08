@@ -1,0 +1,9 @@
+<suite name="UAT Suite - Client Approved">
+  <test name="UAT Endpoints">
+    <classes>
+      <class name="com.api.tests.GetUserTests"/>
+      <class name="com.api.tests.GetPostTests"/>
+      <!-- Add endpoints approved by client for demo -->
+    </classes>
+  </test>
+</suite>

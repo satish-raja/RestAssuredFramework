@@ -1,0 +1,14 @@
+<suite name="Positive API Tests">
+  <test name="Positive Group">
+    <groups>
+      <run>
+        <include name="positive"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.api.tests.CreateUserTests"/>
+      <class name="com.api.tests.UpdateUserTests"/>
+      <!-- Add other test classes containing positive tests -->
+    </classes>
+  </test>
+</suite>

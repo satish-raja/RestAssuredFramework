@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Automation Test Suite" verbose="1" parallel="false">
+
+	<listeners>
+		<listener class-name="com.api.listeners.AllureTestListener" />
+	</listeners>
+
+	<!-- 🔍 CRUD API Tests (Users, Posts, Comments) -->
+	<test name="🔍 All CRUD API Tests (Create + Get + Update + Delete)">
+		<classes>
+			<!-- ✅ User API Test Classes -->
+			<class name="com.api.tests.CreateUserTests" />
+			<class name="com.api.tests.GetUserTests" />
+			<class name="com.api.tests.UpdateUserTests" />
+			<class name="com.api.tests.DeleteUserTests" />
+
+			<!-- 📝 Post API Test Classes -->
+			<class name="com.api.tests.CreatePostTests" />
+			<class name="com.api.tests.GetPostTests" />
+			<class name="com.api.tests.UpdatePostTests" />
+			<class name="com.api.tests.DeletePostTests" />
+
+			<!-- 💬 Comment API Test Classes -->
+			<class name="com.api.tests.CreateCommentTests" />
+			<class name="com.api.tests.GetCommentTests" />
+			<class name="com.api.tests.UpdateCommentTests" />
+			<class name="com.api.tests.DeleteCommentTests" />
+		</classes>
+	</test>
+
+	<!-- 🔐 Security & Token Validation Tests -->
+	<test name="🔐 Auth and Security Tests">
+		<groups>
+			<run>
+				<include name="security" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.api.tests.security" />
+		</packages>
+	</test>
+
+</suite>

@@ -1,0 +1,14 @@
+<suite name="Negative API Tests">
+  <test name="Negative Group">
+    <groups>
+      <run>
+        <include name="negative"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.api.tests.CreateUserTests"/>
+      <class name="com.api.tests.UpdateUserTests"/>
+      <!-- Add other test classes containing negative tests -->
+    </classes>
+  </test>
+</suite>

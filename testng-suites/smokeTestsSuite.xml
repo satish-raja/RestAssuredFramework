@@ -1,0 +1,9 @@
+<suite name="Smoke API Suite">
+  <test name="Smoke - Critical APIs">
+    <classes>
+      <class name="com.api.tests.CreateUserTests"/>
+      <class name="com.api.tests.CreatePostTests"/>
+      <class name="com.api.tests.CreateCommentTests"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,13 @@
+📌 Test Name: 1f01660e-2715-4df8-8e95-2d5bd1418cf8
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219251/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : null,
+  "email" : "dorian.skiles@gmail.com",
+  "body" : "Missing name"
+}

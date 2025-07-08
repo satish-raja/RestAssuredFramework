@@ -1,0 +1,14 @@
+📌 Test Name: f91ee87e-88dd-4490-9250-ecd11749d48c
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Marcellus Wunsch Sr.",
+  "gender" : "male",
+  "email" : "norbert.friesen@gmail.com",
+  "status" : "active"
+}

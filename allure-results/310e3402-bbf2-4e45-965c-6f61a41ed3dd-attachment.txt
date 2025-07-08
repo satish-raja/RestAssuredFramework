@@ -1,0 +1,14 @@
+📌 Test Name: e63502fc-68a0-4937-8325-0dc248886c4a
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Domenic Fritsch",
+  "gender" : "female",
+  "email" : "oliver.bogan@hotmail.com",
+  "status" : "active"
+}
