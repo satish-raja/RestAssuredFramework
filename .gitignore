@@ -2,3 +2,6 @@ target/
 allure-results/
 .idea/
 *.log
+.settings/
+.project
+.classpath
