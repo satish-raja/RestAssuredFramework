@@ -29,8 +29,8 @@ jobs:
 
       - name: 📊 Generate Allure Report
         run: |
-          mkdir -p allure-report
-          npx allure generate allure-results --clean -o allure-report
+          rm -rf allure-report
+          npx allure generate allure-results -o allure-report
 
       - name: 🚀 Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
