@@ -2,7 +2,7 @@
 
 A robust, modular, and extensible API automation framework built with **RestAssured**, **TestNG**, **Allure**, and **Log4j2**, designed to test CRUD operations for GoRest APIs.
 
-----
+-----
 
 ## 🚀 Features
 
@@ -17,7 +17,7 @@ A robust, modular, and extensible API automation framework built with **RestAssu
 - 🔐 Authorization Token Handling
 - 🧼 Clean, extensible project structure
 
-----
+-----
 
 ## 📁 Project Structure
 
@@ -40,3 +40,4 @@ A robust, modular, and extensible API automation framework built with **RestAssu
 ├── pom.xml
 ├── README.md
 └── restAssuredTestsSuite.xml
+
