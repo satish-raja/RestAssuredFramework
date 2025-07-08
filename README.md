@@ -1,3 +1,6 @@
+[![Allure Report](https://img.shields.io/badge/Allure--Report-View-green?logo=allure)](https://satish-raja.github.io/RestAssuredFramework/)
+
+
 # 🔬 RestAssured API Automation Framework
 
 A robust, modular, and extensible API automation framework built with **RestAssured**, **TestNG**, **Allure**, and **Log4j2**, designed to test CRUD operations for GoRest APIs.
