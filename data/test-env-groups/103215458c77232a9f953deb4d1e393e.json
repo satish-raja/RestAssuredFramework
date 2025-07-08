@@ -1,1 +1,1 @@
-{"id":"103215458c77232a9f953deb4d1e393e","fullName":"com.api.tests.UpdateUserTests.testUpdateUser_ValidData_ShouldSucceed","name":"🟢 Update user with valid data","status":"passed","testResultsByEnv":{"default":"4b9751b6998e40da246aae88dae1ec9f"}}
+{"id":"103215458c77232a9f953deb4d1e393e","fullName":"com.api.tests.UpdateUserTests.testUpdateUser_ValidData_ShouldSucceed","name":"🟢 Update user with valid data","status":"passed","testResultsByEnv":{"default":"57401c87ef6bd35cf12599f51b937bf5"}}

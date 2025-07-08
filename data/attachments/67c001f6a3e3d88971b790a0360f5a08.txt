@@ -1,0 +1,14 @@
+📌 Test Name: b1945d46-6b45-4dc6-b23a-12ab1458424d
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Ms. Carletta Hagenes",
+  "gender" : "male",
+  "email" : "allyn.altenwerth@gmail.com",
+  "status" : "active"
+}

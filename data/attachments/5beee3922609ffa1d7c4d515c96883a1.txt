@@ -1,0 +1,14 @@
+📌 Test Name: a03b5976-1856-4d4f-b9dd-e0389e352d1c
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/99999999
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Dr. Aileen Trantow",
+  "gender" : "male",
+  "email" : "man.mcclure@gmail.com",
+  "status" : "active"
+}

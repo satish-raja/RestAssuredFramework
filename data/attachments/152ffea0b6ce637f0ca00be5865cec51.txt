@@ -1,0 +1,14 @@
+📌 Test Name: a0e9bb03-9c96-49e4-9860-02031952cf58
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/users/7992744
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Delete Twice User",
+  "gender" : "male",
+  "email" : "giovanni.kovacek@yahoo.com",
+  "status" : "inactive"
+}

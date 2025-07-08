@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:45:36 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=108
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"51ce9e87c67d2a66371d052afadc1577"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992741
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=99bbb0c4-5dca-4513-9cd7-b9f4f18f775d
+X-Runtime=0.097036
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8oFWR9UdA2UKHU0UjqMeBs606B3iH54x4X4WREeaZNvvZFR2%2FjVQYfkGJaXzCYjMif4AU4h2Y8Nph4GuKXqgWv8a%2FXgHAvx5tHjokw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c2c4fd3c59cf25-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992741,
+  "name" : "Dr. Aileen Trantow",
+  "email" : "man.mcclure@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 847 ms

@@ -1,0 +1,14 @@
+📌 Test Name: 231b3251-4af8-4116-ac6d-393a3dc3c50d
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Evan Crist IV",
+  "gender" : "male",
+  "email" : "stephan.wilkinson@hotmail.com",
+  "status" : "active"
+}

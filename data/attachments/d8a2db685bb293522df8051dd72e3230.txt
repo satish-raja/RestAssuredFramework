@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:46:05 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=119
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"78fd458d70beeb8633dc7244b2fa17eb"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/comments/156685
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=60
+X-Ratelimit-Reset=20
+X-Request-Id=78ce1d92-c3df-4d5f-a071-8545343b1daf
+X-Runtime=0.075064
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OrBzvBGcQxMX%2BnxDJ1maejLUkKzp4bVaDO95yke3sPWQf0eVmHH0p%2Fxr4anDkMnoGbdTo864mSJQoyvEc8nlYM4sKtrzMmcNiMo%3D"}]}
+Server=cloudflare
+CF-RAY=95c2c5b188a815d0-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 156685,
+  "post_id" : 219350,
+  "name" : "Mason Halvorson",
+  "email" : "ezra.davis@yahoo.com",
+  "body" : "Initial comment content"
+}
+⏱️ Duration: 828 ms

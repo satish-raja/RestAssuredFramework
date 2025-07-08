@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:46:00 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=110
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"0e65069a09799d994e72a56d5e6d029f"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992751
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=65
+X-Ratelimit-Reset=18
+X-Request-Id=3b9a498f-263a-4c4f-9434-84ed9e17a334
+X-Runtime=0.057400
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=goe8qUUFyu4Bo3eDDaBE7P%2BUAqczdK3FfWT5zVrWhDQ9nkwmMZmMRZm2fJjN3oG0JIUJ0N3sSQaFNj8ZVGEa6VoSj95kkNS%2BWhmdsg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c2c596dfb3eb34-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992751,
+  "name" : "Bethel Hintz MD",
+  "email" : "nada.halvorson@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 306 ms

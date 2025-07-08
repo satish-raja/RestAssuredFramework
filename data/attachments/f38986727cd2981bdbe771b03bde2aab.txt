@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:45:44 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=103
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"fc268286f91e5d37575dfcfa7a08d62f"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992745
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=83
+X-Ratelimit-Reset=6
+X-Request-Id=8f1f496e-f656-4a02-aa8f-4459cc9dc229
+X-Runtime=0.051782
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QYMc5IVJ03cFh1o7cYFoNker%2BQLVE2O1d9qYG03QzYZekUJ5KXyAvPUj%2BSs5MyEW1fCikHSfvqKFwwFuW7Upwu6%2Bw8QtO5N3VYr%2FRg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c2c5321d3bcf25-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992745,
+  "name" : "Chasidy Walsh",
+  "email" : "inge.lowe@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 312 ms

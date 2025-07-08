@@ -1,0 +1,13 @@
+📌 Test Name: 088f8fd3-348c-4050-ac7a-a8662a94085c
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219348/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "No Body",
+  "email" : "brett.maggio@hotmail.com",
+  "body" : null
+}

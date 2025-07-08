@@ -1,0 +1,14 @@
+📌 Test Name: 653c05e8-a3fe-46a1-b25c-fc28831b7fec
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/users/7992743
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Updated Name",
+  "gender" : "female",
+  "email" : "victor.lind@gmail.com",
+  "status" : "inactive"
+}

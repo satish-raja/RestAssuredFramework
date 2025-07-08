@@ -1,0 +1,14 @@
+📌 Test Name: 9b180839-c8b6-4725-abb8-70c022b47906
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Dr. Chuck Gottlieb",
+  "gender" : "male",
+  "email" : "leo.brekke@gmail.com",
+  "status" : "active"
+}

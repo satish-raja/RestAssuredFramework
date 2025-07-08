@@ -1,0 +1,13 @@
+📌 Test Name: 9d21823e-928c-47f7-8828-14cd7169ff77
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/comments/999999
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Leslie",
+  "email" : "daryl.mann@yahoo.com",
+  "body" : "Nice post!"
+}

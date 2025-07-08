@@ -1,0 +1,14 @@
+📌 Test Name: 653c05e8-a3fe-46a1-b25c-fc28831b7fec
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Edgardo Lemke",
+  "gender" : "male",
+  "email" : "ashley.schimmel@gmail.com",
+  "status" : "active"
+}

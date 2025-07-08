@@ -1,1 +1,1 @@
-{"id":"08507ef72854c0b28209c5434553481f","fullName":"com.api.tests.UpdatePostTests.testUpdatePostWithInvalidId_ShouldReturn404","name":"🔴 Update with invalid post ID should return 404","status":"passed","testResultsByEnv":{"default":"53eb56515120ff5f174511989dfe632c"}}
+{"id":"08507ef72854c0b28209c5434553481f","fullName":"com.api.tests.UpdatePostTests.testUpdatePostWithInvalidId_ShouldReturn404","name":"🔴 Update with invalid post ID should return 404","status":"passed","testResultsByEnv":{"default":"87f45c181fceb0ff8e506910c786fa04"}}

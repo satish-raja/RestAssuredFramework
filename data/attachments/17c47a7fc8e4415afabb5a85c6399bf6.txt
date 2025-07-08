@@ -1,0 +1,13 @@
+📌 Test Name: f1e3a92a-7dd1-4b0e-b374-3cfdfd560b10
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219349/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Leslie",
+  "email" : "daryl.mann@yahoo.com",
+  "body" : "Nice post!"
+}

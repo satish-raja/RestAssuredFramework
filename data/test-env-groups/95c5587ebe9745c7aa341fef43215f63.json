@@ -1,1 +1,1 @@
-{"id":"95c5587ebe9745c7aa341fef43215f63","fullName":"com.api.tests.DeleteUserTests.testDeleteUser_InvalidId_ShouldReturn404","name":"🔴 Delete non-existent user - Should return 404","status":"passed","testResultsByEnv":{"default":"5a60a7b64e0c70f786ee94a3246c1440"}}
+{"id":"95c5587ebe9745c7aa341fef43215f63","fullName":"com.api.tests.DeleteUserTests.testDeleteUser_InvalidId_ShouldReturn404","name":"🔴 Delete non-existent user - Should return 404","status":"passed","testResultsByEnv":{"default":"dcf791200cac98cd2c2210eec029f8e9"}}

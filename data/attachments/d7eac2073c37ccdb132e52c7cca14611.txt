@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:45:53 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=112
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"44b0018764f35f4b337c78b93e4b2f55"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992749
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=76
+X-Ratelimit-Reset=10
+X-Request-Id=22384f2a-2d9c-45ba-8389-3093d413eb09
+X-Runtime=0.084333
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OaQpiK3BZP%2BfSsL4gvOHRCFD0HlFL7PD4QMPgrF3UEB%2BzA%2Bfi9q5s6d3uC8nZYVo9NefpwjcemD4%2FdWUX31YcUbKyCow8WjREqU%3D"}]}
+Server=cloudflare
+CF-RAY=95c2c56959e867b9-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992749,
+  "name" : "Arnetta Schneider",
+  "email" : "kandice.brekke@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 352 ms

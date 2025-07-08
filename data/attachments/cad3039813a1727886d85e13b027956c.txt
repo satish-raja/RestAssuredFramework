@@ -1,0 +1,14 @@
+📌 Test Name: b11b3867-99f8-4448-90b8-7e375bd1579f
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Arnetta Schneider",
+  "gender" : "male",
+  "email" : "kandice.brekke@hotmail.com",
+  "status" : "active"
+}

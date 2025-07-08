@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:45:45 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=112
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"397aad5315dc80979697796b8fe1c568"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992746
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=82
+X-Ratelimit-Reset=6
+X-Request-Id=c63add4f-5ca1-43a5-931e-b97190856991
+X-Runtime=0.088368
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=B%2BxMmKPkMWdMQhNMdA0lBf2R1%2B80fyWl58reyqclKarTpY2FyxFdZOdqwfPYbgXoG0igCG%2FmwBp6Ij25IsKoqomGd6FDlGaV5Kb9ug%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c2c53a4bd8f94f-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992746,
+  "name" : "Sanford Reichert",
+  "email" : "theodore.harvey@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 349 ms

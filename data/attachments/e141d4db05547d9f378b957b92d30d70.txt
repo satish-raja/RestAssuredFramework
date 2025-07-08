@@ -1,0 +1,13 @@
+📌 Test Name: 3d0a326f-d76a-4f8d-ab45-9acac4235873
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/99999999/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Valid Name",
+  "email" : "rosalia.schmidt@gmail.com",
+  "body" : "Bad postId"
+}

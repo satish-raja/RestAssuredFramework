@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:45:38 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"51ce9e87c67d2a66371d052afadc1577"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=88
+X-Ratelimit-Reset=2
+X-Request-Id=5dc89653-34ea-48d5-9292-ab5f1b01ede9
+X-Runtime=0.041396
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=aW7wF4rIgnzVpCsIiTzbidGXKQTooem%2FHFOo2cxYl9CfD%2BaSdF1oysMvfxZw%2BHPyMIjbLOLpYC2vBUJuI3psIK3PezyRN9P3We6iAQ%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c2c50acd3c2511-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992741,
+  "name" : "Dr. Aileen Trantow",
+  "email" : "man.mcclure@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 817 ms

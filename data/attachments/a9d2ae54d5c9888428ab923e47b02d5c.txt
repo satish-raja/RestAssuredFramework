@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Tue, 08 Jul 2025 21:45:39 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=118
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"57f0cb7a6d24701a1afd62e568c16064"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7992742
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=88
+X-Ratelimit-Reset=2
+X-Request-Id=a8aea5b0-74b1-4d5e-83bd-2fc0df868419
+X-Runtime=0.088814
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=li9fRuUXF%2FzyahF1LNMTLGMYclGHE3k9pr3xXrrk1JzxTmyQc8W%2BLxFiNFQjVBtviBXeUsXQmphxaIy3xgrfK34lpuRPHHCDfM0F%2FQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c2c512389ecf1e-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7992742,
+  "name" : "Dr. Denver Reichert",
+  "email" : "carolann.oreilly@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 855 ms
