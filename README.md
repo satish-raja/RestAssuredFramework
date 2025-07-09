@@ -125,10 +125,10 @@ This framework supports three types of CI triggers:
 # CI build example
 mvn clean test -Papi-tests -Denv=qa
 
-    [🔍 View Action Logs & Artifacts](https://github.com/satish-raja/RestAssuredFramework/actions)
+[🔍 View Action Logs & Artifacts »](https://github.com/satish-raja/RestAssuredFramework/actions)
 
 📘 Allure Report (Live)
-    👉 [Click to View Allure Report](https://satish-raja.github.io/RestAssuredFramework/)
+👉 [Click to View Allure Report](https://satish-raja.github.io/RestAssuredFramework/)
 
 👨‍💻 Author
     Satish Raja
