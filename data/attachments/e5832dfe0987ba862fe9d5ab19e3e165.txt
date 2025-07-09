@@ -1,0 +1,14 @@
+📌 Test Name: d4e368ac-7ea7-424b-853a-bc4cadfcdd1b
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/7994765
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Shaun Welch",
+  "gender" : "male",
+  "email" : "ed.braun@hotmail.com",
+  "status" : "active"
+}

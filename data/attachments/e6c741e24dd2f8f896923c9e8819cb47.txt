@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:48:21 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"c2c623a142f753ddda1167564c8d9a47"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=2
+X-Request-Id=da737602-e8ee-47d0-9251-d76239595f0f
+X-Runtime=0.038311
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bjUe0buUH%2FO7v5m5ugbxwOsmYB7SALORXCfGqYmEYqnuXaHCXzNkARuEk%2BgD%2FIuH70M1Bz742RH2ps%2B9hgF%2Fi9FzZaI%2BqUuX22r72A%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c7ef61684961f4-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994765,
+  "name" : "Shaun Welch",
+  "email" : "ed.braun@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 381 ms

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:48:25 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=104
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"dcb3231072ae6958148c308b1b5b3f83"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994768
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=88
+X-Ratelimit-Reset=2
+X-Request-Id=a04d5696-8e24-4b8b-acce-f4e10a340095
+X-Runtime=0.050968
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=T09S0mQqYrgqhC%2Fek4D0g68DbajM2yZpxMFkfcYU%2F3Z7maIFbjTnPQ0O17z5agtwLUt%2Fs2VWEk3FSAyVYwC1gsImUiTb8AUD2EPpvw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7ef781bdcead7-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994768,
+  "name" : "Barry Hane",
+  "email" : "frank.windler@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 885 ms

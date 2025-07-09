@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:48:44 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=110
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"731123c11ef0633e6c4c071e114401ec"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994775
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=75
+X-Ratelimit-Reset=10
+X-Request-Id=ed218f19-0529-4118-8748-c7c95b900895
+X-Runtime=0.142748
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=27Ucj9ApT879c%2BWu4QZ%2FTbV6cTOBsl8KMiCw4LYxW3NMgydi4TusEkhFD4aiM7zzXwsMSOhxnr%2FvZKdvXGHHSm2WZnxrK4WoSBl%2F%2BA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7efef8f31d130-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994775,
+  "name" : "Joesph Sawayn",
+  "email" : "angelena.leannon@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 1052 ms

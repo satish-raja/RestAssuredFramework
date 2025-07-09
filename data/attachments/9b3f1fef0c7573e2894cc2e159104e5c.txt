@@ -1,0 +1,14 @@
+📌 Test Name: e917e009-2568-4268-aafc-d6ae135ca14e
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Test User",
+  "gender" : "male",
+  "email" : "bad-status@hotmail.com",
+  "status" : "running"
+}

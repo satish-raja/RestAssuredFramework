@@ -1,0 +1,44 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:48:19 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"2ee35bbe96d2cde16fa371ac2c858911"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Links-Current=https://gorest.co.in/public/v2/users?page=1
+X-Links-Next=
+X-Links-Previous=
+X-Pagination-Limit=10
+X-Pagination-Page=1
+X-Pagination-Pages=1
+X-Pagination-Total=1
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=bae7fa5b-d9a8-4f90-97b0-f2b46f6241ea
+X-Runtime=0.069059
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=83f%2BoB%2BueXshUuVif8C%2FkIy%2FlLmRz1uXzH0hPk5ocZvfbaQ6BCiBiyqrThOMdh5k3y4U1ap9ZSZ%2BIcAQ85J97FUlc7Hu8O95FPN%2B%2Fw%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c7ef555f622322-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+[ {
+  "id" : 7994765,
+  "name" : "Shaun Welch",
+  "email" : "ed.braun@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+} ]
+⏱️ Duration: 939 ms

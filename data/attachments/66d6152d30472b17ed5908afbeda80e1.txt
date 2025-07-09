@@ -1,0 +1,13 @@
+📌 Test Name: 7c410349-b078-4e07-bc08-aad150cd52ee
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/comments/156756
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Laurinda Lehner",
+  "email" : "hazel.deckow@hotmail.com",
+  "body" : "✅ Updated comment body"
+}

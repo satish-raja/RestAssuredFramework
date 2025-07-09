@@ -1,1 +1,1 @@
-{"id":"b188e417209c46e1f01a6ae90f471201","fullName":"com.api.tests.UpdatePostTests.testUpdatePostWithoutAuthToken_ShouldReturn401or404","name":"🔴 Update post without auth token should return 401 or 404","status":"passed","testResultsByEnv":{"default":"b2799f351e8dae00ab7c272c99ed38f4"}}
+{"id":"b188e417209c46e1f01a6ae90f471201","fullName":"com.api.tests.UpdatePostTests.testUpdatePostWithoutAuthToken_ShouldReturn401or404","name":"🔴 Update post without auth token should return 401 or 404","status":"passed","testResultsByEnv":{"default":"e10af126c7c27ee897dd54aae8e8b102"}}

@@ -1,0 +1,14 @@
+📌 Test Name: 43441fc9-f81b-4415-b39b-4697eceb8fbb
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Trish Crist",
+  "gender" : "male",
+  "email" : "barney.herzog@yahoo.com",
+  "status" : "active"
+}

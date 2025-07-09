@@ -1,0 +1,14 @@
+📌 Test Name: 4fc63a20-b139-4ade-afee-e6650ce2bf51
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Ossie Goodwin IV",
+  "gender" : "male",
+  "email" : "sebrina.ward@gmail.com",
+  "status" : "active"
+}

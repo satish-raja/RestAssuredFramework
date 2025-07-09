@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:48:57 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=103
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"4bc068d4c2dc98ada47d9af127dc9788"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994777
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=74
+X-Ratelimit-Reset=12
+X-Request-Id=79ce356b-79d5-4cee-a1f9-39e519884a7c
+X-Runtime=0.084820
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WiE8p3RENV%2FJKfLr97A2WyH1fUV0t9b8sYGaNWiVQ70P4ZecKR6H2XB1vYl%2BQ7GKd0lFoH1ogQHQXjGjx0Azxjiv4K5aZMkQ8OExeg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7f042caeeb838-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994777,
+  "name" : "Sherika Friesen",
+  "email" : "raul.hand@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 403 ms

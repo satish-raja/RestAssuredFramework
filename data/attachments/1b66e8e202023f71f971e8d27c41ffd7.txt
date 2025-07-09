@@ -1,0 +1,27 @@
+✅ Status Code: 204
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:48:27 GMT
+Connection=keep-alive
+Cache-Control=no-cache
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=86
+X-Ratelimit-Reset=4
+X-Request-Id=5ce27981-a67c-49f3-93fb-313a1e7668ae
+X-Runtime=0.058934
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hz5Hvpno9Y7zCerrjBXfRE4boUsq0Wgd9wuDfW2o8u8ybg%2BIiv0FTzTn7jBnFZIarL8lLCFwOhbJq3SIL6RDGrt0zqX%2B%2F%2BVURqE0VA%3D%3D"}]}
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server=cloudflare
+CF-RAY=95c7ef88994b232e-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+
+⏱️ Duration: 367 ms

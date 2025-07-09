@@ -1,0 +1,13 @@
+📌 Test Name: 44d45cbc-4725-4d96-aa03-965860d6f4b1
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/99999999/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Valid Name",
+  "email" : "ena.thompson@hotmail.com",
+  "body" : "Bad postId"
+}
