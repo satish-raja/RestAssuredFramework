@@ -1,0 +1,13 @@
+📌 Test Name: d9dde449-8a7c-46ef-96ea-92765018c8a7
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/comments/156706
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mr. Yasuko Breitenberg",
+  "email" : "houston.lockman@hotmail.com",
+  "body" : "✅ Updated comment body"
+}

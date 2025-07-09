@@ -1,0 +1,14 @@
+📌 Test Name: 4dac1d73-abd0-4bc7-93de-f8053cc62e77
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Pa Murphy",
+  "gender" : "female",
+  "email" : "daryl.hyatt@gmail.com",
+  "status" : "active"
+}

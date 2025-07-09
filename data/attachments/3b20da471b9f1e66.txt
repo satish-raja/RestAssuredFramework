@@ -1,0 +1,14 @@
+📌 Test Name: 5c9e0a92-37dc-4fe9-b546-2f111d1896cd
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/99999999
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Sebastian Kertzmann DVM",
+  "gender" : "male",
+  "email" : "nora.von@gmail.com",
+  "status" : "active"
+}

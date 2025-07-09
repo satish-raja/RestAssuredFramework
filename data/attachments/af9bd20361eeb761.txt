@@ -1,0 +1,14 @@
+📌 Test Name: be8dafc3-0381-4bee-a439-4e8fab2e9469
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Delete Twice User",
+  "gender" : "male",
+  "email" : "dario.denesik@yahoo.com",
+  "status" : "inactive"
+}

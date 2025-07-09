@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 04:06:49 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=112
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"a92881eb8e8b284fce91f883da046050"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7993569
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=40
+X-Ratelimit-Reset=34
+X-Request-Id=59390ac6-9712-44fe-b31a-bc304a212cfc
+X-Runtime=0.052693
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=SpMQbgtSR%2BDcbub13CtB01s%2FAURdF%2FwuxuJxMms7Lzp5ABkoelgpaf3awqi%2B7W9eylx3QY9qh7OB7eL1d1KaYJ0qEVWrmyK7j8BLEw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c4f36c2a57d6b7-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7993569,
+  "name" : "Glinda Ruecker Sr.",
+  "email" : "florida.klein@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 353 ms

@@ -1,0 +1,14 @@
+📌 Test Name: 3aca64f6-8d6d-4167-bb68-8083ec546c31
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Louie Bechtelar IV",
+  "gender" : "male",
+  "email" : "rufus.toy@hotmail.com",
+  "status" : "active"
+}

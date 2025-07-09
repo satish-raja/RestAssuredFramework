@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 04:06:27 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"0ef262a9260fe8e99d8dd500c5f13c0a"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=83
+X-Ratelimit-Reset=6
+X-Request-Id=4907ba04-215b-4d3f-a905-a1c676e11f27
+X-Runtime=0.058767
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=s6H8gqhQt%2B6P0oO110nPE5tsw7HXIx9DsdyKtdD9uWPqlbNmfKFYpjViOiv0iFDd0y4h6z4XnxjrgxFiGplKTSTpmdzA97IZ%2Fs%2BBGA%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c4f2e21c3ef9a7-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7993557,
+  "name" : "Sebastian Kertzmann DVM",
+  "email" : "nora.von@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 378 ms

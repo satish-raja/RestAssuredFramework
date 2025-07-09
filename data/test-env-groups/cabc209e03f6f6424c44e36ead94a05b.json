@@ -1,1 +1,0 @@
-{"id":"cabc209e03f6f6424c44e36ead94a05b","fullName":"com.api.tests.DeleteCommentTests.testDeleteCommentAgain_ShouldReturn404","name":"🔴 Deleting already deleted comment should return 404","status":"passed","testResultsByEnv":{"default":"79daa9a39c039226e7a45d160ce992fa"}}

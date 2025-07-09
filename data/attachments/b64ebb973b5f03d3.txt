@@ -1,0 +1,14 @@
+📌 Test Name: 68933c62-83f6-47b3-a292-0c819e0e2543
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Maxine Miller",
+  "gender" : "male",
+  "email" : "lakeisha.ward@hotmail.com",
+  "status" : "active"
+}

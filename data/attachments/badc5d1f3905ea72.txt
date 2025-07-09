@@ -1,0 +1,14 @@
+📌 Test Name: 6d18ef6c-5dc9-4c56-9415-7a2f5a33b812
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Pei West",
+  "gender" : "male",
+  "email" : "frederica.tillman@gmail.com",
+  "status" : "active"
+}

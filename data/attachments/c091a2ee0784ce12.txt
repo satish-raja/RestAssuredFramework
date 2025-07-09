@@ -1,0 +1,14 @@
+📌 Test Name: 82c72c94-3db1-4bcd-b309-ff6eb40e8034
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Toney Spencer",
+  "gender" : "female",
+  "email" : "tierra.okuneva@gmail.com",
+  "status" : "active"
+}

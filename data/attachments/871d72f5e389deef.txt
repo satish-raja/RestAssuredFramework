@@ -1,0 +1,14 @@
+📌 Test Name: 626456ce-e43b-409f-8f39-8c360856fc30
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mrs. Damien Renner",
+  "gender" : "male",
+  "email" : "alva.paucek@gmail.com",
+  "status" : "active"
+}

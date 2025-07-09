@@ -1,0 +1,12 @@
+📌 Test Name: ca5b0094-10e6-42ae-bff1-bd4eb5d43622
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/posts/219488
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Unauthorized Delete",
+  "body" : "Testing without token."
+}

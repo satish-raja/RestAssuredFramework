@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 04:06:35 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=108
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"3e0721876797d87375c5945ae9ad1241"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7993564
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=66
+X-Ratelimit-Reset=17
+X-Request-Id=23f9d81f-ff73-40ba-a8b9-72e05c0ba6a0
+X-Runtime=0.089499
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=UhCk5NptzvPRV03VHkRjPNem%2BYyBWFWZFuEn0Nebjx%2BoGPkNFmN%2Fq1DNkVGF5HeWoOMpsZQWIbWT0x%2F5h7nFmk6pp77n0C7iLqRosw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c4f3173f5fe635-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7993564,
+  "name" : "Mrs. Damien Renner",
+  "email" : "alva.paucek@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 408 ms

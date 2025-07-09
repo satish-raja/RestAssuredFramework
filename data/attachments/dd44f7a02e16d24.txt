@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 04:06:48 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"ce54ca08896e4a7c1337d42e5fdf6d18"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=41
+X-Ratelimit-Reset=34
+X-Request-Id=9746ad23-40ec-461e-af34-b2b3f4257c50
+X-Runtime=0.061688
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=t%2BxP6Q2DcRFCXrR3fFrgcRXCgFMU4COAyTWjJJqVJZF6qPp9M3k0sXEQWZRG%2Fzf8B9IIL8Otb%2BXif47No%2B6DDxGXfAg1QE6Na6uKaA%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c4f369aa13200c-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "name" : "Mr. Yasuko Breitenberg",
+  "email" : "houston.lockman@hotmail.com",
+  "body" : "✅ Updated comment body",
+  "id" : 156706,
+  "post_id" : 219492
+}
+⏱️ Duration: 380 ms

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 04:06:25 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=110
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"0ef262a9260fe8e99d8dd500c5f13c0a"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7993557
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=85
+X-Ratelimit-Reset=4
+X-Request-Id=0a16ee65-2612-4e75-a11e-69994d2c23a7
+X-Runtime=0.055579
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=B63IN4PxdlZc3yL%2BsIPVJJDVKQ36Se3RGRHoxPGZWtwZWLpqi2gakOc4t15FeGLk4VD00Ih%2FX%2Fx6J%2BXPzb9RjlXoH3MeZkLGagHqPg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c4f2d68bf981c7-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7993557,
+  "name" : "Sebastian Kertzmann DVM",
+  "email" : "nora.von@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 949 ms

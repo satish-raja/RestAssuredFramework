@@ -1,0 +1,14 @@
+📌 Test Name: a05a8206-058b-48c6-8486-613c07ab1cf5
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/users/7993559
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Updated Name",
+  "gender" : "female",
+  "email" : "darrin.mcglynn@hotmail.com",
+  "status" : "inactive"
+}

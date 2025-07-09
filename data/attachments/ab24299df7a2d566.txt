@@ -1,0 +1,13 @@
+📌 Test Name: ae5093ea-912e-45da-9ea8-6410fddeb7c4
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/posts/219491/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Wilburn",
+  "email" : "lincoln.grant@hotmail.com",
+  "body" : "Nice post!"
+}

@@ -1,0 +1,14 @@
+📌 Test Name: 9e908755-b2f6-49a7-b137-b6674042ef10
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Latoyia Haag",
+  "gender" : "male",
+  "email" : "bo.mraz@gmail.com",
+  "status" : "active"
+}
