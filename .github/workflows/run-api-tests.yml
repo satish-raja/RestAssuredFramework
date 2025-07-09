@@ -1,11 +1,9 @@
-name: 🚀 Run API Tests (CI + Daily + Manual)
+name: 🚀 Run API Tests (CI + Daily + Manual + Allure GitHub Pages)
 
 on:
-  # 🔁 Trigger on every push to `main`
   push:
     branches: [ "main" ]
 
-  # 👤 Manual trigger with optional environment and suite inputs
   workflow_dispatch:
     inputs:
       env:
@@ -13,20 +11,23 @@ on:
         required: true
         default: 'qa'
       suite:
-        description: 'Maven profile (e.g., api-tests)'
+        description: 'TestNG Maven Profile (e.g., api-tests)'
         required: true
         default: 'api-tests'
 
-  # 🕒 Daily at 3:00 AM IST → 9:30 PM UTC
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 21 * * *'  # 3:00 AM IST (9:30 PM UTC)
+
+concurrency:
+  group: restassured-tests
+  cancel-in-progress: true
 
 jobs:
   run-tests:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ⬇️ Checkout repository
+      - name: ⬇️ Checkout Repository
         uses: actions/checkout@v3
 
       - name: ☕ Set up Java 17
@@ -35,7 +36,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: 🧪 Run RestAssured Tests
+      - name: 🧪 Run RestAssured API Tests
         run: |
           mvn clean test -P${{ github.event.inputs.suite || 'api-tests' }} -Denv=${{ github.event.inputs.env || 'qa' }}
 
@@ -45,3 +46,14 @@ jobs:
         with:
           name: allure-results
           path: allure-results/
+
+      - name: 📊 Generate Allure HTML Report
+        run: |
+          npm install -g allure-commandline --save-dev
+          npx allure generate allure-results -o allure-report --clean
+
+      - name: 🚀 Publish Allure Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report

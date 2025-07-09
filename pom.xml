@@ -213,9 +213,59 @@
 		<profile>
 			<id>api-tests</id>
 			<properties>
-				<suiteXmlFile>restAssuredTestsSuite.xml</suiteXmlFile>
+				<suiteXmlFile>suites/restAssuredTestsSuite.xml</suiteXmlFile>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>smoke-tests</id>
+			<properties>
+				<suiteXmlFile>testng-suites/smokeTestsSuite.xml</suiteXmlFile>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>regression-tests</id>
+			<properties>
+				<suiteXmlFile>testng-suites/regressionTestsSuite.xml</suiteXmlFile>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>uat-tests</id>
+			<properties>
+				<suiteXmlFile>testng-suites/uatTestsSuite.xml</suiteXmlFile>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>positive-tests</id>
+			<properties>
+				<suiteXmlFile>testng-suites/positiveTestsSuite.xml</suiteXmlFile>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>negative-tests</id>
+			<properties>
+				<suiteXmlFile>testng-suites/negativeTestsSuite.xml</suiteXmlFile>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>auth-tests</id>
+			<properties>
+				<suiteXmlFile>testng-suites/authTestsSuite.xml</suiteXmlFile>
+			</properties>
+		</profile>
+
+		<profile>
+			<id>post-service-tests</id>
+			<properties>
+				<suiteXmlFile>testng-suites/PostServiceTestsSuite.xml</suiteXmlFile>
 			</properties>
 		</profile>
 	</profiles>
+
 
 </project>
