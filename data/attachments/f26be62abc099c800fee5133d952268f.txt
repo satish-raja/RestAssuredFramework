@@ -1,0 +1,14 @@
+📌 Test Name: 285349e2-6884-4805-ba2d-325f75826652
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Lucile Shanahan",
+  "gender" : "female",
+  "email" : "magaret.hammes@gmail.com",
+  "status" : "active"
+}

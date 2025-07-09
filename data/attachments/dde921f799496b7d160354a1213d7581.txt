@@ -1,0 +1,13 @@
+📌 Test Name: fdd97ca1-98bf-46c0-a7fc-a6394d8b2b2d
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219521/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : null,
+  "email" : "danette.heaney@gmail.com",
+  "body" : "Missing name"
+}

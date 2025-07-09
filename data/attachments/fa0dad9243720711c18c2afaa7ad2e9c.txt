@@ -1,0 +1,14 @@
+📌 Test Name: 46511d70-7b3b-4012-83c7-9498b43b5640
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/users/7994500
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Updated Name",
+  "gender" : "female",
+  "email" : "alfred.kerluke@yahoo.com",
+  "status" : "inactive"
+}

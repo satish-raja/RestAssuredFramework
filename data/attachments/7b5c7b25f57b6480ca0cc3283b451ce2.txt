@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 10:49:58 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=109
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"292a7018ad9237c30e8905a784b22875"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994500
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=79
+X-Ratelimit-Reset=8
+X-Request-Id=0045d49b-6b96-4a7b-8ffe-b9357af2049d
+X-Runtime=0.077093
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rU55i5thr%2FHmlVla6zSlu3a8GolEhhRm79LT9TUiSi5TofVUQX%2BrhMP13m%2FCkquY4q1MtHEnmkEjByjz4OkvZjiuRu0wagqI%2BaFZwQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c741fcc9dbc5ab-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994500,
+  "name" : "Bernardo Bosco",
+  "email" : "domonique.hessel@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 395 ms

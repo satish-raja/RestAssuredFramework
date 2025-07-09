@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 10:49:57 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"6bbf8d6adb1f1c8aa1e30a2b7260edae"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=82
+X-Ratelimit-Reset=6
+X-Request-Id=091a7165-1f1b-45a1-b8f2-4c363b00a6f1
+X-Runtime=0.056741
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=PTGwhHBJ%2B6Fv8D0%2FmG%2FSw5w6SLALrG9fuFH0CHuKGhKVz9IlOBOP5Y8Jadc%2BbkLgjVhJyTj34RUDwpddtX2dX%2BFF8XVY8eH190eyqQ%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c741f1587420d7-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994495,
+  "name" : "Bernie McDermott",
+  "email" : "carey.schiller@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 370 ms

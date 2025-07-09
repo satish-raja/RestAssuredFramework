@@ -1,0 +1,13 @@
+📌 Test Name: 548938f8-a71c-43e6-9da7-2c05db969e2a
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/99999999/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Valid Name",
+  "email" : "merlene.zulauf@yahoo.com",
+  "body" : "Bad postId"
+}

@@ -1,0 +1,14 @@
+📌 Test Name: 1abfd699-086b-413e-8b14-659d0845c85a
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/7994495
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Bernie McDermott",
+  "gender" : "male",
+  "email" : "carey.schiller@gmail.com",
+  "status" : "active"
+}

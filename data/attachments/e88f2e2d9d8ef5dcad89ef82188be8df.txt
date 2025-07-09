@@ -1,0 +1,14 @@
+📌 Test Name: 75aeff4a-69cd-40b1-8eff-b4e54726927b
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Ms. Cory Durgan",
+  "gender" : "female",
+  "email" : "terrance.barrows@gmail.com",
+  "status" : "active"
+}

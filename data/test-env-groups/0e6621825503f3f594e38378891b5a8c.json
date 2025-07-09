@@ -1,0 +1,1 @@
+{"id":"0e6621825503f3f594e38378891b5a8c","fullName":"com.api.tests.UpdateUserTests.testUpdateUser_InvalidId_ShouldReturn404","name":"🔴 Update user with invalid ID","status":"passed","testResultsByEnv":{"default":"91aa966a10167361c35bc52fbb5988b3"}}

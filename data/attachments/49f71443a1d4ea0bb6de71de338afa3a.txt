@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 10:50:19 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"ef7bbb759b70391e1d6955891514cb24"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=42
+X-Ratelimit-Reset=33
+X-Request-Id=c9904864-a6db-4598-91b9-7b4e934fc419
+X-Runtime=0.081484
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Ur1xvGotGiJErMHlqEcIDKdJpCpMrrwWKZPk3qpZMh6nTWc0laqBGYZN3RvGLd3dIs4Pc8BKbhszue9o7t3Cff1dbiA6kl3VjBYjaQ%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c7427e8f28d707-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "name" : "Gerald Weimann V",
+  "email" : "reagan.tillman@yahoo.com",
+  "body" : "✅ Updated comment body",
+  "id" : 156726,
+  "post_id" : 219523
+}
+⏱️ Duration: 390 ms

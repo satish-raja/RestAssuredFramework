@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 10:50:04 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=101
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"61fdcdea718f440d603486be71e6456d"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994506
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=71
+X-Ratelimit-Reset=14
+X-Request-Id=626704f6-56f8-4c96-b01e-3c1c76bf98f1
+X-Runtime=0.076236
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=SetZuDTiRgcqXpOk2%2FCRZoEfkP%2F9Hxulg1c4u3dnNkaqA1jjLsqkyhLblbs12QeYM9J%2FPX1LYdWpZZGw8RWTke1XGeOPHLl8fBtprw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7421cdc7c20ac-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994506,
+  "name" : "Reyna Maggio",
+  "email" : "rod.raynor@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 375 ms

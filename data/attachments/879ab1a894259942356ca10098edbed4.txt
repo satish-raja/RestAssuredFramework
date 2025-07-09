@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 10:50:19 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=118
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"0716f6425268635a97f66769dbd32a0a"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/comments/156726
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=42
+X-Ratelimit-Reset=32
+X-Request-Id=c659e2d0-8cce-4f7c-90f1-7bf2ab8b176d
+X-Runtime=0.052996
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Sa55h8bwdKQPwUPYREDntS0Moq1rXxCR3vh4NRMbctJnuMGBapS4v98Ds2F4Www%2FqL45DIbJ0YDuaIEWIWGEq%2BGk0v6tHTGpZemVWw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c742789e450678-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 156726,
+  "post_id" : 219523,
+  "name" : "Matha Sanford",
+  "email" : "ron.tromp@hotmail.com",
+  "body" : "Initial comment content"
+}
+⏱️ Duration: 935 ms

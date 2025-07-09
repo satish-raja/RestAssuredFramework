@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 10:50:20 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=110
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"0f208c770a6791dca7ca350f87f79ab6"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994513
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=41
+X-Ratelimit-Reset=34
+X-Request-Id=b0385248-5d69-46ea-b83d-b3d651bbb653
+X-Runtime=0.059048
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yzB%2B0U3oakr2T84%2ByQarD77xZ%2FJTy3EtGahTeQuluaV1IF%2Fres1BpOnLHOlgxIaZLes3Zt7P2O0A4IIdm63WWHYlTevjHw9OAhN%2BsQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c742812bb49c2b-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994513,
+  "name" : "Lucile Shanahan",
+  "email" : "magaret.hammes@gmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 366 ms

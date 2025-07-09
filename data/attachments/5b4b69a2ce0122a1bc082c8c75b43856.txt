@@ -1,0 +1,14 @@
+📌 Test Name: f8a87199-01e2-4c73-bafb-0b834b8cfce6
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Reyna Maggio",
+  "gender" : "male",
+  "email" : "rod.raynor@yahoo.com",
+  "status" : "active"
+}

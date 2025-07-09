@@ -1,1 +1,1 @@
-{"id":"f9f50c4905561d3b47ab846b537acd9a","fullName":"com.api.tests.GetUserTests.testGetAllUsers_ShouldReturnUserList","name":"🟢 Fetch all users - Should return 200 and at least one user","status":"passed","testResultsByEnv":{"default":"578763d233b90410e70c69184b26ef36"}}
+{"id":"f9f50c4905561d3b47ab846b537acd9a","fullName":"com.api.tests.GetUserTests.testGetAllUsers_ShouldReturnUserList","name":"🟢 Fetch all users - Should return 200 and at least one user","status":"passed","testResultsByEnv":{"default":"b2e9f260b2bac408146e642d9982daf5"}}

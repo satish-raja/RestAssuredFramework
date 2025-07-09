@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 10:50:06 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=104
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"933701448ac8831c92052980882e904a"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994508
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=67
+X-Ratelimit-Reset=16
+X-Request-Id=f76d0f52-0a67-4934-a500-eb1ca2dadad5
+X-Runtime=0.071279
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CTysNzJTqSxasiqFcTdaDKZ%2FgGrGjgqAbyuNny2%2F9N0ii%2FkTZXx3qxLb3DOnjc7ujABpxN3GO%2BJvVkAF42wzYDQIrhGXLRsRgIsIjg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7422c8d9f823f-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994508,
+  "name" : "Zita Dibbert",
+  "email" : "philip.torphy@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 391 ms

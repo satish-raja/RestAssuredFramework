@@ -1,0 +1,1 @@
+{"id":"08507ef72854c0b28209c5434553481f","fullName":"com.api.tests.UpdatePostTests.testUpdatePostWithInvalidId_ShouldReturn404","name":"🔴 Update with invalid post ID should return 404","status":"passed","testResultsByEnv":{"default":"dfdfa5a83a4054eede07d1ba9b477c43"}}

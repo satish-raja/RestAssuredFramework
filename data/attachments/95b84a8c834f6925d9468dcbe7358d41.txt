@@ -1,0 +1,14 @@
+📌 Test Name: dcccd48c-6a77-467f-b2d8-fba3902a2f4e
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Zita Dibbert",
+  "gender" : "male",
+  "email" : "philip.torphy@gmail.com",
+  "status" : "active"
+}

@@ -1,0 +1,14 @@
+📌 Test Name: 7eb3872c-6751-4b29-95a1-a45700f4b28e
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mrs. Hyman Barton",
+  "gender" : "male",
+  "email" : "rey.koelpin@hotmail.com",
+  "status" : "active"
+}

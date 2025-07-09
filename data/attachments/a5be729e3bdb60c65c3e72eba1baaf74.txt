@@ -1,0 +1,13 @@
+📌 Test Name: 745b0cf1-11b0-47e3-90b7-2c86a81dc8b1
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219523/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Matha Sanford",
+  "email" : "ron.tromp@hotmail.com",
+  "body" : "Initial comment content"
+}

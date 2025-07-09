@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 10:50:00 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=109
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"4cc445237fd0e2303d344a85b5f89332"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994502
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=77
+X-Ratelimit-Reset=10
+X-Request-Id=ee3ab281-41fd-4a67-9714-845ac0b389e1
+X-Runtime=0.067839
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=v3ZY9MkdzSk6jshdXWv2DDq3y53pJyHVeleb5djU7BGGRKyY%2FaAT%2FDOnsCeqvl8GJ0H4WgXvyCGnNH72IDRpj9v8pxKI94AeorI%3D"}]}
+Server=cloudflare
+CF-RAY=95c74207ebfd0a8b-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994502,
+  "name" : "Delete Twice User",
+  "email" : "daron.braun@yahoo.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 377 ms

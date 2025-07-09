@@ -1,1 +1,1 @@
-{"id":"7d401b8c9926f0a1bff69abf65be09fc","fullName":"com.api.tests.GetPostTests.testGetPostByInvalidId_ShouldReturn404","name":"🔴 Get non-existent post should return 404","status":"passed","testResultsByEnv":{"default":"e6e2f93904b5d0c3b129bef2b1c11fbf"}}
+{"id":"7d401b8c9926f0a1bff69abf65be09fc","fullName":"com.api.tests.GetPostTests.testGetPostByInvalidId_ShouldReturn404","name":"🔴 Get non-existent post should return 404","status":"passed","testResultsByEnv":{"default":"4e09efb8bcead96b9705f73e055aaedf"}}

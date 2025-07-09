@@ -1,0 +1,1 @@
+{"id":"5a41077f769b86be60a0f5e4ae684176","fullName":"com.api.tests.DeletePostTests.testDeletePostTwice_ShouldReturn404","name":"🔴 Deleting same post again should return 404","status":"passed","testResultsByEnv":{"default":"33bde093907745b9a269a2f70a91779c"}}
