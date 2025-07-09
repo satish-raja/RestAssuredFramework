@@ -1,0 +1,13 @@
+📌 Test Name: 14492a88-f092-4873-99eb-e5a20b5f8222
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219559/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : null,
+  "email" : "garrett.cruickshank@yahoo.com",
+  "body" : "Missing name"
+}

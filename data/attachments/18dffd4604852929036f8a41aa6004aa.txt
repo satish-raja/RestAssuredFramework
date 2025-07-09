@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:17:19 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=104
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"5944d5cf9993427489c9cef79c778055"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994691
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=82
+X-Ratelimit-Reset=6
+X-Request-Id=ddf636e9-b090-4935-b40e-4e2a93b6f697
+X-Runtime=0.052568
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pa%2F05bp1x0%2BNjoWne4jhTx2z6%2Fmn7%2BuNQ6vDVvDwf%2FKjHKQSVlaLPGJ%2BGiDQGpFtZtKrK%2BmiYwWaCMEe2rC4pIv41CgQ8aBwllQWGA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7c1efe8431853-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994691,
+  "name" : "Amy Rowe",
+  "email" : "marline.oconner@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 387 ms

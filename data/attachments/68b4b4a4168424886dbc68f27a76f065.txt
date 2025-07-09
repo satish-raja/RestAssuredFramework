@@ -1,0 +1,14 @@
+📌 Test Name: 9687380b-e21d-49fd-aba4-3e8caaf3b940
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/users/7994693
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Delete Twice User",
+  "gender" : "male",
+  "email" : "coralee.veum@gmail.com",
+  "status" : "inactive"
+}

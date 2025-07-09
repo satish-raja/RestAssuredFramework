@@ -1,0 +1,14 @@
+📌 Test Name: d4d1fa5c-e2e2-4765-8678-6423b02ea923
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Miss Yong Huel",
+  "gender" : "male",
+  "email" : "estela.bahringer@yahoo.com",
+  "status" : "active"
+}

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:17:39 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=104
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"463f86ef7a02a5b88e2465ca963c256c"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994703
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=38
+X-Ratelimit-Reset=36
+X-Request-Id=32b9b83d-38fb-42c1-bf01-6592c888a589
+X-Runtime=0.070523
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=CJ02UawFGJFMJX%2FlBXWZGNWKsBR0Z1nVDbvLf4UJYjIegfrsqOwP9UFVrYKh4gF5yu%2BsD%2B2o0PGI9oYtrxPkLFUPXvfTWFhSBCc%3D"}]}
+Server=cloudflare
+CF-RAY=95c7c26d5aafd687-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994703,
+  "name" : "Myong Kohler",
+  "email" : "major.borer@gmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 382 ms

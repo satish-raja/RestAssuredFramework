@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:17:32 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=113
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"2b990d85957f8fab0cd8d6595c5994fd"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994699
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=55
+X-Ratelimit-Reset=24
+X-Request-Id=87b37da1-50a6-4879-ac6d-d97944a2e185
+X-Runtime=0.049154
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lR%2BUYpu3%2FYqEMkJAa1mQha1y94plsV74b7mnUTZWuoohtoyYtEyuKoWcHhD%2Bj1P4oykfLVAsRnj7Xks%2FE6aINUFS4xED840Ner7PqQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7c23e6bf6c96a-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994699,
+  "name" : "Ms. Lelia Mante",
+  "email" : "kimberley.schaden@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 344 ms

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:17:17 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=105
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"91487cfc3fbdb81947059ca145305103"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994690
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=85
+X-Ratelimit-Reset=4
+X-Request-Id=4a6144dd-cfc1-4b14-9776-2e9661ed78af
+X-Runtime=0.087608
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6cl9cVhdczl62J26dX%2B7UdG3lEPCxB3u%2FEWs%2Freq0D4IsH4paQRPZEq2OzR%2Bydn7SSkEq0SLX5SQKC%2FDuFZkBkqzE3HLjWAYXIyRKA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7c1df0ddb0804-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994690,
+  "name" : "Rigoberto Kulas",
+  "email" : "zonia.ohara@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 400 ms

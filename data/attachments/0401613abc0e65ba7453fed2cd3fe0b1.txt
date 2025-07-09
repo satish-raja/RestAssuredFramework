@@ -1,0 +1,13 @@
+📌 Test Name: eabee9f3-8606-4383-b39a-d52c618030bf
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/comments/156745
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Lucy",
+  "email" : "odis.casper@hotmail.com",
+  "body" : "Comment to be deleted"
+}

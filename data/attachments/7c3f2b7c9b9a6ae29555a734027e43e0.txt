@@ -1,0 +1,14 @@
+📌 Test Name: 869bc5ce-a18e-452f-a661-def0172c0aac
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Georgiann Treutel MD",
+  "gender" : "male",
+  "email" : "johnnie.rogahn@yahoo.com",
+  "status" : "active"
+}

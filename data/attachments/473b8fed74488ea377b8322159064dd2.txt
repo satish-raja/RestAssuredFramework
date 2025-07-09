@@ -1,0 +1,14 @@
+📌 Test Name: 70604125-6075-455d-b8f9-907b866d3a7f
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Rigoberto Kulas",
+  "gender" : "male",
+  "email" : "zonia.ohara@yahoo.com",
+  "status" : "active"
+}

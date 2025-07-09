@@ -1,0 +1,14 @@
+📌 Test Name: eaa20b93-d47e-4414-adc3-447545b6ecef
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Kassandra Miller",
+  "gender" : "male",
+  "email" : "micah.dicki@hotmail.com",
+  "status" : "active"
+}

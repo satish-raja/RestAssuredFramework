@@ -1,0 +1,14 @@
+📌 Test Name: 9b5e18e6-f41e-4eaf-8216-930018a2cb9b
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Amy Rowe",
+  "gender" : "female",
+  "email" : "marline.oconner@yahoo.com",
+  "status" : "active"
+}

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:17:16 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=111
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"da14db1f5d91a9f38dc04d1c8fecc1c2"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994689
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=86
+X-Ratelimit-Reset=4
+X-Request-Id=eed111f2-5a6b-4a5e-929d-7914a25785f6
+X-Runtime=0.089490
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=ZaTAe1EcDWN1iBl11Rh%2BNmeL7twe6ivVL6gLMKagVnWHB%2F9ZnF4chLvCxn0kl7D7FNDRLAebdf1ZMIsujZyhk3Do3C7I5S9orZlS9A%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7c1db4adb1980-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994689,
+  "name" : "Prince Pouros Sr.",
+  "email" : "genesis.block@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 411 ms

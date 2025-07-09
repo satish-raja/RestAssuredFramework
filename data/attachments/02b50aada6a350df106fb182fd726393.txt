@@ -1,0 +1,14 @@
+📌 Test Name: 4481526b-b9f5-4586-901c-53706b135dd1
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Prince Pouros Sr.",
+  "gender" : "male",
+  "email" : "genesis.block@hotmail.com",
+  "status" : "active"
+}

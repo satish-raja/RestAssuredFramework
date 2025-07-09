@@ -1,0 +1,14 @@
+📌 Test Name: 3dc38b72-9213-43a9-b8a2-b4ffc2d41661
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Fernande Schmidt",
+  "gender" : "male",
+  "email" : "santo.hodkiewicz@yahoo.com",
+  "status" : "active"
+}

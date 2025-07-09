@@ -1,0 +1,14 @@
+📌 Test Name: 044fd7ea-fa77-464a-aff1-2c4d1fc2ca61
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Damion Howell",
+  "gender" : "female",
+  "email" : "cameron.auer@gmail.com",
+  "status" : "active"
+}

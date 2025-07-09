@@ -1,0 +1,13 @@
+📌 Test Name: dbc7ab31-c4c4-4344-b771-693365e2aec6
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/99999999/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Valid Name",
+  "email" : "clay.gleichner@yahoo.com",
+  "body" : "Bad postId"
+}
