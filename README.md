@@ -6,22 +6,28 @@
 
 # 🔬 RestAssured API Automation Framework
 
-  A professional, scalable, and extensible API automation framework built using **RestAssured**, **TestNG**, **Allure**, and **Log4j2**. Designed to test full CRUD operations for [GoRest API](https://gorest.co.in/) with clean architecture, reusable utilities, and integrated CI/CD pipelines.
+A modern, professional-grade API automation framework built with RestAssured, TestNG, Allure, and Log4j2.
+
+Unlike traditional given().when().then()-based approaches, this framework follows a clean Service Object Model (SOM) that separates HTTP logic from tests—ensuring better maintainability, reusability, and readability.
+
+It supports full CRUD testing for the GoRest API, comes with reusable utilities, JSON schema validation, rich Allure reporting, and is fully integrated with CI/CD via GitHub Actions.
 
 ---
 
 ## 🚀 Key Features
 
-  - ✅ Full CRUD API Test Coverage — User, Post, Comment modules
-  - 🔁 Retry Mechanism with custom logic
-  - 🔐 Bearer Token Authentication (via headers)
-  - 🏗️ Builder Pattern for flexible JSON payloads
-  - 🧪 Multiple TestNG Suites — Smoke, Regression, UAT, etc.
-  - 📊 Beautiful Allure Reports (custom filters + step logging)
-  - 📄 JSON Schema Validation
-  - 📋 Excel-Based Data-Driven Testing
-  - 🧼 Log4j2 Logging — Console + File
-  - ⚙️ CI/CD Integration via GitHub Actions
+- ✅ Full CRUD API Test Coverage — User, Post, Comment modules  
+- 🧱 **Service Object Model (SOM)** — clean separation of concerns between test logic and HTTP execution  
+- 📦 Modular Service Layers (`UserService`, `PostService`, etc.) following Page Object principles  
+- 🔁 Retry Mechanism with custom logic  
+- 🔐 Bearer Token Authentication (via headers)  
+- 🏗️ Builder Pattern for flexible JSON payloads  
+- 🧪 Multiple TestNG Suites — Smoke, Regression, UAT, etc.  
+- 📊 Beautiful Allure Reports (custom filters + step logging)  
+- 📄 JSON Schema Validation  
+- 📋 Excel-Based Data-Driven Testing  
+- 🧼 Log4j2 Logging — Console + File  
+- ⚙️ CI/CD Integration via GitHub Actions  
 
 ---
 
