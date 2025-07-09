@@ -1,0 +1,14 @@
+📌 Test Name: 0f9068e1-f523-4db5-a062-08dc85987430
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Rene Abshire IV",
+  "gender" : "male",
+  "email" : "george.pfannerstill@yahoo.com",
+  "status" : "active"
+}

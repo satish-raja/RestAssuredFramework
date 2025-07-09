@@ -1,0 +1,1 @@
+{"id":"aa16af4052c4b47511d06291a5230611","fullName":"com.api.tests.CreateCommentTests.testCreateComment_MissingBody_ShouldFail","name":"🔴 Missing body should return 422","status":"passed","testResultsByEnv":{"default":"0ef5cd0fe188610e15a46190cd520fb9"}}

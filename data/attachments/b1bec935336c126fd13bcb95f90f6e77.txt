@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 04:31:18 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=107
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"f793f28e627b44582f256c04cbb3872e"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7993636
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=81
+X-Ratelimit-Reset=6
+X-Request-Id=6704c29d-33d5-40b5-81c0-d49dddf441e2
+X-Runtime=0.055797
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tS1%2BBSYmnmzc8pmLzRsVa%2Flk%2BIBe12L4%2FSQicOzcV14XzLRj1tlB2FTCe3v5wBi%2Bt3EXIQ2D6aqc%2BPrDeL33T3RiVc0%2BgPPKuxN5pw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c517484a9b2a91-LAX
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7993636,
+  "name" : "Jacinto Murray",
+  "email" : "geri.gleichner@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 810 ms

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 04:31:14 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=112
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"5a34f4c9bc375ac81e6a163611c00049"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7993633
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=87
+X-Ratelimit-Reset=3
+X-Request-Id=2ed6d56c-beb5-47b1-be8c-8e9ee36dbb13
+X-Runtime=0.123258
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=wg3U3C1QTvTLiHaNn5k%2BHsnqLIveqXnxp6paL3ATb59LzFn09rB9NdSHjNbuF6VBJhxZh3KphumxyPntsTijYfHmuweUR3Q5HfbPfg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c51733bf432b90-LAX
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7993633,
+  "name" : "Delete Twice User",
+  "email" : "kirstin.hamill@yahoo.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 399 ms

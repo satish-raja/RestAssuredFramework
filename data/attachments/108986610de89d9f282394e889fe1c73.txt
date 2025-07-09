@@ -1,0 +1,13 @@
+📌 Test Name: fd20a0e8-eab6-443d-b2d4-c8b28b72f64a
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219501/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "No Body",
+  "email" : "hedwig.mraz@gmail.com",
+  "body" : null
+}

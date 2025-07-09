@@ -1,0 +1,13 @@
+📌 Test Name: b6504988-5dc8-47e4-b3c3-a929407e898b
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/comments/156712
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Brice",
+  "email" : "denisha.cronin@yahoo.com",
+  "body" : "Comment to be deleted"
+}

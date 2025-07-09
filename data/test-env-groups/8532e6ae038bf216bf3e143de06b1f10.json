@@ -1,0 +1,1 @@
+{"id":"8532e6ae038bf216bf3e143de06b1f10","fullName":"com.api.tests.security.AuthTokenNegativeTests.testExpiredToken_ShouldReturn401Or403","name":"🔴 Expired token - returns 401 or 403","status":"unknown","testResultsByEnv":{"default":"10c4b942148036a58c88d798d43250e1"}}

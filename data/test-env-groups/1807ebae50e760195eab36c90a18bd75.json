@@ -1,0 +1,1 @@
+{"id":"1807ebae50e760195eab36c90a18bd75","fullName":"com.api.tests.DeleteUserTests.testDeleteUser_ValidId_ShouldSucceed","name":"🟢 Delete existing user - Should return 204","status":"passed","testResultsByEnv":{"default":"0505001f7e7adc933b0746b10bcce762"}}

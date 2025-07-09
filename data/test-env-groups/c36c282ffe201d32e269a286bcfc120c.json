@@ -1,0 +1,1 @@
+{"id":"c36c282ffe201d32e269a286bcfc120c","fullName":"com.api.tests.UpdatePostTests.testUpdatePostWithEmptyPayload_ShouldReturn422","name":"🔴 Update post with empty payload should return 422","status":"passed","testResultsByEnv":{"default":"989b951865ca5c7a13670241b33a3098"}}

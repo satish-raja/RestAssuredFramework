@@ -1,0 +1,14 @@
+📌 Test Name: b9f9408f-fa03-43a3-9ec0-a52c3f7ec367
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Darcey Hyatt",
+  "gender" : "male",
+  "email" : "dexter.metz@hotmail.com",
+  "status" : "active"
+}

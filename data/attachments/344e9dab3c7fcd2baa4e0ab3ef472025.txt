@@ -1,0 +1,13 @@
+📌 Test Name: 7ffe7eb0-47ae-4472-8714-84268d697759
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219502/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Edison",
+  "email" : "eula.stokes@hotmail.com",
+  "body" : "Nice post!"
+}

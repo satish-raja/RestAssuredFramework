@@ -1,0 +1,13 @@
+📌 Test Name: ef5f5bcb-f977-4609-a9e6-30f9a65151d6
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219503/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Verdie Carroll",
+  "email" : "arnold.schmitt@hotmail.com",
+  "body" : "Initial comment content"
+}

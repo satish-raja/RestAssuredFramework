@@ -1,0 +1,14 @@
+📌 Test Name: 0104076f-4cf8-4218-8ae5-b09f1012767b
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/7993629
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Lesley Cartwright",
+  "gender" : "male",
+  "email" : "luigi.kuhlman@hotmail.com",
+  "status" : "active"
+}

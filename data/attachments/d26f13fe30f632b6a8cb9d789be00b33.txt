@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 04:31:06 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=108
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"4a8f6dae5d9592baca9d0edb57932703"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7993628
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=8fa70900-0743-4308-8823-5d2717a7cd9c
+X-Runtime=0.051495
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=eQqHqoIrRmWPn0hrALd5iWFZFRckXq9BbOAUjrNMhvrJLpN8fmoD%2FB53Q84mdodajSuAmbW2r0Zg82PJMA9VnHQZMktVq1UddKtfDA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c516fb6b11e9e5-LAX
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7993628,
+  "name" : "Alaine Littel",
+  "email" : "earnest.medhurst@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 787 ms

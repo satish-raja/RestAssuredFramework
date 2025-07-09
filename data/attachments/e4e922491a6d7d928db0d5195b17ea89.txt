@@ -1,0 +1,14 @@
+📌 Test Name: 4eff134f-6948-4175-b21b-8a48c1d1a1af
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Alaine Littel",
+  "gender" : "male",
+  "email" : "earnest.medhurst@gmail.com",
+  "status" : "active"
+}
