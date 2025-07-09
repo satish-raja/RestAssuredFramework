@@ -1,119 +1,134 @@
-[![Allure Report](https://img.shields.io/badge/Allure--Report-View-green?logo=allure)](https://satish-raja.github.io/RestAssuredFramework/)
-[![CI](https://github.com/satish-raja/RestAssuredFramework/actions/workflows/run-api-tests.yml/badge.svg)](https://github.com/satish-raja/RestAssuredFramework/actions)
-[![Java](https://img.shields.io/badge/Java-17-blue?logo=java)](https://www.oracle.com/java/)
-[![TestNG](https://img.shields.io/badge/TestNG-7.11.0-orange?logo=testng)](https://testng.org/)
-[![Allure](https://img.shields.io/badge/Allure-2.29.1-ff69b4?logo=allure)](https://docs.qameta.io/allure/)
+  [![Allure Report](https://img.shields.io/badge/Allure--Report-View-green?logo=allure)](https://satish-raja.github.io/RestAssuredFramework/)
+  [![CI](https://github.com/satish-raja/RestAssuredFramework/actions/workflows/run-api-tests.yml/badge.svg)](https://github.com/satish-raja/RestAssuredFramework/actions)
+  [![Java](https://img.shields.io/badge/Java-17-blue?logo=java)](https://www.oracle.com/java/)
+  [![TestNG](https://img.shields.io/badge/TestNG-7.11.0-orange?logo=testng)](https://testng.org/)
+  [![Allure](https://img.shields.io/badge/Allure-2.29.1-ff69b4?logo=allure)](https://docs.qameta.io/allure/)
 
 # 🔬 RestAssured API Automation Framework
 
-A scalable, modular, and extensible API automation framework for testing RESTful APIs using **RestAssured**, **TestNG**, and **Allure**. This framework is tailored for testing **GoRest API** and supports full CRUD operations with modern test design patterns and CI integration.
+  A professional, scalable, and extensible API automation framework built using **RestAssured**, **TestNG**, **Allure**, and **Log4j2**. Designed to test full CRUD operations for [GoRest API](https://gorest.co.in/) with clean architecture, reusable utilities, and integrated CI/CD pipelines.
 
 ---
 
 ## 🚀 Key Features
 
-- ✅ **CRUD API Test Coverage**: User, Post, Comment modules
-- 🔁 **Retry Mechanism** with configurable logic
-- 🔐 **Bearer Token Management** via dynamic Auth headers
-- 🏗️ **Builder Pattern** for complex JSON request payloads
-- 🧪 **Multiple TestNG Suites**: Smoke, Regression, UAT, Positive, Negative, Auth, etc.
-- 📊 **Allure Reporting** with custom filters and step annotations
-- 📄 **JSON Schema Validation**
-- 📋 **Excel-based Data-Driven Testing**
-- 📦 **Page-Object-Like Modular Service Layers**
-- 🛠️ **Logging with Log4j2** (Console + File logging)
-- ✅ **CI/CD Ready**: Integrated with GitHub Actions
+  - ✅ Full CRUD API Test Coverage — User, Post, Comment modules
+  - 🔁 Retry Mechanism with custom logic
+  - 🔐 Bearer Token Authentication (via headers)
+  - 🏗️ Builder Pattern for flexible JSON payloads
+  - 🧪 Multiple TestNG Suites — Smoke, Regression, UAT, etc.
+  - 📊 Beautiful Allure Reports (custom filters + step logging)
+  - 📄 JSON Schema Validation
+  - 📋 Excel-Based Data-Driven Testing
+  - 🧼 Log4j2 Logging — Console + File
+  - ⚙️ CI/CD Integration via GitHub Actions
 
 ---
 
 ## 🧾 Tech Stack
 
-| Component         | Tool/Library           |
-|------------------|------------------------|
-| API Client       | RestAssured 5.5.5      |
-| Test Framework   | TestNG 7.11.0          |
-| Reporting        | Allure 2.29.1          |
-| Logging          | Log4j2 2.25.0          |
-| Language         | Java 17                |
-| Build Tool       | Maven                  |
-| CI/CD            | GitHub Actions         |
-| JSON Handling    | Jackson / GSON         |
-| Data-Driven      | Apache POI (Excel)     |
+  | Component         | Tool/Library           |
+  |------------------|------------------------|
+  | API Client       | RestAssured 5.5.5      |
+  | Test Framework   | TestNG 7.11.0          |
+  | Reporting        | Allure 2.29.1          |
+  | Logging          | Log4j2 2.25.0          |
+  | Language         | Java 17                |
+  | Build Tool       | Maven                  |
+  | CI/CD            | GitHub Actions         |
+  | JSON Handling    | Jackson / GSON         |
+  | Data-Driven      | Apache POI (Excel)     |
 
 ---
 
-## 📂 Folder Structure
+## 📁 Folder Structure
 
-```bash
-RestAssuredFramework/
-├── src/
-│   ├── main/java/com/api/
-│   │   ├── constants/            # API constants and endpoints
-│   │   ├── models/               # Request/Response POJOs
-│   │   ├── services/             # Service layer per resource
-│   │   └── utils/                # Utility classes (config, excel, logger)
-│   └── test/java/com/api/tests/ # Test classes (CRUD, security)
-├── suites/                       # TestNG XML suite files
-├── resources/
-│   └── schemas/                  # JSON schemas for response validation
-├── logs/                         # Log4j2 log files
-├── pom.xml                       # Project config and dependency management
-├── .github/workflows/           # CI pipeline YAML
-└── README.md
-✅ Usage
-🧪 Run Tests Locally
-bash
-Copy
-Edit
-# Full API suite
-mvn clean test -Papi-tests -Denv=qa
+  RestAssuredFramework/
+  ├── src/
+  │   ├── main/java/com/api/
+  │   │   ├── constants/              # APIConstants, Endpoints
+  │   │   ├── filters/                # AllureLoggingFilter
+  │   │   ├── listeners/              # RetryAnalyzer, AllureTestListener
+  │   │   ├── models/
+  │   │   │   ├── request/            # Create/Update payloads
+  │   │   │   └── response/           # Response DTOs
+  │   │   ├── services/               # BaseService, UserService, etc.
+  │   │   └── utils/                  # Logger, Config, Excel, Retry, JSON Schema, etc.
+  │   └── resources/
+  ├── test/
+  │   ├── java/com/api/
+  │   │   ├── tests/                  # All CRUD test classes
+  │   │   ├── tests/base/             # BaseTest
+  │   │   └── tests/security/         # AuthTokenNegativeTests
+  │   └── resources/
+  │       ├── config/                 # qa.properties, staging.properties, uat.properties
+  │       ├── schemas/
+  │       │   ├── comment/
+  │       │   ├── post/
+  │       │   └── user/
+  │       ├── allure.properties
+  │       └── log4j2.xml
+  ├── testng-suites/
+  │   ├── restAssuredTestsSuite.xml
+  │   ├── smokeTestsSuite.xml
+  │   ├── regressionTestsSuite.xml
+  │   ├── uatTestsSuite.xml
+  │   ├── positiveTestsSuite.xml
+  │   ├── negativeTestsSuite.xml
+  │   ├── authTestsSuite.xml
+  │   └── PostServiceTestsSuite.xml
+  ├── .github/workflows/
+  │   └── run-api-tests.yml
+  ├── allure-results/                # Generated Allure results
+  ├── test-output/                   # TestNG output
+  ├── pom.xml
+  └── README.md
 
-# Smoke suite
-mvn clean test -Psmoke-tests -Denv=qa
-📈 Generate Allure Report Locally
-bash
-Copy
-Edit
-allure serve target/allure-results
-🧪 Test Suites (via Maven Profiles)
-Profile ID	Test Suite XML
-api-tests	suites/restAssuredTestsSuite.xml
-smoke-tests	testng-suites/smokeTestsSuite.xml
-regression-tests	testng-suites/regressionTestsSuite.xml
-uat-tests	testng-suites/uatTestsSuite.xml
-positive-tests	testng-suites/positiveTestsSuite.xml
-negative-tests	testng-suites/negativeTestsSuite.xml
-auth-tests	testng-suites/authTestsSuite.xml
-post-service-tests	testng-suites/PostServiceTestsSuite.xml
+🧪 Running Tests
+🔁 Run Locally
 
-⚙️ CI/CD Pipeline
-This project uses GitHub Actions with a scheduled, manual, and push-based workflow:
+  # Full Suite
+  mvn clean test -Papi-tests -Denv=qa
+  
+  # Smoke Suite
+  mvn clean test -Psmoke-tests -Denv=qa
 
-✅ Triggered on every push to main
+📊 Allure Report (Local)
+  allure serve target/allure-results
 
-🕒 Scheduled run daily at 3:00 AM IST
+🧪 Maven Profiles (TestNG Suites)
+  | Profile ID         | Test Suite Path                           |
+  | ------------------ | ----------------------------------------- |
+  | api-tests          | `testng-suites/restAssuredTestsSuite.xml` |
+  | smoke-tests        | `testng-suites/smokeTestsSuite.xml`       |
+  | regression-tests   | `testng-suites/regressionTestsSuite.xml`  |
+  | uat-tests          | `testng-suites/uatTestsSuite.xml`         |
+  | positive-tests     | `testng-suites/positiveTestsSuite.xml`    |
+  | negative-tests     | `testng-suites/negativeTestsSuite.xml`    |
+  | auth-tests         | `testng-suites/authTestsSuite.xml`        |
+  | post-service-tests | `testng-suites/PostServiceTestsSuite.xml` |
 
-🎯 Supports manual trigger with environment + suite input
+⚙️ GitHub Actions CI/CD
+  This framework supports three types of CI triggers:
+    ✅ On every push to main
+    🕒 Scheduled at 3:00 AM IST daily
+    👤 Manual trigger with inputs:
+        env (e.g., qa, staging)
+        suite (e.g., smoke-tests)
+    # Example GitHub Action step
+    mvn clean test -Papi-tests -Denv=qa
 
-📤 Uploads Allure results as artifacts
+    [🔍 View Action Logs & Artifacts](https://github.com/satish-raja/RestAssuredFramework/actions)
 
-🖥️ Builds on ubuntu-latest with Java 17
+📘 Allure Report (Live)
+    👉 [Click to View Allure Report](https://satish-raja.github.io/RestAssuredFramework/)
 
-Example workflow:
+👨‍💻 Author
+    Satish Raja
+    Freelance API Automation Engineer
+    📧 satishraja4u@gmail.com
+    🔗 Upwork Profile
 
-yaml
-Copy
-Edit
-mvn clean test -Papi-tests -Denv=qa
-View GitHub Action Logs & Artifacts »
-
-📘 Sample Allure Report
-Click the badge at the top or View Report for latest results.
-
-👤 Author
-Satish Raja — Freelance API Automation Engineer
-🔗 Upwork Profile
-📧 satishraja4u@gmail.com
-
-📜 License
-Licensed under the MIT License.
+📄 License
+  This project is licensed under the MIT License.
+    ---
