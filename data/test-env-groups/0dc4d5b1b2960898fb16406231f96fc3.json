@@ -1,1 +1,0 @@
-{"id":"0dc4d5b1b2960898fb16406231f96fc3","fullName":"com.api.tests.GetCommentTests.testGetCommentByInvalidId_ShouldReturn404","name":"🔴 Get comment with invalid ID should return 404","status":"passed","testResultsByEnv":{"default":"d3640c92843e6c4808d303be37687a5e"}}

@@ -1,1 +1,0 @@
-{"id":"7b3e7ee3cfe3890217a542ba22101252","fullName":"com.api.tests.UpdateUserTests.testUpdateUser_InvalidEmail_ShouldReturn422","name":"🔴 Update user with invalid email format","status":"passed","testResultsByEnv":{"default":"520fe85ea86135847b48c983bf976532"}}

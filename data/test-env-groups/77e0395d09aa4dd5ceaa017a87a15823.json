@@ -1,1 +1,0 @@
-{"id":"77e0395d09aa4dd5ceaa017a87a15823","fullName":"com.api.tests.CreateCommentTests.testCreateComment_MissingName_ShouldFail","name":"🔴 Missing name should return 422","status":"passed","testResultsByEnv":{"default":"893c1b1749a76b087697dde18a298cbd"}}

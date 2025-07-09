@@ -1,9 +1,0 @@
-📌 Test Name: b84b39ea-9825-4028-86c2-8dee1345c82e
-📤 Method: DELETE
-🔗 URI: https://gorest.co.in/public/v2/users/999999
-📦 Headers:
-Accept: application/json
-Authorization: *****MASKED*****
-Content-Type: application/json
-📤 Body:
-null

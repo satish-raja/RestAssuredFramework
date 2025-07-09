@@ -1,1 +1,0 @@
-{"id":"144365dbb90b0900aadf92f8ef009d3c","fullName":"com.api.tests.CreateCommentTests.testCreateComment_InvalidEmailFormat_ShouldFail","name":"🔴 Invalid email format should return 422","status":"passed","testResultsByEnv":{"default":"d2eb813f1d24336e193bf4cb22870b8e"}}

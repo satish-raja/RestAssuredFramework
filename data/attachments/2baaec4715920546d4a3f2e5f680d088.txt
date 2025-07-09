@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 05:01:53 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=113
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"54a3c8ef2599d20e14eed38b90e3f46c"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7993706
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=64
+X-Ratelimit-Reset=1
+X-Request-Id=462aa514-28ab-4862-ab5c-bdfcb70c4f28
+X-Runtime=0.253334
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=H1gnJLeuweZr5V3yxfyKNFA8pf4nC83kxyhQnvmq7V3x1%2BSmRe6FIE9%2Fc%2BJE%2FDzmA0LlhM18XtMdI%2Fb2RksN3%2FA8qzKfGRCSmSlR4g%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c54416dd51ef5e-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7993706,
+  "name" : "Edwardo Wilderman",
+  "email" : "salina.lindgren@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 1072 ms

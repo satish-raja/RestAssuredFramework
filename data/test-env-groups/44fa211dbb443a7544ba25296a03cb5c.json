@@ -1,1 +1,0 @@
-{"id":"44fa211dbb443a7544ba25296a03cb5c","fullName":"com.api.tests.CreateCommentTests.testCreateComment_MissingEmail_ShouldFail","name":"🔴 Missing email should return 422","status":"passed","testResultsByEnv":{"default":"00bc7f7889437cbf6f82d255a3c8bcec"}}

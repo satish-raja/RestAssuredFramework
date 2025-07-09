@@ -1,0 +1,14 @@
+📌 Test Name: 916d9660-a3c9-4397-9ed9-54e98ff58446
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/7993706
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Edwardo Wilderman",
+  "gender" : "male",
+  "email" : "salina.lindgren@hotmail.com",
+  "status" : "active"
+}
