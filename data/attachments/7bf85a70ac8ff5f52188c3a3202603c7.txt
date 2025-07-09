@@ -1,0 +1,12 @@
+📌 Test Name: cd2d2505-7810-4b45-92dd-653b605aa697
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users/7994664/posts
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}

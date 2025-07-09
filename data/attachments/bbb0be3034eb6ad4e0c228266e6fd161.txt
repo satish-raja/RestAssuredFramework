@@ -1,0 +1,12 @@
+📌 Test Name: 31001405-0572-44ff-ab4d-45d8aefeb8c9
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users/7994666/posts
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Post to Delete",
+  "body" : "This post will be deleted."
+}

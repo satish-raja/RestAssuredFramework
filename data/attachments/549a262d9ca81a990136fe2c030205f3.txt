@@ -1,0 +1,13 @@
+📌 Test Name: be65bbd3-6524-40c6-82f6-d926ba3e3991
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219541/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : null,
+  "email" : "rodrick.wunsch@yahoo.com",
+  "body" : "Missing name"
+}

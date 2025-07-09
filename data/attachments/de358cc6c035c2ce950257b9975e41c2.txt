@@ -1,0 +1,13 @@
+📌 Test Name: 3b428be3-86fe-4d60-becb-bfae89b318b8
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/99999999/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Valid Name",
+  "email" : "kassie.kuvalis@gmail.com",
+  "body" : "Bad postId"
+}

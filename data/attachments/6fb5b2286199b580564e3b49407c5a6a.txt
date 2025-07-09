@@ -1,0 +1,14 @@
+📌 Test Name: 5472b187-817d-4ba5-8c8b-d005763b4f6e
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Shaun Leuschke",
+  "gender" : "male",
+  "email" : "eric.hand@hotmail.com",
+  "status" : "active"
+}

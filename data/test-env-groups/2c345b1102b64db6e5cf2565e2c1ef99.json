@@ -1,1 +1,1 @@
-{"id":"2c345b1102b64db6e5cf2565e2c1ef99","fullName":"com.api.tests.DeleteCommentTests.testDeleteComment_ShouldReturn204","name":"🟢 Delete comment by ID","status":"passed","testResultsByEnv":{"default":"2d68f11c9020647100ecb2884106733d"}}
+{"id":"2c345b1102b64db6e5cf2565e2c1ef99","fullName":"com.api.tests.DeleteCommentTests.testDeleteComment_ShouldReturn204","name":"🟢 Delete comment by ID","status":"passed","testResultsByEnv":{"default":"d7d8ef0af2289722cccf18c758f60dab"}}

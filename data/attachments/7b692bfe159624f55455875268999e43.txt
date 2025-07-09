@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:09:15 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=105
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"3faef58a3cdb1d47bbd9cefa475754fb"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994664
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=71
+X-Ratelimit-Reset=14
+X-Request-Id=891bee24-a1e7-41fa-9cd9-0891019a5ea7
+X-Runtime=0.060423
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VtA%2BmgOH4pI79S4dCpyMZaPuyZLFO6zKenNKKEmaCYQS34VBvvjtlaA%2BRm99KUmHkDwsPKqSyv%2B8D1F92jsII4rCL%2B3l%2BsV1rEe6qQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7b61eb87964aa-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994664,
+  "name" : "Kevin Dietrich",
+  "email" : "desiree.yost@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 370 ms

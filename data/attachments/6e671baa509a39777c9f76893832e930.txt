@@ -1,0 +1,14 @@
+📌 Test Name: 21a6da0f-c191-48f6-81b5-b468049edfe3
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Eugena Moen",
+  "gender" : "male",
+  "email" : "takako.volkman@yahoo.com",
+  "status" : "active"
+}

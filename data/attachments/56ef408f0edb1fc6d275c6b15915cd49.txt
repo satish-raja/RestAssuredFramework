@@ -1,0 +1,14 @@
+📌 Test Name: 8827bd4a-a0f3-4a47-97ec-14aa522d1a73
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Krysta Wunsch",
+  "gender" : "male",
+  "email" : "darrell.robel@hotmail.com",
+  "status" : "active"
+}

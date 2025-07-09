@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:09:29 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=116
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"50ea876877d142f55a828c4e744936ef"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994669
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=43
+X-Ratelimit-Reset=32
+X-Request-Id=59178346-549d-40eb-bd65-8e62a8b5a398
+X-Runtime=0.085763
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xB4nz0R%2Blm02D5bzKgHGJ53EKMvnTXQsHWTDTJiosKlKoC39ZI7webT1uSI5v6vtF1iILp54r7Sd42%2FlOKRZb56Rco%2FNGsl73qfnJg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7b6728b5ad6a3-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994669,
+  "name" : "Allison McCullough MD",
+  "email" : "madison.shanahan@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 389 ms

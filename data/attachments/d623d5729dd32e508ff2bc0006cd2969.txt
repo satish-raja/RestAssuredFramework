@@ -1,0 +1,14 @@
+📌 Test Name: cc287db2-4e5a-4719-93c7-ae52c55a7bae
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Gavin Ortiz",
+  "gender" : "male",
+  "email" : "monty.hessel@yahoo.com",
+  "status" : "active"
+}

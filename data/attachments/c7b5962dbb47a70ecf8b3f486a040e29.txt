@@ -1,0 +1,14 @@
+📌 Test Name: 31001405-0572-44ff-ab4d-45d8aefeb8c9
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mrs. Roxy Schamberger",
+  "gender" : "male",
+  "email" : "craig.glover@hotmail.com",
+  "status" : "active"
+}

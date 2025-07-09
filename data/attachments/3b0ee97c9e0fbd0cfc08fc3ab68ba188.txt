@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:09:31 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=115
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"ba31faf222d14e5d31152a1ad9feeaf9"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994670
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=39
+X-Ratelimit-Reset=34
+X-Request-Id=44cf45f0-66a2-4d97-a5f8-42235695f170
+X-Runtime=0.054032
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QaSYziP0M1xUfGUgefW%2FN78uF0LWYMQcpL6TMj%2BjKrQ%2BiGxJGiXRD9zC3Sw2WtWYO%2FUcKtFSldO7QYGIfu8felEa%2BpiNMPsOFdFi%2Bg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7b67c7cf5c983-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994670,
+  "name" : "Josette O'Connell I",
+  "email" : "dana.predovic@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 925 ms

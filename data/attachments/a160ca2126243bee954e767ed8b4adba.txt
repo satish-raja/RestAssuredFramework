@@ -1,0 +1,14 @@
+📌 Test Name: dc56d036-7ea4-4121-971e-d1cb2aa0698e
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Ivette Beier",
+  "gender" : "male",
+  "email" : "gil.hartmann@hotmail.com",
+  "status" : "active"
+}

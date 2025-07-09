@@ -1,0 +1,12 @@
+📌 Test Name: b55ddc36-a196-4994-a9ad-93eeaba498a4
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/posts/999999
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Invalid Update",
+  "body" : "Trying to update with wrong ID"
+}

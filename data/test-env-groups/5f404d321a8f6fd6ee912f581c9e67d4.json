@@ -1,1 +1,1 @@
-{"id":"5f404d321a8f6fd6ee912f581c9e67d4","fullName":"com.api.tests.UpdatePostTests.testUpdatePost_ShouldSucceed","name":"🟢 Update post title and body","status":"passed","testResultsByEnv":{"default":"846097c6c00997d6758488c47971911d"}}
+{"id":"5f404d321a8f6fd6ee912f581c9e67d4","fullName":"com.api.tests.UpdatePostTests.testUpdatePost_ShouldSucceed","name":"🟢 Update post title and body","status":"passed","testResultsByEnv":{"default":"4d6532cda12b10df76fb6ab854736feb"}}

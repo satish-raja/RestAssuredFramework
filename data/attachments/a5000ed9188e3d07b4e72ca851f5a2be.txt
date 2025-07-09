@@ -1,0 +1,14 @@
+📌 Test Name: 62ac1013-14c7-4d50-b54b-af378007b1f0
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/99999999
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Krysta Wunsch",
+  "gender" : "male",
+  "email" : "darrell.robel@hotmail.com",
+  "status" : "active"
+}

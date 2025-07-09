@@ -1,0 +1,13 @@
+📌 Test Name: 746bf32d-da8e-4838-8ee9-a2bd91dda02d
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219541/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "No Body",
+  "email" : "ora.ernser@yahoo.com",
+  "body" : null
+}

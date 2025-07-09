@@ -1,0 +1,12 @@
+📌 Test Name: 4b2c28f9-e1e4-4a81-a38e-a741bdd9be84
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users/7994663/posts
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Sample Title",
+  "body" : "This is the body of the post."
+}

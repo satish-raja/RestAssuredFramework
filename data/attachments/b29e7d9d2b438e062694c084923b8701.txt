@@ -1,0 +1,14 @@
+📌 Test Name: 3bf62157-7d9b-4903-b814-81a61e52da57
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/users/7994660
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Updated Name",
+  "gender" : "female",
+  "email" : "alejandro.grimes@hotmail.com",
+  "status" : "inactive"
+}

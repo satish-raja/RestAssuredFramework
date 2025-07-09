@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:09:14 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=113
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"36798c9d2c58875a732660e02359e0f3"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994662
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=75
+X-Ratelimit-Reset=11
+X-Request-Id=ad022088-2e16-481c-a904-d81b74a1faa8
+X-Runtime=0.071662
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=mgqEXTlZvUyhaWw55hbf7oXGuIBck4Xiaw%2FfjgL2AXktAQo7%2BvArxBStkUnSdfNkLmY9MKtsm0tqcQnIZemuFzPQn6engQ8f52%2F0QQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7b6144ebbd6f9-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994662,
+  "name" : "Delphine Jakubowski",
+  "email" : "jan.kerluke@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 384 ms

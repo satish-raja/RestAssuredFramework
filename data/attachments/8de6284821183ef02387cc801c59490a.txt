@@ -1,0 +1,13 @@
+📌 Test Name: a824927e-f564-4499-a3f6-49fc20b7b318
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/comments/156735
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Sana",
+  "email" : "val.cruickshank@yahoo.com",
+  "body" : "Nice post!"
+}

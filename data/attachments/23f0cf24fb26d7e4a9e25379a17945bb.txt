@@ -1,0 +1,14 @@
+📌 Test Name: 568e434c-be02-45ee-801e-30bba11ed2af
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Delphine Jakubowski",
+  "gender" : "female",
+  "email" : "jan.kerluke@hotmail.com",
+  "status" : "active"
+}
