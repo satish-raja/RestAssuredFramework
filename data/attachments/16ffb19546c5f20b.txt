@@ -1,0 +1,14 @@
+📌 Test Name: ec990fe7-70d0-4986-9ff4-edcd382ee0df
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "",
+  "gender" : "male",
+  "email" : "missing-name@hotmail.com",
+  "status" : "active"
+}

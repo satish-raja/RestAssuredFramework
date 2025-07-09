@@ -1,0 +1,13 @@
+📌 Test Name: 9b82d75d-40b2-47aa-bbb6-a554b29315e0
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219495/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "No Body",
+  "email" : "javier.carter@hotmail.com",
+  "body" : null
+}
