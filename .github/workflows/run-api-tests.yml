@@ -1,0 +1,47 @@
+name: 🚀 Run API Tests (CI + Daily + Manual)
+
+on:
+  # 🔁 Trigger on every push to `main`
+  push:
+    branches: [ "main" ]
+
+  # 👤 Manual trigger with optional environment and suite inputs
+  workflow_dispatch:
+    inputs:
+      env:
+        description: 'Environment (e.g., dev, qa)'
+        required: true
+        default: 'qa'
+      suite:
+        description: 'Maven profile (e.g., api-tests)'
+        required: true
+        default: 'api-tests'
+
+  # 🕒 Daily at 3:00 AM IST → 9:30 PM UTC
+  schedule:
+    - cron: '0 21 * * *'
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v3
+
+      - name: ☕ Set up Java 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: 🧪 Run RestAssured Tests
+        run: |
+          mvn clean test -P${{ github.event.inputs.suite || 'api-tests' }} -Denv=${{ github.event.inputs.env || 'qa' }}
+
+      - name: 📦 Upload Allure Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: allure-results/
