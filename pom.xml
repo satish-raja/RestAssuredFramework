@@ -213,7 +213,7 @@
 		<profile>
 			<id>api-tests</id>
 			<properties>
-				<suiteXmlFile>suites/restAssuredTestsSuite.xml</suiteXmlFile>
+				<suiteXmlFile>testng-suites/restAssuredTestsSuite.xml</suiteXmlFile>
 			</properties>
 		</profile>
 
