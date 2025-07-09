@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 10:38:38 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=106
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"cff8b813097a82b0d5ab76bac108ba54"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994457
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=83
+X-Ratelimit-Reset=1
+X-Request-Id=99ed6fa6-c916-496d-a0ac-997cb150490f
+X-Runtime=0.051946
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=J7%2B1k2R70Yrij4x%2B0lxEq0pPJWyfp%2FmRVPQ%2BP3Ge2T4%2BJo91760XU6UELZxRS%2FnVEkZXvt9K%2Fy0TrkOgWrEq8EYdz0r1vM6KtBE%3D"}]}
+Server=cloudflare
+CF-RAY=95c7315c3e205295-LAX
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994457,
+  "name" : "Jimmy Bernier",
+  "email" : "tabatha.murphy@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 1217 ms

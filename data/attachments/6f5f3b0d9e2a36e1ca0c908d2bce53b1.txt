@@ -1,0 +1,14 @@
+📌 Test Name: 605babda-1506-4c35-9bdd-18b938926cb7
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Jimmy Bernier",
+  "gender" : "male",
+  "email" : "tabatha.murphy@yahoo.com",
+  "status" : "active"
+}
