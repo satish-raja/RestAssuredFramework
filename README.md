@@ -42,7 +42,7 @@
 ---
 
 ## 📁 Folder Structure
-
+  ```bash
   RestAssuredFramework/
   ├── src/
   │   ├── main/java/com/api/
@@ -84,16 +84,17 @@
   ├── pom.xml
   └── README.md
 
-🧪 Running Tests
-🔁 Run Locally
-
+## 🧪 Running Tests
+### 🔁 Run Locally
+  ```bash
   # Full Suite
   mvn clean test -Papi-tests -Denv=qa
   
   # Smoke Suite
   mvn clean test -Psmoke-tests -Denv=qa
 
-📊 Allure Report (Local)
+📊 Generate Allure Report Locally
+  ```bash
   allure serve target/allure-results
 
 🧪 Maven Profiles (TestNG Suites)
@@ -108,15 +109,18 @@
   | auth-tests         | `testng-suites/authTestsSuite.xml`        |
   | post-service-tests | `testng-suites/PostServiceTestsSuite.xml` |
 
-⚙️ GitHub Actions CI/CD
+---
+
+## ⚙️ GitHub Actions CI/CD
   This framework supports three types of CI triggers:
     ✅ On every push to main
     🕒 Scheduled at 3:00 AM IST daily
     👤 Manual trigger with inputs:
         env (e.g., qa, staging)
         suite (e.g., smoke-tests)
-    # Example GitHub Action step
-    mvn clean test -Papi-tests -Denv=qa
+    ```bash
+    # CI build example (executed by GitHub Actions)
+        mvn clean test -Papi-tests -Denv=qa
 
     [🔍 View Action Logs & Artifacts](https://github.com/satish-raja/RestAssuredFramework/actions)
 
