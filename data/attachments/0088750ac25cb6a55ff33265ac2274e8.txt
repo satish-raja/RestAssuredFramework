@@ -1,0 +1,14 @@
+📌 Test Name: b995096d-d6b8-46dd-9be1-8072b81719f1
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Alan Yost",
+  "gender" : "male",
+  "email" : "ebonie.schuster@yahoo.com",
+  "status" : "active"
+}

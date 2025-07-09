@@ -1,0 +1,13 @@
+📌 Test Name: ff9c700e-599b-4658-b0ba-606e86181ccf
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/comments/999999
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Jackie",
+  "email" : "sam.gleichner@hotmail.com",
+  "body" : "Nice post!"
+}

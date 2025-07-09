@@ -1,0 +1,13 @@
+📌 Test Name: 852316d5-f679-41e8-a5eb-5353aa374579
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/comments/156777
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Leon",
+  "email" : "dante.hoppe@gmail.com",
+  "body" : "Comment to be deleted"
+}

@@ -1,1 +1,1 @@
-{"id":"e1c610c9bed09e38635f35cf14dfe6ed","fullName":"com.api.tests.GetUserTests.testGetSingleUser_InvalidId_ShouldReturn404","name":"🔴 Fetch single user by invalid ID - Should return 404","status":"passed","testResultsByEnv":{"default":"78bcd09be8ea4a6477f171eaefbd299f"}}
+{"id":"e1c610c9bed09e38635f35cf14dfe6ed","fullName":"com.api.tests.GetUserTests.testGetSingleUser_InvalidId_ShouldReturn404","name":"🔴 Fetch single user by invalid ID - Should return 404","status":"passed","testResultsByEnv":{"default":"0a2e39f7f58aeb5d633fedb351b33f49"}}

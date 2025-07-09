@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 21:42:59 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"4a09ad8c8f2de428727978b14075b15e"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=62
+X-Ratelimit-Reset=20
+X-Request-Id=815267cb-c5d4-4cc7-a123-505fc11a3bb4
+X-Runtime=0.218237
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=er0nANLrW37tVW53L4uY7jNCpM3soxEb77MCVivXp3rMPAAqcCl1yv0EKk%2BqlqHCiUj5A65wDT9XyPTgcADf%2BQeir08zKeNDW3lkoA%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95cafe87fde3eb25-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "name" : "Aaron Gusikowski",
+  "email" : "deidra.christiansen@yahoo.com",
+  "body" : "✅ Updated comment body",
+  "id" : 156776,
+  "post_id" : 219619
+}
+⏱️ Duration: 488 ms

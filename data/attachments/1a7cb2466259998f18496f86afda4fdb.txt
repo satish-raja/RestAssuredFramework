@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 21:42:53 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=112
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"cea08c8003c6ec3a2b16e46a7225a6fa"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7995819
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=66
+X-Ratelimit-Reset=17
+X-Request-Id=de9d2e73-6d76-4b3b-8e42-5a8983497885
+X-Runtime=0.070340
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=NALQnhN4PAi4GE2b6FPqLH8eMzFHdCoiJ6qMiN9%2FjQjDcx%2F9V1ouW8tS3NHsCfjSZ1b%2FomqD6xtGPKXkPP07%2BPEzV1JOIXB%2FhzcaCg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95cafe65cd2eebe9-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7995819,
+  "name" : "Rufina Baumbach",
+  "email" : "lucius.mcclure@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 329 ms

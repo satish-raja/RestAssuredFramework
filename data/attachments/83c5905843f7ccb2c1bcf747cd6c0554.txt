@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 21:42:43 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=103
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"470e9537103fea1c9efd43aa91d7640f"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7995816
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=80
+X-Ratelimit-Reset=7
+X-Request-Id=cf451880-3663-4866-84cd-f7626575f60d
+X-Runtime=0.111362
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=P%2FD6QySNRSL6E17tG88zcXumsvRbGi%2Fix5BT0ZTbJv21KrZ8pn4ZkyYlynYlA0cOre%2BRJR7L5r2xMIpjXlI7Lmwe93W14AiyNNq2rQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95cafe250fc3ed37-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7995816,
+  "name" : "Velda Raynor",
+  "email" : "alia.johnson@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 856 ms

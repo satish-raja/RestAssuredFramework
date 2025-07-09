@@ -1,0 +1,14 @@
+📌 Test Name: 5453ea3a-5b58-42de-b77a-311e86ab6e14
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mr. Abram Ebert",
+  "gender" : "female",
+  "email" : "dean.pouros@yahoo.com",
+  "status" : "active"
+}

@@ -1,1 +1,1 @@
-{"id":"9547488ce3b6eb5390af43e410ae21b4","fullName":"com.api.tests.CreateCommentTests.testCreateComment_InvalidPostId_ShouldFail","name":"🔴 Invalid post ID should return 422","status":"passed","testResultsByEnv":{"default":"3788ca39bea6299fb0784e67d0896e41"}}
+{"id":"9547488ce3b6eb5390af43e410ae21b4","fullName":"com.api.tests.CreateCommentTests.testCreateComment_InvalidPostId_ShouldFail","name":"🔴 Invalid post ID should return 422","status":"passed","testResultsByEnv":{"default":"b92e8bf9d201239dd38a7a3b46fca877"}}

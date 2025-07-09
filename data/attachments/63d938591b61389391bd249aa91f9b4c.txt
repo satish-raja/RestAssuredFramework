@@ -1,0 +1,44 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 21:42:55 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"21fe809fde9994dc09aa61a0d2f2ebf9"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Links-Current=https://gorest.co.in/public/v2/comments?page=1
+X-Links-Next=
+X-Links-Previous=
+X-Pagination-Limit=10
+X-Pagination-Page=1
+X-Pagination-Pages=1
+X-Pagination-Total=1
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=65
+X-Ratelimit-Reset=17
+X-Request-Id=cd0f24dd-d771-46b3-8991-95ac621de4dd
+X-Runtime=0.089090
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1naHAk8v%2FAu9v8Bbkh8r9Pya564fbObPFxxLnl4i1Y4FaDu3Jg3qvdI6vsd0Ox8LAd5rAl8uGvnF4KjkkqGH%2BAG7yoBE%2FNLTd3A13w%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95cafe725a4cf97f-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+[ {
+  "id" : 156775,
+  "post_id" : 219618,
+  "name" : "Jackie",
+  "email" : "sam.gleichner@hotmail.com",
+  "body" : "Nice post!"
+} ]
+⏱️ Duration: 878 ms

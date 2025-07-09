@@ -1,1 +1,1 @@
-{"id":"7b3e7ee3cfe3890217a542ba22101252","fullName":"com.api.tests.UpdateUserTests.testUpdateUser_InvalidEmail_ShouldReturn422","name":"🔴 Update user with invalid email format","status":"passed","testResultsByEnv":{"default":"84fb92713153c607cd10a2c7b34d90c3"}}
+{"id":"7b3e7ee3cfe3890217a542ba22101252","fullName":"com.api.tests.UpdateUserTests.testUpdateUser_InvalidEmail_ShouldReturn422","name":"🔴 Update user with invalid email format","status":"passed","testResultsByEnv":{"default":"fb04ae025b8e75121699f2e6be550f95"}}

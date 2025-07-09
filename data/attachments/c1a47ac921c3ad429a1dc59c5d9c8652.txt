@@ -1,0 +1,13 @@
+📌 Test Name: 887538fa-053b-4491-bac3-ea060d85d596
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219619/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Harold Skiles",
+  "email" : "moises.oconnell@gmail.com",
+  "body" : "Initial comment content"
+}

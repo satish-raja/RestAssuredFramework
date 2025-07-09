@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 21:42:59 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=110
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"293641519f4aba78aa03a4b0ef18115e"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7995821
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=61
+X-Ratelimit-Reset=20
+X-Request-Id=c7320894-45e3-4b0c-b248-797704e8db47
+X-Runtime=0.109052
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5jmBd6dYdD1MIoyyQ5oQlsPhGVwtHN1NGMuHCvbfJUXMn8tN6BHk0iDhdCiaEEFhJq1M6t%2FvrgrEcb889iyfntjqzZcF3wb3Bosw2A%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95cafe8b3ed7faec-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7995821,
+  "name" : "Chang Rosenbaum",
+  "email" : "zachary.hamill@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 382 ms

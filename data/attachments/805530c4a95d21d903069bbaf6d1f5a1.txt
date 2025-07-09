@@ -1,0 +1,13 @@
+📌 Test Name: dc88cfd5-354b-4e49-b527-c96a4ee2a1d1
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219618/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Jackie",
+  "email" : "sam.gleichner@hotmail.com",
+  "body" : "Nice post!"
+}

@@ -1,0 +1,14 @@
+📌 Test Name: 2eab114a-83ef-4db2-8e46-fcad4bd2ebde
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Amelia McCullough",
+  "gender" : "female",
+  "email" : "barry.kunze@yahoo.com",
+  "status" : "active"
+}

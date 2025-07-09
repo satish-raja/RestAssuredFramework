@@ -1,0 +1,12 @@
+📌 Test Name: 3f9bf5af-22cb-45be-b486-6526e6e0ed67
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users/7995817/posts
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Unauthorized Delete",
+  "body" : "Testing without token."
+}

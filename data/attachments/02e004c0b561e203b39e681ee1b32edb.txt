@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 21:42:50 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=106
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"5287342af5f0679e7add1d455a10b759"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7995818
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=72
+X-Ratelimit-Reset=12
+X-Request-Id=43dcdc25-d87a-4de8-aea7-c8a122caee15
+X-Runtime=0.084523
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7p8WYkvFfM2BjxYswsXCpqEdiM6W%2B7Dxp7oF3RSl%2BtNhhiYgvt86rnuDYA70CPO3gObCF70ulM3sAdigTVEbh4w2o3p36ipgV28rYQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95cafe4e1d1267e3-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7995818,
+  "name" : "Novella Carter",
+  "email" : "truman.skiles@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 840 ms

@@ -1,1 +1,1 @@
-{"id":"8a398ba38768801cbb96110157f2356e","fullName":"com.api.tests.GetCommentTests.testGetAllCommentsForPost_ShouldReturnList","name":"🟢 Get all comments for a post","status":"passed","testResultsByEnv":{"default":"46e555e33636c4761623fe8ebe2f40e6"}}
+{"id":"8a398ba38768801cbb96110157f2356e","fullName":"com.api.tests.GetCommentTests.testGetAllCommentsForPost_ShouldReturnList","name":"🟢 Get all comments for a post","status":"passed","testResultsByEnv":{"default":"01636438ea4f04d51659689ee4d7be99"}}

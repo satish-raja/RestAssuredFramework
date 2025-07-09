@@ -1,0 +1,14 @@
+📌 Test Name: 887538fa-053b-4491-bac3-ea060d85d596
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Kendall Littel",
+  "gender" : "male",
+  "email" : "mariam.pouros@yahoo.com",
+  "status" : "active"
+}

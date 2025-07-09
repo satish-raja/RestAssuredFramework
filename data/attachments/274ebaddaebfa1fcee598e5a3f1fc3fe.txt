@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 21:42:39 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=108
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"3430ec6605a2dce89b83f5d18f203b2c"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7995814
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=83
+X-Ratelimit-Reset=5
+X-Request-Id=88c8e15f-4c73-4825-b5b2-81d93a5f179c
+X-Runtime=0.051975
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Wbog%2Br83YirUNdhhOQjI%2BeV27Lr%2FBuvGqXHOk2g1FOzTxIfLvKYvrCxZf1fWlQyCmwajn8VTTgT%2FlEe84Yi1szhOVdbHU9lZONowBA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95cafe0a4a64176a-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7995814,
+  "name" : "Colby Ullrich",
+  "email" : "marcelino.koch@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 814 ms

@@ -1,0 +1,11 @@
+📌 Test Name: 7f9302f2-43e8-4b62-9c8e-2a729bc15e0e
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/posts/219614
+📦 Headers:
+Accept: application/json
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Unauthorized",
+  "body" : "No token provided"
+}

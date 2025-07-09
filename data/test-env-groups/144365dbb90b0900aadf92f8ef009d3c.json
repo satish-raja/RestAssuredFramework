@@ -1,1 +1,1 @@
-{"id":"144365dbb90b0900aadf92f8ef009d3c","fullName":"com.api.tests.CreateCommentTests.testCreateComment_InvalidEmailFormat_ShouldFail","name":"🔴 Invalid email format should return 422","status":"passed","testResultsByEnv":{"default":"ab330c08de840ef9eeadc001391e771f"}}
+{"id":"144365dbb90b0900aadf92f8ef009d3c","fullName":"com.api.tests.CreateCommentTests.testCreateComment_InvalidEmailFormat_ShouldFail","name":"🔴 Invalid email format should return 422","status":"passed","testResultsByEnv":{"default":"089718a0aeb74c31e8fc46b15f671ea8"}}

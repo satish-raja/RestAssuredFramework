@@ -1,1 +1,1 @@
-{"id":"24b74761a568f7acaa5d304d632ac703","fullName":"com.api.tests.CreateCommentTests.testCreateComment_ValidData_ShouldSucceed","name":"🟢 Create comment with valid data","status":"passed","testResultsByEnv":{"default":"b70cf0af0becf9e58957566c05f2d80a"}}
+{"id":"24b74761a568f7acaa5d304d632ac703","fullName":"com.api.tests.CreateCommentTests.testCreateComment_ValidData_ShouldSucceed","name":"🟢 Create comment with valid data","status":"passed","testResultsByEnv":{"default":"44badf5f547c9e3869fbba7cd15b6442"}}

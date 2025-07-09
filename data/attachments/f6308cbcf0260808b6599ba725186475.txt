@@ -1,0 +1,14 @@
+📌 Test Name: 98d1c133-abf1-4240-8186-d283ad79c4a3
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Vern Mitchell",
+  "gender" : "male",
+  "email" : "jen.kassulke@hotmail.com",
+  "status" : "active"
+}
