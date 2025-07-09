@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:23:23 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"d32e61d4041e93c71c0f5c44bffc131e"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=40
+X-Ratelimit-Reset=34
+X-Request-Id=23bac0d6-187e-44e3-b37e-9d5d7fccbf2e
+X-Runtime=0.082484
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Hx7t2G5PG3Nme6EZmrXLLcmEEWbCtfPDs1hxX38WYUtFA6ORcd40ndZ2gtOywRZt6jj0t4cxUTOgUgtY8ilSBb3JVjIDLxBp82I%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c7cad21e11d693-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "name" : "Rosanne Pfannerstill",
+  "email" : "leigh.tromp@hotmail.com",
+  "body" : "✅ Updated comment body",
+  "id" : 156752,
+  "post_id" : 219579
+}
+⏱️ Duration: 397 ms

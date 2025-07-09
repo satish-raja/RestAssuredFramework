@@ -1,0 +1,14 @@
+📌 Test Name: 0a53b686-7b2a-4195-8865-af49f4b126ca
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Leif Kassulke",
+  "gender" : "male",
+  "email" : "bernita.hermiston@gmail.com",
+  "status" : "active"
+}

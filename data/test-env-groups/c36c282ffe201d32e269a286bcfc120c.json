@@ -1,1 +1,1 @@
-{"id":"c36c282ffe201d32e269a286bcfc120c","fullName":"com.api.tests.UpdatePostTests.testUpdatePostWithEmptyPayload_ShouldReturn422","name":"🔴 Update post with empty payload should return 422","status":"passed","testResultsByEnv":{"default":"8e9a5bffe5579cb80fd78c50b6a30024"}}
+{"id":"c36c282ffe201d32e269a286bcfc120c","fullName":"com.api.tests.UpdatePostTests.testUpdatePostWithEmptyPayload_ShouldReturn422","name":"🔴 Update post with empty payload should return 422","status":"passed","testResultsByEnv":{"default":"dcf2d79c5dfbc590c861eddd91849b89"}}

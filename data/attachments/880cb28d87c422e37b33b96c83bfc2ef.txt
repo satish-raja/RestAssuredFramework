@@ -1,0 +1,36 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:23:09 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=84
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"dea71769317d6d31ea06c796e87c35f8"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/posts/219573
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=70
+X-Ratelimit-Reset=14
+X-Request-Id=74224d85-f899-46fa-9181-d45b5f07d94e
+X-Runtime=0.112312
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4eKb5SAprewKdARVnbTnr4W9I7gG74VyBoNfUgXFIDFch0FAELfnXM8Bf7U9fNsLcUqOsFZt7PkhUxR1uOI18aW6yOd5pD%2FmuZOnqw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7ca77fec67001-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 219573,
+  "user_id" : 7994732,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}
+⏱️ Duration: 414 ms

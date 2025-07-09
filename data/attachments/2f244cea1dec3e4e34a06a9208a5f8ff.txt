@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:23:07 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=111
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"17144b6a1686948e3045ab2900c54914"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994731
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=73
+X-Ratelimit-Reset=12
+X-Request-Id=cd09cde5-d62e-465d-b0f2-bc15cc124edb
+X-Runtime=0.055327
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bbti%2Fd8ZSgIqTktV7Upf6lje1spZ4pBEyy01SJQp5BuIImztKWU1XtpcixVLxu5OMYIy53XfxtDCIcXS0%2FVWEbQ5Y4QrFS7Bv8CEZA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7ca70cb01586c-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994731,
+  "name" : "Heriberto Smitham I",
+  "email" : "orval.hackett@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 369 ms

@@ -1,0 +1,14 @@
+📌 Test Name: 3af562b1-38b1-4446-a95e-ea35105a5acc
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Justin Rohan PhD",
+  "gender" : "male",
+  "email" : "mason.abernathy@gmail.com",
+  "status" : "active"
+}

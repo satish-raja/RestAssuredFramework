@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:23:24 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=116
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"e615526fe50db2c0d3454788556b6e9f"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994738
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=39
+X-Ratelimit-Reset=35
+X-Request-Id=fdfddbb5-6a23-4941-ae0f-f9672356a36e
+X-Runtime=0.077841
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kH1mXpZ94MPTQTrhwApQsK7%2F%2BC90C4dignN7ZHReMPm%2F7yYVMDG4F%2FaEuR5dba5cWGut4%2Fna86HrqmeTdKTjoPXniRrGDf3yLqYG6A%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7cad4c94f599d-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994738,
+  "name" : "Mose Schamberger",
+  "email" : "josephine.oconner@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 414 ms

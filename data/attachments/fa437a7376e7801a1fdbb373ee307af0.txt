@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:23:19 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=106
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"e21c2410ede4f49b7132749048bf7d5b"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994736
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=49
+X-Ratelimit-Reset=28
+X-Request-Id=5bc75a81-f1e1-4b82-8cd5-7e9fd5a6c280
+X-Runtime=0.112109
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VaY%2BqHBjRUnawDTC37r55P6gNYqivvpsRz2GlGokfoxlkzKUNEIrseiEdy1ZkR25rG5hPbWCh1H4w1GMFfQAxSPtO4JOQhYcSy91iw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7caba6a663b6b-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994736,
+  "name" : "Sean Batz V",
+  "email" : "young.schmeler@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 418 ms

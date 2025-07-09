@@ -1,0 +1,14 @@
+📌 Test Name: 7ebc1b5c-f3dd-4335-a238-7326a1c31229
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Sean Batz V",
+  "gender" : "female",
+  "email" : "young.schmeler@yahoo.com",
+  "status" : "active"
+}

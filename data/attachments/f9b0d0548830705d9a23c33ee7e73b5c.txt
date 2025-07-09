@@ -1,0 +1,14 @@
+📌 Test Name: 33a65bec-dd2b-49ff-ad01-1e38a7a16c12
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Tenisha Hegmann PhD",
+  "gender" : "male",
+  "email" : "johnny.kreiger@hotmail.com",
+  "status" : "active"
+}

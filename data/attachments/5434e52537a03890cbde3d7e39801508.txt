@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:22:59 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=106
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"a4fbccc06d687837459b607d93b4efc0"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994726
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=84
+X-Ratelimit-Reset=5
+X-Request-Id=ef85f673-d181-481a-81bf-c8a55b5fede1
+X-Runtime=0.093586
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=6vsEFuksEjswVua4Wai%2Bbfv7HtfXfW04pNL0XwvMU2Ynd3kEzOYt%2FVnvlFe2hVAxuKHNh2R7xDa3anEjJEu%2B5BiCQiR%2F%2BN6TTo%2FOuw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7ca3dfe016ff5-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994726,
+  "name" : "Mercedes Purdy",
+  "email" : "ester.barrows@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 418 ms

@@ -1,0 +1,14 @@
+📌 Test Name: 9b1f3994-b2de-493d-8f57-783653456d59
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/users/7994730
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Elden Rolfson",
+  "gender" : "female",
+  "email" : "laurene.batz@gmail.com",
+  "status" : "active"
+}

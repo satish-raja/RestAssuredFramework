@@ -1,0 +1,36 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:23:10 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"dea71769317d6d31ea06c796e87c35f8"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=68
+X-Ratelimit-Reset=16
+X-Request-Id=ce8b6984-a923-432b-9a6b-a3a5513058d0
+X-Runtime=0.064292
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2FJHoipDNu6%2F14%2F11jwc6XSzvVgYnD3qyv0c955lAuWQiLjw5fwHHyg%2BMC0MfPIVRrOkqSwPuAAimkXPddBZ%2FriuEBPE4AwqQvpiUDg%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c7ca7d6ddb3b90-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 219573,
+  "user_id" : 7994732,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}
+⏱️ Duration: 404 ms

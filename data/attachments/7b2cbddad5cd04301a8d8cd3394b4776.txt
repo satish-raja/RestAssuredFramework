@@ -1,0 +1,14 @@
+📌 Test Name: 4e276d65-eea1-4317-b279-42115a693348
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mercedes Purdy",
+  "gender" : "male",
+  "email" : "ester.barrows@yahoo.com",
+  "status" : "active"
+}

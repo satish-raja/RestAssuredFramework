@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:23:10 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=110
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"f2fb5a5db3d49823c1fdb93002f74aa8"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994733
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=66
+X-Ratelimit-Reset=17
+X-Request-Id=340273f3-6cd4-48a2-886b-d08f45bdd6ef
+X-Runtime=0.049050
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RWXwWdoRzMaeDJKbZo5Mz%2BtdVVFnrW09CdZJcNZ9GCOE7Gc0nW%2FFHtKnuY2vlwwZ2PkVTguR6ZjGvsBJnFhp9Y2OcmqdsEULkEsztQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7ca823d16584e-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994733,
+  "name" : "Justin Rohan PhD",
+  "email" : "mason.abernathy@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 360 ms

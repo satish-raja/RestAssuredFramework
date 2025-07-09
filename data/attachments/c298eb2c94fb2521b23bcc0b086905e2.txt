@@ -1,0 +1,14 @@
+📌 Test Name: 733b0e39-b12f-4765-b31e-429a92f24f58
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Test User",
+  "gender" : "unknown",
+  "email" : "bad-gender@gmail.com",
+  "status" : "active"
+}

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:23:02 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=120
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"258ba397f9f152ddf0ec9069e46d24b4"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994727
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=81
+X-Ratelimit-Reset=6
+X-Request-Id=4a575aca-0d51-4b92-838c-8bfdcba69b29
+X-Runtime=0.086405
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QKMHQpWwLPPQHCCiPzYVyhovOHTXjr4Cp8HIOOPQ25SOu%2FP%2Bu9DRwFsPUH5Iw1Ohvqi%2BQSZClMiD5RPnRytvWLPJG9llJkdq9v7EBg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7ca4e4a91172f-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994727,
+  "name" : "Mrs. Trina Ankunding",
+  "email" : "norberto.predovic@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 422 ms

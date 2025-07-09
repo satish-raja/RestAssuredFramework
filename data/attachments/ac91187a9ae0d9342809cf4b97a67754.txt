@@ -1,0 +1,13 @@
+📌 Test Name: 7983366e-6ae2-4fd2-bfd0-2192f6eb0cb4
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219577/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "No Email",
+  "email" : null,
+  "body" : "Missing email"
+}
