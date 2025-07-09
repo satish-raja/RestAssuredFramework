@@ -1,1 +1,1 @@
-{"id":"6596807b4a9c65ff9f09e85deb096b23","fullName":"com.api.tests.security.AuthTokenNegativeTests.testMissingToken_ShouldReturn401Or404","name":"🔴 Accessing API without token returns 401 or 404","status":"passed","testResultsByEnv":{"default":"8433aefde26ed374f5059481b52070b0"}}
+{"id":"6596807b4a9c65ff9f09e85deb096b23","fullName":"com.api.tests.security.AuthTokenNegativeTests.testMissingToken_ShouldReturn401Or404","name":"🔴 Accessing API without token returns 401 or 404","status":"passed","testResultsByEnv":{"default":"a2139f27ff77b8e39a7641cb5701c0f1"}}

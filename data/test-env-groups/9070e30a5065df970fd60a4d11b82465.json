@@ -1,1 +1,1 @@
-{"id":"9070e30a5065df970fd60a4d11b82465","fullName":"com.api.tests.UpdateCommentTests.testUpdateComment_ShouldSucceed","name":"🟢 Update a comment successfully","status":"passed","testResultsByEnv":{"default":"bed1f08c33f4a5ca9477bf8c59092c9f"}}
+{"id":"9070e30a5065df970fd60a4d11b82465","fullName":"com.api.tests.UpdateCommentTests.testUpdateComment_ShouldSucceed","name":"🟢 Update a comment successfully","status":"passed","testResultsByEnv":{"default":"b281b21525fb1f8e6fcc4ec937d72cd8"}}

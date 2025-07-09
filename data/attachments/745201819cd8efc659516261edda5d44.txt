@@ -1,0 +1,14 @@
+📌 Test Name: e359006e-d9e2-4476-a00c-63846ed43c43
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Quincy Goodwin",
+  "gender" : "male",
+  "email" : "armand.gorczany@gmail.com",
+  "status" : "active"
+}

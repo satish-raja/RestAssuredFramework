@@ -1,0 +1,14 @@
+📌 Test Name: c73d4607-9eea-4b4c-9de2-acfc981adbc0
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mrs. Louie O'Connell",
+  "gender" : "male",
+  "email" : "alethia.bergstrom@hotmail.com",
+  "status" : "active"
+}

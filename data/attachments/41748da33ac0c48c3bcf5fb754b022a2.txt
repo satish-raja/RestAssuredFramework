@@ -1,0 +1,14 @@
+📌 Test Name: 99326871-b0c9-40e5-b36f-a95f47ba5c66
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Delete Twice User",
+  "gender" : "male",
+  "email" : "carrol.macejkovic@hotmail.com",
+  "status" : "inactive"
+}

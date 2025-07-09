@@ -1,0 +1,14 @@
+📌 Test Name: e99c0928-b10c-478e-aeca-066f1188d544
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mimi Hermiston",
+  "gender" : "male",
+  "email" : "horacio.deckow@gmail.com",
+  "status" : "active"
+}

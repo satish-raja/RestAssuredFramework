@@ -1,0 +1,14 @@
+📌 Test Name: 1871cb62-1a70-4643-a2cb-7435418c00c8
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Rich Lind I",
+  "gender" : "male",
+  "email" : "greta.leannon@hotmail.com",
+  "status" : "active"
+}

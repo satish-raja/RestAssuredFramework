@@ -1,0 +1,13 @@
+📌 Test Name: 8f176dbb-483f-4c69-95f4-e1bf18ab4463
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/comments/156730
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Hal",
+  "email" : "michaele.berge@gmail.com",
+  "body" : "Nice post!"
+}

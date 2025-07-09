@@ -1,0 +1,14 @@
+📌 Test Name: 10c2db4c-685d-4220-867f-03ede8000b07
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Lindsey Kovacek",
+  "gender" : "male",
+  "email" : "jerrod.torp@hotmail.com",
+  "status" : "active"
+}

@@ -1,0 +1,14 @@
+📌 Test Name: 814b3edd-604d-47ee-af23-2b08ca29c5b4
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Jackie Hermiston",
+  "gender" : "male",
+  "email" : "jacquetta.cruickshank@hotmail.com",
+  "status" : "active"
+}

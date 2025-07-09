@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 11:54:55 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=117
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"4b123e01e84cda1ea296931a79182f81"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994636
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=87
+X-Ratelimit-Reset=3
+X-Request-Id=11828d2a-1d3a-48bc-b1bf-af92a0d3c457
+X-Runtime=0.050101
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=lbvxXtqkNxpfwplWYIAgRDqYL9BNoXt86n4D3y5ZCVFSoCdkqwoBPKXRzW7NhHo%2FWIQbCJqj%2FzQ8tyvVQbLQhSBwM0FqUwKQMHFdog%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7a11c082d1393-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994636,
+  "name" : "Delete Twice User",
+  "email" : "carrol.macejkovic@hotmail.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 347 ms

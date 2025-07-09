@@ -1,0 +1,12 @@
+📌 Test Name: 6c915378-f951-49dc-a53e-c912c2c31054
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users/7994645/posts
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Post for delete comment",
+  "body" : "Post body"
+}

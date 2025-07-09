@@ -1,0 +1,14 @@
+📌 Test Name: b8afd65c-9b97-433f-ae49-3ae5806f299b
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/7994633
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Jake Carroll Sr.",
+  "gender" : "male",
+  "email" : "jamey.kautzer@yahoo.com",
+  "status" : "active"
+}

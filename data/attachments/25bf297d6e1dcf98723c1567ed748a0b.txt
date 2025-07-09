@@ -1,0 +1,14 @@
+📌 Test Name: 1b2d83e8-b866-4a91-b899-e93740e79976
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Robert Zulauf",
+  "gender" : "male",
+  "email" : "lou.trantow@hotmail.com",
+  "status" : "active"
+}

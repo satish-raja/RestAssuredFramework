@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 11:54:54 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"21a1632ff9cd2740deab1b540148b165"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=2
+X-Request-Id=2c8a8405-cacf-4b55-b522-c571063064b8
+X-Runtime=0.082166
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=MVlhoAHo7oHaOs17KnqzAkEdCp3QKAQljFXZJg53B5mXWOERw0qs6M6DjxI%2FAI97pNr6yG21K2jfh%2BQmjS0JFRPeunBA8cGSMm%2B8ag%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c7a1171aa961fe-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "email" : "frances.senger@yahoo.com",
+  "name" : "Updated Name",
+  "gender" : "female",
+  "status" : "inactive",
+  "id" : 7994635
+}
+⏱️ Duration: 384 ms

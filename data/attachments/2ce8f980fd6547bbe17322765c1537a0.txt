@@ -1,0 +1,14 @@
+📌 Test Name: c1f65aa1-9882-48ed-b89d-c2fedbc45bfd
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Rosetta Bauch",
+  "gender" : "female",
+  "email" : "coy.schamberger@gmail.com",
+  "status" : "active"
+}
