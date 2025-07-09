@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:13:57 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=105
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"783aa3d0a4816d57f129a04a37b54bcf"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994674
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=bcdd5259-5f93-43cd-ae2a-cc3d295ee7bc
+X-Runtime=0.084702
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WlRQPqaPMg3A2dsKl0dwv0HD0qg4%2Fky5n6EzrV1LLIV%2Bahf4yFDHA7HfwtZ4Hv9QIgXPegZAlWuROcl2OnK0XDy0qBvFBjpLjh9GaA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7bcfa5dd9cf82-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994674,
+  "name" : "Benedict Johnson",
+  "email" : "inez.kozey@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 857 ms

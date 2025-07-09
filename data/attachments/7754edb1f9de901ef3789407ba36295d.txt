@@ -1,7 +1,0 @@
-📌 Test Name: 141d7021-660a-418a-bcbb-aa4d0330edb5
-📤 Method: DELETE
-🔗 URI: https://gorest.co.in/public/v2/posts/219540
-📦 Headers:
-Accept: application/json
-📤 Body:
-null

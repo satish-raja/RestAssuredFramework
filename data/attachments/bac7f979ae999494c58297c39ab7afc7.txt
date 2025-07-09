@@ -1,0 +1,28 @@
+✅ Status Code: 401
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:14:31 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=27
+Connection=keep-alive
+Cache-Control=no-cache
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Request-Id=3598431b-d6a1-4cbe-901f-620eb24b5848
+X-Runtime=0.019005
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=FvNcKyrMuKpWdctU1SjUdrYNmtBKB3%2Fn1GMG1sWBfSXvfFcfzSAiPKtPzt0SqcaRpVRO7Nt0sArte9ibeTZJf8QEm7DxCEsyJa5mVw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7bdd438edebe2-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "message" : "Invalid token"
+}
+⏱️ Duration: 292 ms

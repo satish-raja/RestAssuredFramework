@@ -1,0 +1,7 @@
+📌 Test Name: 5aa80aab-9141-425b-b902-87bfd6b507ec
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/123456
+📦 Headers:
+Accept: application/json
+📤 Body:
+null

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:14:04 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=111
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"40f57148b47a9caf9699af1507dca910"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994677
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=88
+X-Ratelimit-Reset=2
+X-Request-Id=aeec304b-f307-4eba-a8f0-093e997c0abe
+X-Runtime=0.075410
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=KjeBxI8n8paaFahIoA2NE9AeetKgu9fjFNbpnr5GkE%2Bupn6VImNBu9SGqGqwYd8ltp5zOmWtQessQtdHx8TYL4Dojdnk2mrcHjCbAw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7bd2e7eed2518-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994677,
+  "name" : "Delete Twice User",
+  "email" : "syreeta.wolff@gmail.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 335 ms

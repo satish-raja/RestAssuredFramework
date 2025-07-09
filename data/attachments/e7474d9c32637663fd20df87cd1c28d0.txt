@@ -1,0 +1,13 @@
+📌 Test Name: 8832d7ac-20dd-4977-b748-0ddf5f988628
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/99999999/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Valid Name",
+  "email" : "bernardo.rempel@hotmail.com",
+  "body" : "Bad postId"
+}

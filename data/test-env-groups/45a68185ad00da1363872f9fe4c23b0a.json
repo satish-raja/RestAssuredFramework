@@ -1,1 +1,1 @@
-{"id":"45a68185ad00da1363872f9fe4c23b0a","fullName":"com.api.tests.GetPostTests.testGetAllPosts_ShouldReturnList","name":"🟢 Get all posts","status":"passed","testResultsByEnv":{"default":"6db04df4e013010cf8dfd27cfc98595d"}}
+{"id":"45a68185ad00da1363872f9fe4c23b0a","fullName":"com.api.tests.GetPostTests.testGetAllPosts_ShouldReturnList","name":"🟢 Get all posts","status":"passed","testResultsByEnv":{"default":"2f888b6b3e27edc963b5569586e36418"}}

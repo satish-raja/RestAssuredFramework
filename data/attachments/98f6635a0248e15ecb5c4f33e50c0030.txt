@@ -1,0 +1,13 @@
+📌 Test Name: b8fb0cc4-90c1-4f02-8880-29dd4fb09ac9
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219550/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Test Commenter",
+  "email" : "edgar.kiehn@gmail.com",
+  "body" : "This is a valid test comment."
+}

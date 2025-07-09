@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:14:27 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"9dd990db48027e2a47fe8a9c8e33209b"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=62
+X-Ratelimit-Reset=19
+X-Request-Id=5382ab5c-6008-4777-8dd1-b5db5a24acb3
+X-Runtime=0.090831
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8hJwj7lUGNFFwqbqOKZrZ98zWndfcO61sAiEAaabafVlD8NhP7i29kO8KitTwaZMkpMCOL4lPv%2FYj1z0aq9eXOE9FCWTRg8QYPw%2Feg%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c7bdb86a1a6804-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "name" : "Herbert Terry I",
+  "email" : "sang.schmidt@gmail.com",
+  "body" : "✅ Updated comment body",
+  "id" : 156740,
+  "post_id" : 219552
+}
+⏱️ Duration: 812 ms

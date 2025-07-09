@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:14:26 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=124
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"2090972b5051ac1449d2d9303f0ab1ba"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/comments/156740
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=63
+X-Ratelimit-Reset=19
+X-Request-Id=1d1fae99-908e-4e91-9f10-5ba6ce11118f
+X-Runtime=0.055013
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=cSyTTPA9p8R5fv0At9OZSPm4EjQwcNyCFWJ7qiU1xRkTQaEVRfR7dJjZzfrILGfdI523u5LdbixJYBzwC%2F0%2BaaGes4CW5Tz4D7FTIQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7bdb63d009e76-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 156740,
+  "post_id" : 219552,
+  "name" : "Maranda Kuhlman MD",
+  "email" : "van.bogisich@gmail.com",
+  "body" : "Initial comment content"
+}
+⏱️ Duration: 332 ms

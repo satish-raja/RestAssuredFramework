@@ -1,0 +1,12 @@
+📌 Test Name: ad098c4f-da05-4f15-ab3b-602a6a37b5ef
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/posts
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}

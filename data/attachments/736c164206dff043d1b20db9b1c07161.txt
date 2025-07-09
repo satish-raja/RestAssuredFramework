@@ -1,0 +1,14 @@
+📌 Test Name: 3274d143-8f26-40ac-9583-7da1b6778c87
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Jacinto Rodriguez",
+  "gender" : "male",
+  "email" : "ma.padberg@yahoo.com",
+  "status" : "active"
+}

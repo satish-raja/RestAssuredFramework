@@ -1,1 +1,1 @@
-{"id":"8532e6ae038bf216bf3e143de06b1f10","fullName":"com.api.tests.security.AuthTokenNegativeTests.testExpiredToken_ShouldReturn401Or403","name":"🔴 Expired token - returns 401 or 403","status":"unknown","testResultsByEnv":{"default":"7340342802824a1bc18e97d92a46bc10"}}
+{"id":"8532e6ae038bf216bf3e143de06b1f10","fullName":"com.api.tests.security.AuthTokenNegativeTests.testExpiredToken_ShouldReturn401Or403","name":"🔴 Expired token - returns 401 or 403","status":"unknown","testResultsByEnv":{"default":"abe8c990bb9ce30b2722a17a7d4a5aa0"}}

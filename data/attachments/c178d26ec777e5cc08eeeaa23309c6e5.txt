@@ -1,0 +1,14 @@
+📌 Test Name: 6d1f19e7-6aa7-4312-89a4-ddf0cda5f386
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/users/7994676
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Updated Name",
+  "gender" : "female",
+  "email" : "rosendo.medhurst@yahoo.com",
+  "status" : "inactive"
+}

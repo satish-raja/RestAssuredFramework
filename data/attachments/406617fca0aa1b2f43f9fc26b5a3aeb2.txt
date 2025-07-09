@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:14:00 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=108
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"19aa6d4993034b573e815c693c64f73c"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994675
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=88
+X-Ratelimit-Reset=2
+X-Request-Id=515f1108-c09d-4209-902e-8c1d1e966055
+X-Runtime=0.089990
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=l6D84f4KwqOKF9TMN2iyYsCDxz%2FV9Q%2FRUY0Tm0mZVUBcD%2Bs3IJqR4PXR%2FRlpJyu9EVYbA1G4DykN%2FBjLkXEdr2xcyluk6m46tu3P6w%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7bd0ebac9ebe4-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994675,
+  "name" : "Margarito Johns",
+  "email" : "clark.beatty@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 816 ms

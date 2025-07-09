@@ -1,1 +1,1 @@
-{"id":"2baff35d62ccc8a061fccc67418d688b","fullName":"com.api.tests.GetCommentTests.testGetCommentById_ShouldReturnCorrectComment","name":"🟢 Get specific comment by ID","status":"passed","testResultsByEnv":{"default":"cda0d220d500a1726a307ae9f1fc1bd7"}}
+{"id":"2baff35d62ccc8a061fccc67418d688b","fullName":"com.api.tests.GetCommentTests.testGetCommentById_ShouldReturnCorrectComment","name":"🟢 Get specific comment by ID","status":"passed","testResultsByEnv":{"default":"47109bbc5b11f944331672bb5bf32771"}}

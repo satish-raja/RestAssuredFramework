@@ -1,0 +1,14 @@
+📌 Test Name: b4fef1a9-d792-488e-9504-4ef466c90ad5
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Erasmo Stroman II",
+  "gender" : "male",
+  "email" : "kandace.okeefe@hotmail.com",
+  "status" : "active"
+}

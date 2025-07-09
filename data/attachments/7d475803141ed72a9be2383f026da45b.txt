@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:14:06 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=114
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"e7089daab874f223b06ebb47e7c29118"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994678
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=85
+X-Ratelimit-Reset=4
+X-Request-Id=cf68fcd2-4294-4509-b320-3ede66b08440
+X-Runtime=0.078041
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xPs%2BqMCfQn%2FdVL8UDozn29m%2FhashO3ze0szEZZq8N4DD1hYs%2FVotxXEQVoLU2JL%2BlzADdxwnkLSQqIPvzU9o612sfTj8HZaBl1CoYg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7bd361ecccf41-SJC
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994678,
+  "name" : "Franklin Mitchell",
+  "email" : "jonah.schiller@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 354 ms
