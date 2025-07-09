@@ -1,1 +1,1 @@
-{"id":"0e6621825503f3f594e38378891b5a8c","fullName":"com.api.tests.UpdateUserTests.testUpdateUser_InvalidId_ShouldReturn404","name":"🔴 Update user with invalid ID","status":"passed","testResultsByEnv":{"default":"9d9eebffc7dbcea528b93b3e55d92ad9"}}
+{"id":"0e6621825503f3f594e38378891b5a8c","fullName":"com.api.tests.UpdateUserTests.testUpdateUser_InvalidId_ShouldReturn404","name":"🔴 Update user with invalid ID","status":"passed","testResultsByEnv":{"default":"7286646604900d5d82061297a817b2f0"}}

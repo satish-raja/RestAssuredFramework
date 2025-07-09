@@ -1,0 +1,13 @@
+📌 Test Name: 8b2af325-5154-4ccb-aceb-3702eee7007b
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219568/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Bad Email Format",
+  "email" : "invalid-email",
+  "body" : "Bad email test"
+}

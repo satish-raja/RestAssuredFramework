@@ -1,0 +1,14 @@
+📌 Test Name: d0b216fe-86d5-4cf5-b11e-90d236aad2b2
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/users/7994712
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Greg Schamberger",
+  "gender" : "female",
+  "email" : "savanna.boyle@hotmail.com",
+  "status" : "active"
+}

@@ -1,0 +1,14 @@
+📌 Test Name: e7f34e92-b275-4e2f-8c53-e85cf315fc7e
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Isaac Cummerata Jr.",
+  "gender" : "male",
+  "email" : "herbert.carter@hotmail.com",
+  "status" : "active"
+}

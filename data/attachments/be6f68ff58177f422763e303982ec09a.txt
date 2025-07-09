@@ -1,0 +1,13 @@
+📌 Test Name: 5e186d49-41fc-4f87-b311-f47ae96f71b1
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/comments/156749
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Charles",
+  "email" : "quinn.gibson@gmail.com",
+  "body" : "Comment to be deleted"
+}

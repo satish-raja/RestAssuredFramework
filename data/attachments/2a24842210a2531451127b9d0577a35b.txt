@@ -1,0 +1,14 @@
+📌 Test Name: 024c981b-1a84-429e-b742-c2112ca0bcba
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Lester Conn MD",
+  "gender" : "male",
+  "email" : "delia.vonrueden@gmail.com",
+  "status" : "active"
+}

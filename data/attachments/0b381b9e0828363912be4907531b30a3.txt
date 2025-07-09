@@ -1,0 +1,13 @@
+📌 Test Name: 2a56ee66-a6c1-4a5f-a914-147198813f66
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219568/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "No Body",
+  "email" : "consuelo.schuster@hotmail.com",
+  "body" : null
+}

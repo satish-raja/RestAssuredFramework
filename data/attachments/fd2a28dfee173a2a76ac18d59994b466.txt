@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:21:22 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=105
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"cc8d2a510c969044cf35b5d20ba3df6d"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994722
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=70
+X-Ratelimit-Reset=14
+X-Request-Id=0cdc7979-0472-458d-8d5c-25272c07447b
+X-Runtime=0.075794
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=dVNWsqRl30r2YIgvU90KchHBHjWc4tq90znGC%2Bzhq3T8HEB6KmAxyaygm6HcgSeBMXpxCMORfHHssF3DtaCjT83h7dyVch06O9SseA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7c7e07df1f14f-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994722,
+  "name" : "Andy Daniel",
+  "email" : "adolfo.reilly@gmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 372 ms

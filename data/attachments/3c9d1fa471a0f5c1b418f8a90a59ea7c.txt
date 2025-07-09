@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:20:51 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=114
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"6ee9e5e1de52b6c12c2c045b81f93c18"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994711
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=86
+X-Ratelimit-Reset=4
+X-Request-Id=aca9d7f5-a0c7-4181-93de-969b57c6c9c1
+X-Runtime=0.051908
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=4%2Bk%2BUE0q4ajZEtIdeqfYomYGTvAQVMOeZ05YjriUpANaLxe0ZwVKoE1V0uJlpHe3m80%2FpRNpFA4CG%2FgAm5%2BhKQDhQ8jq89Geunc%3D"}]}
+Server=cloudflare
+CF-RAY=95c7c71e2dc9e1f7-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994711,
+  "name" : "Delete Twice User",
+  "email" : "roberto.gorczany@gmail.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 359 ms

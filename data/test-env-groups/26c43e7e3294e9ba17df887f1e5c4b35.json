@@ -1,1 +1,1 @@
-{"id":"26c43e7e3294e9ba17df887f1e5c4b35","fullName":"com.api.tests.GetUserTests.testGetSingleUser_ValidId_ShouldReturnUser","name":"🟢 Fetch single user by valid ID - Should return 200","status":"passed","testResultsByEnv":{"default":"30491814294afec4a5f1a992090b08b7"}}
+{"id":"26c43e7e3294e9ba17df887f1e5c4b35","fullName":"com.api.tests.GetUserTests.testGetSingleUser_ValidId_ShouldReturnUser","name":"🟢 Fetch single user by valid ID - Should return 200","status":"passed","testResultsByEnv":{"default":"b2ac5d9f706cc3a9f86d59e51d1af529"}}

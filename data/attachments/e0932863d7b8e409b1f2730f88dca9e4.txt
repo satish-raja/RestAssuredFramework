@@ -1,0 +1,14 @@
+📌 Test Name: cff8a3be-2a47-48ab-bb19-54e8d237a034
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mr. Shasta Tillman",
+  "gender" : "female",
+  "email" : "margurite.strosin@gmail.com",
+  "status" : "active"
+}

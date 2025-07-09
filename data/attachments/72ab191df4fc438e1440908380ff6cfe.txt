@@ -1,0 +1,14 @@
+📌 Test Name: 87bf9fb3-bf96-4127-9c71-45814351a412
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Allyn Wisoky",
+  "gender" : "male",
+  "email" : "francisco.jast@yahoo.com",
+  "status" : "active"
+}

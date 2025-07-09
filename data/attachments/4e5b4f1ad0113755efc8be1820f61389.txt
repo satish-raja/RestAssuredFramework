@@ -1,0 +1,13 @@
+📌 Test Name: 53157b36-71c0-413b-855c-872e127d9616
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/comments/156747
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Haywood",
+  "email" : "hong.zemlak@hotmail.com",
+  "body" : "Nice post!"
+}

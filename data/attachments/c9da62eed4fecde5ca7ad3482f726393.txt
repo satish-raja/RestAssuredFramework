@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:21:16 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=109
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"aeb2f62b52700667b85ba13212c9ebe7"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994720
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=74
+X-Ratelimit-Reset=11
+X-Request-Id=67ae126d-1a9b-4b25-b04d-c9f30acf9752
+X-Runtime=0.071671
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0XCa%2Fux49%2Fn3c32u%2BTEns14%2FdVVMn%2BrkKgVioVYwxrCzBXonbcYVI1815mkIAP91kykgqTrrxNKsWfBg5wgYNa3Nh7cKEtfBc4W1ow%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7c7b37e6b114a-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994720,
+  "name" : "Kendrick Beahan",
+  "email" : "ron.corkery@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 910 ms

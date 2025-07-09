@@ -1,0 +1,14 @@
+📌 Test Name: 333384ee-8b7e-416f-935f-127e188490e1
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Susy Collier MD",
+  "gender" : "male",
+  "email" : "latrice.mitchell@hotmail.com",
+  "status" : "active"
+}

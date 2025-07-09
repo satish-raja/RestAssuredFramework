@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:21:21 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=105
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"1fbfd0d388b5e1abfd5dc49240d4c576"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7994721
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=73
+X-Ratelimit-Reset=12
+X-Request-Id=c268b950-576a-4a5a-aa98-63fe0ad21cd6
+X-Runtime=0.078114
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2Ff2lD%2B6YOZVvpF9SmIERSyzNKOxS14e4yM0%2Bpqb0M%2BESofP0N%2BePrncUs7TfhDRItiawy7LPsZyoaISFjpFApvbbmAuAaD%2FhwUvynA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95c7c7d2f90d20d4-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7994721,
+  "name" : "Phillip Wyman I",
+  "email" : "thao.paucek@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 942 ms

@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Wed, 09 Jul 2025 12:20:50 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"3f9dd04a005c5aebe5da08f24dc46713"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=87
+X-Ratelimit-Reset=2
+X-Request-Id=cc48f2dc-4db4-45c6-b582-eb9815f5612a
+X-Runtime=0.060479
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=HpXbv%2FYHUVn6ohzXiu4VJUKisiUzskDSpKSqWFE6R%2FrC%2FgFeeD6j7oj5wTsXbCgfwm%2BfDTTWaPaekybHP4N8LNsV%2BpNRT7UCxtG9ug%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95c7c714ccdb2220-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "email" : "forest.nader@gmail.com",
+  "name" : "Updated Name",
+  "gender" : "female",
+  "status" : "inactive",
+  "id" : 7994710
+}
+⏱️ Duration: 937 ms

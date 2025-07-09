@@ -1,0 +1,14 @@
+📌 Test Name: fc53ed87-9ef2-440b-af1e-88e825bb452a
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Rex Predovic I",
+  "gender" : "male",
+  "email" : "enda.waters@hotmail.com",
+  "status" : "active"
+}
