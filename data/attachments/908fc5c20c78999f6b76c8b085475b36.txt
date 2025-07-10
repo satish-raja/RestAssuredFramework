@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Thu, 10 Jul 2025 21:43:21 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=102
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"789f5041f3a10a1f382e472153896e5a"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998170
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=62
+X-Ratelimit-Reset=20
+X-Request-Id=60a3ab36-09bf-4fe7-a5bb-c4d5a77e9e6d
+X-Runtime=0.053016
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Yly8PyStdsrqt4URfZAQgW578%2F1RPXFHD6CmYN1nWz7Qk%2Fkd6LrPnX0KFv22VSH%2BqKhDHRbY5bVKyMBUNi4bZI32TWqgriLKBz84Zg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d33c780af08251-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998170,
+  "name" : "Gail Maggio",
+  "email" : "van.erdman@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 299 ms

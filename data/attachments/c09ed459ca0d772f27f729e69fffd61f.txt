@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Thu, 10 Jul 2025 21:43:29 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"e7c00e77fbbea941be0d5c5e8859a317"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=45
+X-Ratelimit-Reset=31
+X-Request-Id=367eeecd-4fcc-47f9-be60-32d1354f91fd
+X-Runtime=0.044100
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Ns%2FSy%2BtC1WYGE22nqNmhfBlVeiDDFrqYMK%2BIxmUpiBYHOcOBiQJ6qwy7ZvU3RKRoZrcx0kGAa05L%2F1H2yfWbBOxpGr8dhmaWtNd%2BHA%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d33ca52fecc947-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 157074,
+  "post_id" : 219987,
+  "name" : "Randolph",
+  "email" : "rebbeca.quigley@yahoo.com",
+  "body" : "Nice post!"
+}
+⏱️ Duration: 285 ms

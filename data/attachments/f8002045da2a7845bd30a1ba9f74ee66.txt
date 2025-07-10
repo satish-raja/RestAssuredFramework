@@ -1,0 +1,14 @@
+📌 Test Name: 94de2227-6b9b-4632-a4d6-c6ebcd6f8cb1
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/99999999
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Nicolas Gerhold",
+  "gender" : "male",
+  "email" : "carin.langworth@hotmail.com",
+  "status" : "active"
+}

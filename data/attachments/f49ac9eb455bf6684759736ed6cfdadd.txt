@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Thu, 10 Jul 2025 21:43:19 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=110
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"769bcbbcea55adb3e5e4444f09f11ad0"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998169
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=66
+X-Ratelimit-Reset=17
+X-Request-Id=62e775c5-f64b-4fe2-aab9-57193a42db05
+X-Runtime=0.082733
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=C2Xni19gLC0VXLHTtXRVv%2F4jMbAO1qcUO%2FXp9ZF%2BVSpb7efEaiicMfj3s0f1jy40%2BDYly1rIkZw29ml4SYMdcVdp4xrXVkrO5gfuFw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d33c68a84f2040-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998169,
+  "name" : "Homer Halvorson",
+  "email" : "clarine.reilly@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 350 ms

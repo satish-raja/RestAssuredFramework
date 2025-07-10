@@ -1,0 +1,14 @@
+📌 Test Name: 47e88770-09db-44ce-9ae3-44dae31311cf
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Hubert Schmidt",
+  "gender" : "female",
+  "email" : "rusty.powlowski@yahoo.com",
+  "status" : "active"
+}

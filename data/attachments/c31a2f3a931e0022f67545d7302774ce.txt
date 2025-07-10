@@ -1,0 +1,14 @@
+📌 Test Name: b1baac0a-5eac-4d8d-abd6-f9a10d71875b
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "In Stokes",
+  "gender" : "male",
+  "email" : "dalton.kuhlman@hotmail.com",
+  "status" : "active"
+}

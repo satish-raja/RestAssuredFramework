@@ -1,0 +1,44 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Thu, 10 Jul 2025 21:43:10 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"57e7dd449527c564a67f6b1238769d4c"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Links-Current=https://gorest.co.in/public/v2/users?page=1
+X-Links-Next=
+X-Links-Previous=
+X-Pagination-Limit=10
+X-Pagination-Page=1
+X-Pagination-Pages=1
+X-Pagination-Total=1
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=83
+X-Ratelimit-Reset=5
+X-Request-Id=ba2cade5-5c9c-485d-a305-7aa48db70bd5
+X-Runtime=0.116274
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kgvaM0aVY5h6D5IRnXBlVDtv3uV30y%2B%2FFIo3cogCkGwlmuNyC5b3yvvfENUt8JjF3zX01RWSAsm8g1wpe3MMOgqE%2FYYPBxTXj6E%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d33c2eeac64f6d-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+[ {
+  "id" : 7998162,
+  "name" : "Nicolas Gerhold",
+  "email" : "carin.langworth@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+} ]
+⏱️ Duration: 824 ms

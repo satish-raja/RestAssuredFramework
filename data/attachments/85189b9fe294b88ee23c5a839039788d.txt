@@ -1,0 +1,13 @@
+📌 Test Name: 5c33f335-90f6-4b92-897b-ff1af1fa7eb2
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219986/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : null,
+  "email" : "neal.turcotte@yahoo.com",
+  "body" : "Missing name"
+}

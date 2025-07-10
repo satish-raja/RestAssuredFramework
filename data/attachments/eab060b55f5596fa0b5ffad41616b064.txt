@@ -1,0 +1,13 @@
+📌 Test Name: f81a643d-5266-415a-be66-28f6d7f0ce75
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/219986/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Test Commenter",
+  "email" : "andra.stroman@yahoo.com",
+  "body" : "This is a valid test comment."
+}

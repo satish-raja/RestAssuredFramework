@@ -1,1 +1,1 @@
-{"id":"5a41077f769b86be60a0f5e4ae684176","fullName":"com.api.tests.DeletePostTests.testDeletePostTwice_ShouldReturn404","name":"🔴 Deleting same post again should return 404","status":"passed","testResultsByEnv":{"default":"a367830e1d3f0e4df21245d0a64b3fbb"}}
+{"id":"5a41077f769b86be60a0f5e4ae684176","fullName":"com.api.tests.DeletePostTests.testDeletePostTwice_ShouldReturn404","name":"🔴 Deleting same post again should return 404","status":"passed","testResultsByEnv":{"default":"adc0b35c01aed7e1867739e2cb954252"}}

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Thu, 10 Jul 2025 21:43:27 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=105
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"9916a351314d0a023e49bc292f90de2e"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998172
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=48
+X-Ratelimit-Reset=28
+X-Request-Id=c415bead-2c57-4c37-ba64-f4f71fbc5b16
+X-Runtime=0.056679
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VC%2ByLQKOB75d56H6wQLQFG2WGJ2519RrBlDG0pHoHzFFsrzxSnx0qxAOydt2fiAkOXadU68AnnPnscCocVw7o9Q18jMKheE4e1LBUw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d33c99ea8a3ad5-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998172,
+  "name" : "Eddie Nienow",
+  "email" : "jeni.ritchie@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 754 ms

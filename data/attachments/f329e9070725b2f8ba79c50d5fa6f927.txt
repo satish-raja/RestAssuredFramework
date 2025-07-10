@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Thu, 10 Jul 2025 21:43:17 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=104
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"15d2b0cf97c2e294e7e74138099fd85f"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998167
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=73
+X-Ratelimit-Reset=12
+X-Request-Id=f82606bd-c404-4ba5-8e0b-8155d794590a
+X-Runtime=0.080832
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gY4uGtneQ%2BIFleLWI3acdY0RLrC4%2BWVzb9HMaJLojtgkgtcnMVcOTYazYi%2FTX4O5MdwcI8dGM9wYnjEXtg89%2BPC5vMkOHoI5XVbYFA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d33c5968b7c130-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998167,
+  "name" : "In Stokes",
+  "email" : "dalton.kuhlman@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 333 ms
