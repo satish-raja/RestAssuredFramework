@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:19 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=105
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"a86050b77369b28b18d28ffb6a77ff25"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7999319
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=83
+X-Ratelimit-Reset=5
+X-Request-Id=e12674d7-a6f0-47e7-882c-eb5ca185c9ec
+X-Runtime=0.052473
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8A%2FW2VTnE7rTAAkimTh5BrltmB3Dt%2F9g1TEk8nBwU7U4fIAwj9ajDNIQtiE4Pd2A7HKFPh8lmTF%2F8pW5Q0VJJokpO2a%2BZatlSxvEKA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d8f9a21dd71187-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7999319,
+  "name" : "Curt Bashirian",
+  "email" : "deneen.yundt@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 813 ms

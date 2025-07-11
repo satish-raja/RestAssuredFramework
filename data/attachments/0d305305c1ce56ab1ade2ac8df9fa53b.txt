@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:39 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"f9e989194e5afcc5e9b3903a9b9364f3"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=65
+X-Ratelimit-Reset=18
+X-Request-Id=4cf41248-fe1e-4296-b5c3-2aadae2f224e
+X-Runtime=0.054480
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5BXUEC7F25wzOh8Po9YvU6KyYLF1VtewFrsW5p4a6vnYvde9B18aGJ%2BeLHb1RU8KrnHH%2B%2B2hEowTdo4zC7LVMXkajQsDQPIUQ2zpcQ%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d8fa204ecdf571-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "name" : "Kelsie Balistreri",
+  "email" : "beau.purdy@gmail.com",
+  "body" : "✅ Updated comment body",
+  "id" : 157237,
+  "post_id" : 220394
+}
+⏱️ Duration: 322 ms

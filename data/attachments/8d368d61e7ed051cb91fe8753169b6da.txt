@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:29 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=108
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"aad969738e95985c3f92fd8ae8bae184"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7999322
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=74
+X-Ratelimit-Reset=12
+X-Request-Id=0fa436a0-4b27-47c6-9179-7c9b1798de38
+X-Runtime=0.081312
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=qxAWIMhevj3%2F%2Fb0Kp33WrpIBvwOdXaZHftRIBQVnk0Ec7bEmCsHyJyRqQ8fGA3Wp7vOsRcDg2kpYUIru04KNr%2BN%2B%2B0KLNNDxUQ7mYg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d8f9e30e3f7b21-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7999322,
+  "name" : "Dr. Jeanice Howe",
+  "email" : "madge.padberg@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 365 ms

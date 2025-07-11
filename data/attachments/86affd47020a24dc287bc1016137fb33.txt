@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:13 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=105
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"db32b0060f8e1f3bf0d4efeddc9de073"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7999315
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=12f86310-005e-47d6-9771-bf192f8178e2
+X-Runtime=0.076257
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=H9f27lyQRhHkILqwWzBvJeOXr0OabD8rjaAVmEtplOq8qT%2BvvO8QeTIbgLaHta08CGtiwZ70Ti6TDOMHU%2BYGHxCgd%2F8tRW4mWdBO7g%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d8f97f6b80111e-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7999315,
+  "name" : "Lacy O'Hara",
+  "email" : "judie.dickens@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 844 ms

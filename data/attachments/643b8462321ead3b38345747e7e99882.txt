@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:11 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=110
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"4fbc0212c4a370b3d000ad5bff4ae677"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7999314
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=9c4eba25-c077-4c13-9f85-b0ea053c2761
+X-Runtime=0.091731
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1Cz57eSftijHaMZHm6AWloJYvm58EUvWOGW4HyatKYb7fi7%2Fnkht8oaMBOpxm4nHVKPCyD8hHh2EBRZbMt8czq3iU%2BlpixBASH0iqQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d8f96f9dc4a599-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7999314,
+  "name" : "Selma Reinger",
+  "email" : "edwardo.hickle@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 878 ms

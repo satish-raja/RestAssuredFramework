@@ -1,0 +1,12 @@
+📌 Test Name: 75837431-38a5-4306-8712-d64fefcc157c
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users/7999321/posts
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Unauthorized Delete",
+  "body" : "Testing without token."
+}

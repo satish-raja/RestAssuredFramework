@@ -1,1 +1,1 @@
-{"id":"58455fe8be2b7288eb1c1fa3c4e41245","fullName":"com.api.tests.DeletePostTests.testDeletePost_ShouldSucceed","name":"🟢 Delete a post by ID","status":"passed","testResultsByEnv":{"default":"fb317b07b658df406a043355bdd775a8"}}
+{"id":"58455fe8be2b7288eb1c1fa3c4e41245","fullName":"com.api.tests.DeletePostTests.testDeletePost_ShouldSucceed","name":"🟢 Delete a post by ID","status":"passed","testResultsByEnv":{"default":"ca8da067354a4042c54ed04ddee8d120"}}

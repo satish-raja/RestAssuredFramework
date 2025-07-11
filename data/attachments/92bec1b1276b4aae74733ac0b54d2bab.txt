@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:25 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=105
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"e565fc6d8719b35b5c58173bbd3fe160"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7999321
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=79
+X-Ratelimit-Reset=8
+X-Request-Id=f6ca9ea4-0b65-46ef-af9e-40226cfa5682
+X-Runtime=0.081907
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LP1DOoAsfQXjHJnSzmls%2FktZXkGjECXxFJPV9R6gUNi3R2CNLzY6SNiRa37%2FjnjNpr0bhBTajVIj6W37NkOo113ibZb4BThHFgp9mw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d8f9cbfff62986-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7999321,
+  "name" : "Duncan Padberg",
+  "email" : "marcos.price@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 362 ms

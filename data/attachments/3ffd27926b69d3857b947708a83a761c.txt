@@ -1,0 +1,32 @@
+✅ Status Code: 422
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:30 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=42
+Connection=keep-alive
+Cache-Control=no-cache
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=73
+X-Ratelimit-Reset=12
+X-Request-Id=fb5e44b2-b9fb-427d-9c10-b589f670014b
+X-Runtime=0.060775
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=9CDo%2BHIgZHWLpitxaSwclNG82s2So8J6%2Fn0DFDEUoU30SZ64t%2FHsNI2m1MEqu2Myv5gDbgskX%2BC%2F1bVXdYRrrEwZLiWao6xVP2AjDQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d8f9ea792561ed-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+[ {
+  "field" : "email",
+  "message" : "is invalid"
+} ]
+⏱️ Duration: 838 ms

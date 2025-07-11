@@ -1,0 +1,44 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:08 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"615a05d4d4f16ab05133c505078188a7"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Links-Current=https://gorest.co.in/public/v2/users?page=1
+X-Links-Next=
+X-Links-Previous=
+X-Pagination-Limit=10
+X-Pagination-Page=1
+X-Pagination-Pages=1
+X-Pagination-Total=1
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=c11a9dee-428a-4fc8-bbe3-58198684d6f3
+X-Runtime=0.110362
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=d8semeziyxPF1XuFEAawVD4uS1IgBpeVHX5xhEKJ1Gotn1xCFYdoLmesZ7dLAWFx1Ik17tulsyT2miUe2AKfrfK4YkNfMT1IvfwtZw%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d8f95ced6088cd-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+[ {
+  "id" : 7999313,
+  "name" : "Arnette Parker",
+  "email" : "guillermina.koss@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+} ]
+⏱️ Duration: 882 ms

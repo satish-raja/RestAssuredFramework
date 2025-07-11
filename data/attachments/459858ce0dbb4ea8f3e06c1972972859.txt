@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:39 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=107
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"1e26abc0e08f074ee4f029b2df2f315d"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7999325
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=64
+X-Ratelimit-Reset=18
+X-Request-Id=18352428-81be-4b9d-8637-d271915c3d20
+X-Runtime=0.082258
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VlgmTHUf0LjDaODnCBX0VijV2EEAidcdIA0ydJiL7YJn%2F86SaU5Y3h28kuJihYO5qr3lKVYsyGfL0xQjcXNr6XN5wmZdweIIk4FV%2Bg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d8fa227a01a599-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7999325,
+  "name" : "Brianna Borer",
+  "email" : "hugh.cummings@gmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 360 ms

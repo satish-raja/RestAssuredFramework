@@ -1,0 +1,14 @@
+📌 Test Name: 60825069-459a-44e3-900b-4e1547feeb32
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Al McDermott",
+  "gender" : "male",
+  "email" : "catharine.bartoletti@yahoo.com",
+  "status" : "active"
+}

@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:10 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"18cc6a296f479b2f1893c3d6737189aa"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=bbe9087b-e7a7-47cb-ae64-68cdffd39810
+X-Runtime=0.062991
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0lbeDwfgixUJd2SBl31sR1oPBA1R6L2oNSgJ4Md%2BksAS4G82I1jrSfdAPFLxEIVJXrxU%2B7zoLEmRD4TcsMxbK0KIG2F0RrI49cut2w%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d8f9681aba1403-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7999313,
+  "name" : "Arnette Parker",
+  "email" : "guillermina.koss@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 866 ms

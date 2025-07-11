@@ -1,0 +1,14 @@
+📌 Test Name: 724cc950-4162-4ec7-9cd4-7efc5fbb1318
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/users/7999314
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Invalid Email Update",
+  "gender" : "male",
+  "email" : "not-an-email",
+  "status" : "inactive"
+}

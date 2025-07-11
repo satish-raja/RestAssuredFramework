@@ -1,0 +1,14 @@
+📌 Test Name: dfb57a58-4a9b-43bc-9a6b-0ddb5bb2cbf0
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/users/7999315
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Updated Name",
+  "gender" : "female",
+  "email" : "christopher.bins@gmail.com",
+  "status" : "inactive"
+}

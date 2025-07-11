@@ -1,0 +1,13 @@
+📌 Test Name: cab55b5d-7408-42ae-b76e-cddab538eb93
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220394/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Carly Cremin",
+  "email" : "serafina.spinka@hotmail.com",
+  "body" : "Initial comment content"
+}

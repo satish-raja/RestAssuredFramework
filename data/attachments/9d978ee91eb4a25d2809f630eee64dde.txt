@@ -1,0 +1,14 @@
+📌 Test Name: b58c1d1b-32b7-41c6-b658-c39c2bd59256
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/7999313
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Arnette Parker",
+  "gender" : "male",
+  "email" : "guillermina.koss@yahoo.com",
+  "status" : "active"
+}

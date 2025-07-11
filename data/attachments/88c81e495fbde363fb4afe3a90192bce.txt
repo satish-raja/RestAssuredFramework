@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 14:26:38 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=123
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"d2a9793344145fd4daf7ef5a96bb58e1"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/comments/157237
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=66
+X-Ratelimit-Reset=17
+X-Request-Id=5d84a0cf-c38d-4660-94ed-d6164a9d8704
+X-Runtime=0.051443
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=WTPixP6giECjzZYtkTMhnnIO4c8OqlPSdBydduGeRDaZ9LjsPx0r9%2FZCR3XwVYk6BSluyG07bUE42za8wyCiPviTQw2be417X%2FnNqw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d8fa1e3d9ae81e-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 157237,
+  "post_id" : 220394,
+  "name" : "Carly Cremin",
+  "email" : "serafina.spinka@hotmail.com",
+  "body" : "Initial comment content"
+}
+⏱️ Duration: 319 ms

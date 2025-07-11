@@ -1,0 +1,13 @@
+📌 Test Name: eeee35d3-0533-49f1-bef3-192390d8d649
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220393/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Arianna",
+  "email" : "tarsha.waelchi@hotmail.com",
+  "body" : "Nice post!"
+}

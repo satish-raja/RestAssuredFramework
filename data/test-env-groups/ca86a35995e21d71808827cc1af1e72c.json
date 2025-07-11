@@ -1,1 +1,1 @@
-{"id":"ca86a35995e21d71808827cc1af1e72c","fullName":"com.api.tests.CreateUserTests.testCreateUser_ValidData_ShouldSucceed","name":"🟢 Create user with valid data","status":"passed","testResultsByEnv":{"default":"56f31c9e2fe5209015d656aed085d373"}}
+{"id":"ca86a35995e21d71808827cc1af1e72c","fullName":"com.api.tests.CreateUserTests.testCreateUser_ValidData_ShouldSucceed","name":"🟢 Create user with valid data","status":"passed","testResultsByEnv":{"default":"105382b105b314641c68eec4348f28dd"}}

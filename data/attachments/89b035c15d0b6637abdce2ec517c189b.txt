@@ -1,0 +1,14 @@
+📌 Test Name: c99b54bd-b5ce-4985-890e-9120accd1d99
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Brianna Borer",
+  "gender" : "female",
+  "email" : "hugh.cummings@gmail.com",
+  "status" : "active"
+}

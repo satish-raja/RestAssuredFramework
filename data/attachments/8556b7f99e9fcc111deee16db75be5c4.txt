@@ -1,0 +1,13 @@
+📌 Test Name: fc6cbec1-17f6-464c-ba30-0a7eecc1955a
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220392/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "No Body",
+  "email" : "carie.murray@yahoo.com",
+  "body" : null
+}

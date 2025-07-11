@@ -1,0 +1,14 @@
+📌 Test Name: 0d8633f2-9482-4e23-81ae-13724553794e
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Stephane Osinski",
+  "gender" : "female",
+  "email" : "cleo.macgyver@yahoo.com",
+  "status" : "active"
+}
