@@ -15,7 +15,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static com.api.constants.APIConstants.*;
+import static com.api.constants.APIConstants.Tokens;
+import static com.api.constants.APIConstants.StatusCodes;
+import static com.api.constants.APIConstants.Schemas;
 
 /**
  * 📘 UpdateCommentTests
@@ -44,7 +46,7 @@ public class UpdateCommentTests extends BaseTest {
         postService = new PostService();
         userService = new UserService();
 
-        String token = System.getProperty("api.token", ACCESS_TOKEN);
+        String token = System.getProperty("api.token", Tokens.ACCESS_TOKEN);
         commentService.setAuthToken(token);
         postService.setAuthToken(token);
         userService.setAuthToken(token);
@@ -60,7 +62,7 @@ public class UpdateCommentTests extends BaseTest {
         AllureLogger.attachJson("Create User", userPayload);
         Response userResponse = userService.createUser(userPayload);
         AllureLogger.attachResponse("Create User Response", userResponse);
-        Assert.assertEquals(userResponse.statusCode(), STATUS_CODE_CREATED, "❌ User creation failed");
+        Assert.assertEquals(userResponse.statusCode(), StatusCodes.CREATED, "❌ User creation failed");
 
         int userId = userResponse.jsonPath().getInt("id");
         Allure.step("📌 Created user ID: " + userId);
@@ -70,7 +72,7 @@ public class UpdateCommentTests extends BaseTest {
         AllureLogger.attachJson("Create Post", postPayload);
         Response postResponse = postService.createPost(userId, postPayload);
         AllureLogger.attachResponse("Create Post Response", postResponse);
-        Assert.assertEquals(postResponse.statusCode(), STATUS_CODE_CREATED, "❌ Post creation failed");
+        Assert.assertEquals(postResponse.statusCode(), StatusCodes.CREATED, "❌ Post creation failed");
 
         int postId = postResponse.jsonPath().getInt("id");
         Allure.step("📌 Created post ID: " + postId);
@@ -85,7 +87,7 @@ public class UpdateCommentTests extends BaseTest {
         AllureLogger.attachJson("Create Comment", commentPayload);
         Response commentResponse = commentService.createComment(postId, commentPayload);
         AllureLogger.attachResponse("Create Comment Response", commentResponse);
-        Assert.assertEquals(commentResponse.statusCode(), STATUS_CODE_CREATED, "❌ Comment creation failed");
+        Assert.assertEquals(commentResponse.statusCode(), StatusCodes.CREATED, "❌ Comment creation failed");
 
         commentId = commentResponse.jsonPath().getInt("id");
         Allure.step("📌 Created comment ID: " + commentId);
@@ -104,10 +106,10 @@ public class UpdateCommentTests extends BaseTest {
         Response updateResponse = commentService.updateComment(commentId, updatePayload);
         AllureLogger.attachResponse("Update Comment Response", updateResponse);
 
-        Assert.assertEquals(updateResponse.statusCode(), STATUS_CODE_OK, "❌ Expected 200 OK for comment update");
+        Assert.assertEquals(updateResponse.statusCode(), StatusCodes.OK, "❌ Expected 200 OK for comment update");
 
         Allure.step("📐 Validating update comment response schema...");
-        JsonSchemaValidatorUtil.validateJsonSchema(updateResponse, "schemas/comment/update_comment_response_schema.json");
+        JsonSchemaValidatorUtil.validateJsonSchema(updateResponse, Schemas.Comment.UPDATE);
 
         CreateCommentResponse updatedComment = updateResponse.as(CreateCommentResponse.class);
         Assert.assertEquals(updatedComment.getBody(), updatePayload.getBody(), "❌ Mismatch in comment body");

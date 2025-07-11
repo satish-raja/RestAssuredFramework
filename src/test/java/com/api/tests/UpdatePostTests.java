@@ -1,6 +1,23 @@
 package com.api.tests;
 
-import com.api.models.request.*;
+import static com.api.constants.APIConstants.BASE_URL;
+import static com.api.constants.APIConstants.StatusCodes.CREATED;
+import static com.api.constants.APIConstants.StatusCodes.NOT_FOUND;
+import static com.api.constants.APIConstants.StatusCodes.OK;
+import static com.api.constants.APIConstants.StatusCodes.UNAUTHORIZED;
+import static com.api.constants.APIConstants.StatusCodes.UNPROCESSABLE_ENTITY;
+import static io.restassured.RestAssured.given;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.api.constants.APIConstants.Schemas;
+import com.api.constants.APIConstants.Tokens;
+import com.api.models.request.CreatePostRequest;
+import com.api.models.request.CreateUserRequest;
+import com.api.models.request.CreateUserRequestBuilder;
+import com.api.models.request.UpdatePostRequest;
 import com.api.models.response.CreatePostResponse;
 import com.api.services.PostService;
 import com.api.services.UserService;
@@ -8,14 +25,18 @@ import com.api.tests.base.BaseTest;
 import com.api.utils.AllureLogger;
 import com.api.utils.JsonSchemaValidatorUtil;
 import com.github.javafaker.Faker;
-import io.qameta.allure.*;
-import io.restassured.response.Response;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.given;
-import static com.api.constants.APIConstants.*;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Link;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
+import io.restassured.response.Response;
 
 /**
  * 📘 UpdatePostTests
@@ -47,7 +68,7 @@ public class UpdatePostTests extends BaseTest {
         userService = new UserService();
         faker = new Faker();
 
-        String token = System.getProperty("api.token", ACCESS_TOKEN);
+        String token = System.getProperty("api.token", Tokens.ACCESS_TOKEN);
         postService.setAuthToken(token);
         userService.setAuthToken(token);
 
@@ -62,7 +83,7 @@ public class UpdatePostTests extends BaseTest {
         AllureLogger.attachJson("Create User", userPayload);
         Response userResponse = userService.createUser(userPayload);
         AllureLogger.attachResponse("Create User Response", userResponse);
-        Assert.assertEquals(userResponse.statusCode(), STATUS_CODE_CREATED, "❌ User creation failed");
+        Assert.assertEquals(userResponse.statusCode(), CREATED, "❌ User creation failed");
         userId = userResponse.jsonPath().getInt("id");
         Allure.step("📌 Created user ID: " + userId);
 
@@ -71,7 +92,7 @@ public class UpdatePostTests extends BaseTest {
         AllureLogger.attachJson("Create Post", postPayload);
         Response postResponse = postService.createPost(userId, postPayload);
         AllureLogger.attachResponse("Create Post Response", postResponse);
-        Assert.assertEquals(postResponse.statusCode(), STATUS_CODE_CREATED, "❌ Post creation failed");
+        Assert.assertEquals(postResponse.statusCode(), CREATED, "❌ Post creation failed");
         postId = postResponse.jsonPath().getInt("id");
         Allure.step("📌 Created post ID: " + postId);
     }
@@ -89,10 +110,10 @@ public class UpdatePostTests extends BaseTest {
         Response response = postService.updatePost(postId, updatePayload);
         AllureLogger.attachResponse("Update Post Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_OK, "❌ Expected 200 OK for post update");
+        Assert.assertEquals(response.statusCode(), OK, "❌ Expected 200 OK for post update");
 
         Allure.step("📐 Validating Update Post JSON schema");
-        JsonSchemaValidatorUtil.validateJsonSchema(response, "schemas/post/update_post_response_schema.json");
+        JsonSchemaValidatorUtil.validateJsonSchema(response, Schemas.Post.UPDATE);
 
         CreatePostResponse updatedPost = response.as(CreatePostResponse.class);
         Assert.assertEquals(updatedPost.getTitle(), updatePayload.getTitle(), "❌ Mismatch in updated title");
@@ -113,7 +134,7 @@ public class UpdatePostTests extends BaseTest {
         Response response = postService.updatePost(invalidPostId, payload);
         AllureLogger.attachResponse("Update Response (Invalid ID)", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NOT_FOUND,
+        Assert.assertEquals(response.statusCode(), NOT_FOUND,
                 "❌ Expected 404 Not Found for invalid post ID but got: " + response.statusCode());
     }
 
@@ -130,7 +151,7 @@ public class UpdatePostTests extends BaseTest {
         Response response = postService.updatePost(postId, emptyPayload);
         AllureLogger.attachResponse("Update Response (Empty Payload)", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_UNPROCESSABLE_ENTITY,
+        Assert.assertEquals(response.statusCode(), UNPROCESSABLE_ENTITY,
                 "❌ Expected 422 Unprocessable Entity for empty payload but got: " + response.statusCode());
     }
 
@@ -159,7 +180,7 @@ public class UpdatePostTests extends BaseTest {
         AllureLogger.attachResponse("Unauthorized Update Response", response);
 
         Assert.assertTrue(
-                response.statusCode() == STATUS_CODE_UNAUTHORIZED || response.statusCode() == STATUS_CODE_NOT_FOUND,
+                response.statusCode() == UNAUTHORIZED || response.statusCode() == NOT_FOUND,
                 "❌ Expected 401 or 404 for unauthorized request but got: " + response.statusCode()
         );
     }

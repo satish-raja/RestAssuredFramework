@@ -13,7 +13,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static com.api.constants.APIConstants.*;
+import static com.api.constants.APIConstants.Tokens;
+import static com.api.constants.APIConstants.StatusCodes;
 
 /**
  * 📘 GetUserTests
@@ -37,7 +38,7 @@ public class GetUserTests extends BaseTest {
         faker = new Faker();
         userService = new UserService();
 
-        String token = System.getProperty("api.token", ACCESS_TOKEN);
+        String token = System.getProperty("api.token", Tokens.ACCESS_TOKEN);
         userService.setAuthToken(token);
 
         validUserId = createUserAndReturnId();
@@ -54,7 +55,7 @@ public class GetUserTests extends BaseTest {
         Response response = userService.getAllUsers();
         AllureLogger.attachResponse("📎 Get All Users Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_OK, "❌ Expected status code 200 for /users");
+        Assert.assertEquals(response.statusCode(), StatusCodes.OK, "❌ Expected status code 200 for /users");
 
         var userList = response.jsonPath().getList("$");
         Assert.assertNotNull(userList, "❌ Expected user list but got null");
@@ -71,7 +72,7 @@ public class GetUserTests extends BaseTest {
         Response response = userService.getUserById(validUserId);
         AllureLogger.attachResponse("📎 Get User By Valid ID Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_OK, "❌ Expected 200 OK for valid user ID");
+        Assert.assertEquals(response.statusCode(), StatusCodes.OK, "❌ Expected 200 OK for valid user ID");
 
         int returnedId = response.jsonPath().getInt("id");
         Assert.assertEquals(returnedId, validUserId, "❌ Returned user ID does not match expected");
@@ -88,7 +89,7 @@ public class GetUserTests extends BaseTest {
         Response response = userService.getUserById(invalidUserId);
         AllureLogger.attachResponse("📎 Get User By Invalid ID Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NOT_FOUND, "❌ Expected 404 for invalid user ID");
+        Assert.assertEquals(response.statusCode(), StatusCodes.NOT_FOUND, "❌ Expected 404 for invalid user ID");
     }
 
     /**
@@ -108,7 +109,7 @@ public class GetUserTests extends BaseTest {
         Response response = userService.createUserAndReturnResponse(request);
         AllureLogger.attachResponse("📎 Create User Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "❌ User creation failed");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "❌ User creation failed");
 
         CreateUserResponse user = response.as(CreateUserResponse.class);
         return user.getId();

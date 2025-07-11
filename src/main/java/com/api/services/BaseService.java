@@ -1,6 +1,7 @@
 package com.api.services;
 
 import static io.restassured.RestAssured.given;
+import static com.api.constants.APIConstants.Tokens;
 
 import com.api.filters.AllureLoggingFilter;
 import com.api.utils.ConfigManager;
@@ -13,8 +14,9 @@ import io.restassured.specification.RequestSpecification;
 
 public class BaseService {
 
-	private static final String BASE_URL = ConfigManager.get("base.url");
-	private static final String DEFAULT_TOKEN = ConfigManager.get("api.token");
+	private static final String BASE_URL = ConfigManager.getInstance().get("base.url");
+
+    private static final String DEFAULT_TOKEN = Tokens.ACCESS_TOKEN;
 
     protected RequestSpecification request;
 

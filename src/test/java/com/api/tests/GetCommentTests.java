@@ -17,11 +17,12 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static com.api.constants.APIConstants.*;
+import static com.api.constants.APIConstants.Tokens;
+import static com.api.constants.APIConstants.StatusCodes;
 
 /**
  * 📘 GetCommentTests
- * 
+ *
  * Validates GET endpoints related to comments (by post ID, by comment ID).
  */
 @Epic("💬 Comment Module")
@@ -47,7 +48,7 @@ public class GetCommentTests extends BaseTest {
         postService = new PostService();
         commentService = new CommentService();
 
-        String token = System.getProperty("api.token", ACCESS_TOKEN);
+        String token = System.getProperty("api.token", Tokens.ACCESS_TOKEN);
         userService.setAuthToken(token);
         postService.setAuthToken(token);
         commentService.setAuthToken(token);
@@ -65,7 +66,7 @@ public class GetCommentTests extends BaseTest {
         Response response = commentService.getAllCommentsForPost(postId);
         AllureLogger.attachResponse("📎 Get All Comments Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_OK, "❌ Expected 200 OK for get comments");
+        Assert.assertEquals(response.statusCode(), StatusCodes.OK, "❌ Expected 200 OK for get comments");
 
         var commentsList = response.jsonPath().getList("$");
         Assert.assertNotNull(commentsList, "❌ Comment list should not be null");
@@ -82,7 +83,7 @@ public class GetCommentTests extends BaseTest {
         Response response = commentService.getCommentById(commentId);
         AllureLogger.attachResponse("📎 Get Comment By ID Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_OK, "❌ Expected 200 OK for valid comment ID");
+        Assert.assertEquals(response.statusCode(), StatusCodes.OK, "❌ Expected 200 OK for valid comment ID");
 
         CreateCommentResponse comment = response.as(CreateCommentResponse.class);
         Assert.assertEquals(comment.getId(), commentId, "❌ Comment ID mismatch");
@@ -100,7 +101,7 @@ public class GetCommentTests extends BaseTest {
         Response response = commentService.getCommentById(invalidId);
         AllureLogger.attachResponse("📎 Get Comment By Invalid ID Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NOT_FOUND, "❌ Expected 404 for invalid comment ID");
+        Assert.assertEquals(response.statusCode(), StatusCodes.NOT_FOUND, "❌ Expected 404 for invalid comment ID");
     }
 
     /**
@@ -118,7 +119,7 @@ public class GetCommentTests extends BaseTest {
         AllureLogger.attachJson("📎 Create User Request", userPayload);
         Response userResponse = userService.createUser(userPayload);
         AllureLogger.attachResponse("📎 Create User Response", userResponse);
-        Assert.assertEquals(userResponse.statusCode(), STATUS_CODE_CREATED, "❌ User creation failed");
+        Assert.assertEquals(userResponse.statusCode(), StatusCodes.CREATED, "❌ User creation failed");
         userId = userResponse.jsonPath().getInt("id");
         Allure.step("📌 Created User ID: " + userId);
 
@@ -126,7 +127,7 @@ public class GetCommentTests extends BaseTest {
         AllureLogger.attachJson("📎 Create Post Request", postPayload);
         Response postResponse = postService.createPost(userId, postPayload);
         AllureLogger.attachResponse("📎 Create Post Response", postResponse);
-        Assert.assertEquals(postResponse.statusCode(), STATUS_CODE_CREATED, "❌ Post creation failed");
+        Assert.assertEquals(postResponse.statusCode(), StatusCodes.CREATED, "❌ Post creation failed");
         postId = postResponse.jsonPath().getInt("id");
         Allure.step("📌 Created Post ID: " + postId);
 
@@ -138,7 +139,7 @@ public class GetCommentTests extends BaseTest {
         AllureLogger.attachJson("📎 Create Comment Request", commentPayload);
         Response commentResponse = commentService.createComment(postId, commentPayload);
         AllureLogger.attachResponse("📎 Create Comment Response", commentResponse);
-        Assert.assertEquals(commentResponse.statusCode(), STATUS_CODE_CREATED, "❌ Comment creation failed");
+        Assert.assertEquals(commentResponse.statusCode(), StatusCodes.CREATED, "❌ Comment creation failed");
         commentId = commentResponse.jsonPath().getInt("id");
         Allure.step("📌 Created Comment ID: " + commentId);
     }

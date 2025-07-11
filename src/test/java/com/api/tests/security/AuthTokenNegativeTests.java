@@ -1,6 +1,8 @@
 package com.api.tests.security;
 
 import static com.api.constants.APIConstants.*;
+import static com.api.constants.APIConstants.Endpoints.*;
+import static com.api.constants.APIConstants.StatusCodes.*;
 
 import com.api.tests.base.BaseTest;
 import io.qameta.allure.*;
@@ -27,7 +29,7 @@ public class AuthTokenNegativeTests extends BaseTest {
         
         Response response = given()
                 .baseUri(BASE_URL)
-                .basePath("/users/" + DUMMY_USER_ID)
+                .basePath(USERS + "/" + DUMMY_USER_ID)
                 .header("Accept", "application/json")
                 .when()
                 .get()
@@ -40,7 +42,7 @@ public class AuthTokenNegativeTests extends BaseTest {
 
         int status = response.statusCode();
         Assert.assertTrue(
-                status == STATUS_CODE_UNAUTHORIZED || status == STATUS_CODE_NOT_FOUND,
+                status == UNAUTHORIZED || status == NOT_FOUND,
                 "Expected 401 or 404 for missing token, but got: " + status
         );
     }
@@ -56,7 +58,7 @@ public class AuthTokenNegativeTests extends BaseTest {
 
         Response response = given()
                 .baseUri(BASE_URL)
-                .basePath("/users/" + DUMMY_USER_ID)
+                .basePath(USERS + "/" + DUMMY_USER_ID)
                 .header("Accept", "application/json")
                 .header("Authorization", invalidToken)
                 .when()
@@ -68,7 +70,7 @@ public class AuthTokenNegativeTests extends BaseTest {
         Allure.step("🔐 Response status: " + response.statusCode());
         Allure.attachment("Response Body", response.asPrettyString());
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_UNAUTHORIZED, "Expected 401 for invalid token");
+        Assert.assertEquals(response.statusCode(), UNAUTHORIZED, "Expected 401 for invalid token");
     }
 
     @Test(enabled = true, groups = "security", description = "🔴 Expired token - returns 401 or 403")

@@ -15,11 +15,12 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static com.api.constants.APIConstants.*;
+import static com.api.constants.APIConstants.Tokens;
+import static com.api.constants.APIConstants.StatusCodes;
 
 /**
  * 📘 GetPostTests
- * 
+ *
  * Contains tests to validate the GET /posts and GET /posts/{id} endpoints.
  */
 @Epic("📝 Post Module")
@@ -42,7 +43,7 @@ public class GetPostTests extends BaseTest {
         postService = new PostService();
         userService = new UserService();
 
-        String token = System.getProperty("api.token", ACCESS_TOKEN);
+        String token = System.getProperty("api.token", Tokens.ACCESS_TOKEN);
         postService.setAuthToken(token);
         userService.setAuthToken(token);
 
@@ -59,7 +60,7 @@ public class GetPostTests extends BaseTest {
         Response response = postService.getPostById(postId);
         AllureLogger.attachResponse("📎 Get Post By ID Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_OK, "❌ Expected 200 OK for valid post ID");
+        Assert.assertEquals(response.statusCode(), StatusCodes.OK, "❌ Expected 200 OK for valid post ID");
 
         CreatePostResponse post = response.as(CreatePostResponse.class);
         Assert.assertEquals(post.getId(), postId, "❌ Post ID mismatch");
@@ -77,7 +78,7 @@ public class GetPostTests extends BaseTest {
         Response response = postService.getAllPosts();
         AllureLogger.attachResponse("📎 Get All Posts Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_OK, "❌ Expected status 200 OK");
+        Assert.assertEquals(response.statusCode(), StatusCodes.OK, "❌ Expected status 200 OK");
 
         var postList = response.jsonPath().getList("id");
         Assert.assertNotNull(postList, "❌ Expected post list but got null");
@@ -95,7 +96,7 @@ public class GetPostTests extends BaseTest {
         Response response = postService.getPostById(invalidPostId);
         AllureLogger.attachResponse("📎 Get Invalid Post Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NOT_FOUND, "❌ Expected 404 Not Found");
+        Assert.assertEquals(response.statusCode(), StatusCodes.NOT_FOUND, "❌ Expected 404 Not Found");
     }
 
     /**
@@ -114,7 +115,7 @@ public class GetPostTests extends BaseTest {
         Response userResponse = userService.createUser(userPayload);
         AllureLogger.attachResponse("📎 Create User Response", userResponse);
 
-        Assert.assertEquals(userResponse.statusCode(), STATUS_CODE_CREATED, "❌ User creation failed");
+        Assert.assertEquals(userResponse.statusCode(), StatusCodes.CREATED, "❌ User creation failed");
         userId = userResponse.jsonPath().getInt("id");
         Allure.step("📌 Created User ID: " + userId);
 
@@ -123,7 +124,7 @@ public class GetPostTests extends BaseTest {
         Response postResponse = postService.createPost(userId, postPayload);
         AllureLogger.attachResponse("📎 Create Post Response", postResponse);
 
-        Assert.assertEquals(postResponse.statusCode(), STATUS_CODE_CREATED, "❌ Post creation failed");
+        Assert.assertEquals(postResponse.statusCode(), StatusCodes.CREATED, "❌ Post creation failed");
         postId = postResponse.jsonPath().getInt("id");
         Allure.step("📌 Created Post ID: " + postId);
     }

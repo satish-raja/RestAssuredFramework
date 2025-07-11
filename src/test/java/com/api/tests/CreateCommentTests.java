@@ -1,7 +1,6 @@
 package com.api.tests;
 
-import static com.api.constants.APIConstants.*;
-
+import com.api.constants.APIConstants.Schemas;
 import com.api.models.request.CreateCommentRequest;
 import com.api.models.request.CreateCommentRequestBuilder;
 import com.api.models.request.CreatePostRequest;
@@ -15,19 +14,19 @@ import com.api.tests.base.BaseTest;
 import com.api.utils.AllureLogger;
 import com.api.utils.JsonSchemaValidatorUtil;
 import com.github.javafaker.Faker;
-
 import io.qameta.allure.*;
-
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import static com.api.constants.APIConstants.StatusCodes;
+import static com.api.constants.APIConstants.Tokens;
+
 /**
  * 🔍 Test class for validating Create Comment API functionality,
  * covering both positive and negative scenarios with schema and response validation.
  */
-
 @Epic("💬 Comment Module")
 @Feature("📝 Create Comment API")
 @Owner("Satish Raja")
@@ -50,7 +49,7 @@ public class CreateCommentTests extends BaseTest {
         userService = new UserService();
 
         Allure.step("🔐 Setting up Auth tokens");
-        String token = System.getProperty("api.token", ACCESS_TOKEN);
+        String token = System.getProperty("api.token", Tokens.ACCESS_TOKEN);
         userService.setAuthToken(token);
         postService.setAuthToken(token);
         commentService.setAuthToken(token);
@@ -70,7 +69,7 @@ public class CreateCommentTests extends BaseTest {
         AllureLogger.attachJson("Create User Payload", userPayload);
         Response userResponse = userService.createUser(userPayload);
         AllureLogger.attachResponse("Create User Response", userResponse);
-        Assert.assertEquals(userResponse.statusCode(), STATUS_CODE_CREATED, "❌ User creation failed");
+        Assert.assertEquals(userResponse.statusCode(), StatusCodes.CREATED, "❌ User creation failed");
 
         int userId = userResponse.jsonPath().getInt("id");
 
@@ -78,7 +77,7 @@ public class CreateCommentTests extends BaseTest {
         AllureLogger.attachJson("Create Post Payload", postPayload);
         Response postResponse = postService.createPost(userId, postPayload);
         AllureLogger.attachResponse("Create Post Response", postResponse);
-        Assert.assertEquals(postResponse.statusCode(), STATUS_CODE_CREATED, "❌ Post creation failed");
+        Assert.assertEquals(postResponse.statusCode(), StatusCodes.CREATED, "❌ Post creation failed");
 
         postId = postResponse.jsonPath().getInt("id");
     }
@@ -102,10 +101,10 @@ public class CreateCommentTests extends BaseTest {
         AllureLogger.attachResponse("Create Comment Response", response);
 
         Allure.step("✅ Verifying status code is 201 Created");
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "❌ Expected 201 for valid comment creation");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "❌ Expected 201 for valid comment creation");
 
         Allure.step("📐 Validating response JSON schema");
-        JsonSchemaValidatorUtil.validateJsonSchema(response, "schemas/comment/create_comment_response_schema.json");
+        JsonSchemaValidatorUtil.validateJsonSchema(response, Schemas.Comment.CREATE);
 
         Allure.step("📋 Asserting response matches the request payload");
         CreateCommentResponse comment = response.as(CreateCommentResponse.class);
@@ -117,7 +116,6 @@ public class CreateCommentTests extends BaseTest {
         Assert.assertTrue(response.time() < 2000, "❌ Response took too long: " + response.time() + "ms");
     }
 
-    // ❌ Negative Scenario: Missing Name
     @Test(description = "🔴 Missing name should return 422", groups = "negative")
     @Story("❌ Missing Fields in Comment")
     @Severity(SeverityLevel.NORMAL)
@@ -132,7 +130,6 @@ public class CreateCommentTests extends BaseTest {
         sendInvalidCommentRequest(payload, "Missing Name");
     }
 
-    // ❌ Negative Scenario: Missing Email
     @Test(description = "🔴 Missing email should return 422", groups = "negative")
     @Story("❌ Missing Fields in Comment")
     @Severity(SeverityLevel.NORMAL)
@@ -147,7 +144,6 @@ public class CreateCommentTests extends BaseTest {
         sendInvalidCommentRequest(payload, "Missing Email");
     }
 
-    // ❌ Negative Scenario: Missing Body
     @Test(description = "🔴 Missing body should return 422", groups = "negative")
     @Story("❌ Missing Fields in Comment")
     @Severity(SeverityLevel.NORMAL)
@@ -162,7 +158,6 @@ public class CreateCommentTests extends BaseTest {
         sendInvalidCommentRequest(payload, "Missing Body");
     }
 
-    // ❌ Negative Scenario: Invalid Email Format
     @Test(description = "🔴 Invalid email format should return 422", groups = "negative")
     @Story("❌ Invalid Email Format in Comment")
     @Severity(SeverityLevel.NORMAL)
@@ -177,7 +172,6 @@ public class CreateCommentTests extends BaseTest {
         sendInvalidCommentRequest(payload, "Invalid Email Format");
     }
 
-    // ❌ Negative Scenario: Invalid Post ID
     @Test(description = "🔴 Invalid post ID should return 422", groups = "negative")
     @Story("❌ Invalid Post ID in Comment Request")
     @Severity(SeverityLevel.NORMAL)
@@ -197,7 +191,7 @@ public class CreateCommentTests extends BaseTest {
         Response response = commentService.createComment(invalidPostId, payload);
         AllureLogger.attachResponse("Invalid Post ID Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_UNPROCESSABLE_ENTITY, "❌ Expected 422 for invalid postId");
+        Assert.assertEquals(response.statusCode(), StatusCodes.UNPROCESSABLE_ENTITY, "❌ Expected 422 for invalid postId");
     }
 
     @Step("❌ Sending invalid comment request for negative test case")
@@ -208,6 +202,6 @@ public class CreateCommentTests extends BaseTest {
         Response response = commentService.createComment(postId, payload);
         AllureLogger.attachResponse("Response for " + scenario, response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_UNPROCESSABLE_ENTITY, "❌ Expected 422 for: " + scenario);
+        Assert.assertEquals(response.statusCode(), StatusCodes.UNPROCESSABLE_ENTITY, "❌ Expected 422 for: " + scenario);
     }
 }

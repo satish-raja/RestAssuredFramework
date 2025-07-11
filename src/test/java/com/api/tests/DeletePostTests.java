@@ -1,5 +1,14 @@
 package com.api.tests;
 
+import static com.api.constants.APIConstants.BASE_URL;
+import static io.restassured.RestAssured.given;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.api.constants.APIConstants.StatusCodes;
+import com.api.constants.APIConstants.Tokens;
 import com.api.models.request.CreatePostRequest;
 import com.api.models.request.CreateUserRequest;
 import com.api.models.request.CreateUserRequestBuilder;
@@ -8,14 +17,18 @@ import com.api.services.UserService;
 import com.api.tests.base.BaseTest;
 import com.api.utils.AllureLogger;
 import com.github.javafaker.Faker;
-import io.qameta.allure.*;
-import io.restassured.response.Response;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.given;
-import static com.api.constants.APIConstants.*;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Link;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
+import io.restassured.response.Response;
 
 @Epic("📝 Post Module")
 @Feature("🗑 Delete Post API")
@@ -37,7 +50,7 @@ public class DeletePostTests extends BaseTest {
         userService = new UserService();
         faker = new Faker();
 
-        String token = System.getProperty("api.token", ACCESS_TOKEN);
+        String token = System.getProperty("api.token", Tokens.ACCESS_TOKEN);
         postService.setAuthToken(token);
         userService.setAuthToken(token);
 
@@ -57,7 +70,7 @@ public class DeletePostTests extends BaseTest {
         AllureLogger.attachJson("Create User Request", userPayload);
         Response response = userService.createUser(userPayload);
         AllureLogger.attachResponse("Create User Response", response);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "User creation failed");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "User creation failed");
 
         return response.jsonPath().getInt("id");
     }
@@ -68,7 +81,7 @@ public class DeletePostTests extends BaseTest {
         AllureLogger.attachJson("Create Post Request", postPayload);
         Response response = postService.createPost(userId, postPayload);
         AllureLogger.attachResponse("Create Post Response", response);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "Post creation failed");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "Post creation failed");
 
         return response.jsonPath().getInt("id");
     }
@@ -81,7 +94,7 @@ public class DeletePostTests extends BaseTest {
         Allure.step("🗑 Deleting post with ID: " + postId);
         Response response = postService.deletePost(postId);
         AllureLogger.attachResponse("Delete Post Response", response);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NO_CONTENT, "Expected 204 No Content for successful deletion");
+        Assert.assertEquals(response.statusCode(), StatusCodes.NO_CONTENT, "Expected 204 No Content for successful deletion");
 
         // Optionally validate empty body
         // Assert.assertTrue(response.body().asString().isEmpty(), "Expected empty body for 204 response");
@@ -95,7 +108,7 @@ public class DeletePostTests extends BaseTest {
         Allure.step("🔎 Trying to fetch deleted post with ID: " + postId);
         Response response = postService.getPostById(postId);
         AllureLogger.attachResponse("Get Deleted Post Response", response);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NOT_FOUND, "Expected 404 Not Found for deleted post");
+        Assert.assertEquals(response.statusCode(), StatusCodes.NOT_FOUND, "Expected 404 Not Found for deleted post");
     }
 
     @Test(description = "🔴 Delete post with invalid ID should return 404")
@@ -108,7 +121,7 @@ public class DeletePostTests extends BaseTest {
         Allure.step("📛 Attempting to delete post with invalid ID: " + invalidPostId);
         Response response = postService.deletePost(invalidPostId);
         AllureLogger.attachResponse("Delete with Invalid ID Response", response);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NOT_FOUND, "Expected 404 Not Found for invalid post ID");
+        Assert.assertEquals(response.statusCode(), StatusCodes.NOT_FOUND, "Expected 404 Not Found for invalid post ID");
     }
 
     @Test(description = "🔴 Delete post without authorization token should return 401 or 404")
@@ -118,13 +131,13 @@ public class DeletePostTests extends BaseTest {
     public void testDeletePostWithoutAuthToken_ShouldReturnUnauthorizedOrNotFound() {
         CreatePostRequest payload = new CreatePostRequest("Unauthorized Delete", "Testing without token.");
         Response postResponse = postService.createPost(userId, payload);
-        Assert.assertEquals(postResponse.statusCode(), STATUS_CODE_CREATED, "Post creation failed");
+        Assert.assertEquals(postResponse.statusCode(), StatusCodes.CREATED, "Post creation failed");
 
         int tempPostId = postResponse.jsonPath().getInt("id");
 
         Allure.step("🔒 Attempting unauthorized delete for Post ID: " + tempPostId);
         Response response = given()
-                .baseUri(BASE_URL)
+        		.baseUri(BASE_URL)
                 .basePath("/posts/" + tempPostId)
                 .accept("application/json")
                 .when()
@@ -137,12 +150,12 @@ public class DeletePostTests extends BaseTest {
 
         int status = response.statusCode();
         Assert.assertTrue(
-                status == STATUS_CODE_UNAUTHORIZED || status == STATUS_CODE_NOT_FOUND,
+                status == StatusCodes.UNAUTHORIZED || status == StatusCodes.NOT_FOUND,
                 "Expected 401 or 404, but got: " + status
         );
     }
 
-    @Test(dependsOnMethods = "testDeletePost_ShouldSucceed", description = "🔴 Deleting same post again should return 404")
+    @Test(dependsOnMethods = "testDeletePost_ShouldSucceed", description = "🔁 Deleting same post again should return 404")
     @Story("❌ Delete Already Deleted Post")
     @Severity(SeverityLevel.NORMAL)
     @Description("Verifies that deleting the same post twice returns 404 Not Found")
@@ -150,6 +163,6 @@ public class DeletePostTests extends BaseTest {
         Allure.step("🔁 Attempting to delete already deleted post with ID: " + postId);
         Response response = postService.deletePost(postId);
         AllureLogger.attachResponse("Second Delete Attempt Response", response);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NOT_FOUND, "Expected 404 Not Found for already deleted post");
+        Assert.assertEquals(response.statusCode(), StatusCodes.NOT_FOUND, "Expected 404 Not Found for already deleted post");
     }
 }

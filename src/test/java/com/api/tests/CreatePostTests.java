@@ -1,5 +1,11 @@
 package com.api.tests;
 
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.api.constants.APIConstants.Schemas;
+import com.api.constants.APIConstants.StatusCodes;
 import com.api.models.request.CreatePostRequest;
 import com.api.models.request.CreateUserRequest;
 import com.api.models.request.CreateUserRequestBuilder;
@@ -10,14 +16,19 @@ import com.api.tests.base.BaseTest;
 import com.api.utils.AllureLogger;
 import com.api.utils.JsonSchemaValidatorUtil;
 import com.github.javafaker.Faker;
-import io.qameta.allure.*;
+
+import io.qameta.allure.Allure;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Link;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 import io.qameta.allure.testng.Tag;
 import io.restassured.response.Response;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
-
-import static com.api.constants.APIConstants.*;
 
 /**
  * ✅ This class verifies successful post creation for a valid user
@@ -60,7 +71,7 @@ public class CreatePostTests extends BaseTest {
         Response response = userService.createUser(userPayload);
         AllureLogger.attachResponse("Create User Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "❌ User creation failed");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "❌ User creation failed");
 
         userId = response.jsonPath().getInt("id");
     }
@@ -77,10 +88,10 @@ public class CreatePostTests extends BaseTest {
         AllureLogger.attachResponse("Create Post Response", response);
 
         Allure.step("✅ Verify status code is 201 Created");
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "❌ Expected 201 Created");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "❌ Expected 201 Created");
 
         Allure.step("📐 Validate response against JSON schema");
-        JsonSchemaValidatorUtil.validateJsonSchema(response, "schemas/post/create_post_response_schema.json");
+        JsonSchemaValidatorUtil.validateJsonSchema(response, Schemas.Post.CREATE);
 
         Allure.step("🔍 Validate response body matches request payload");
         CreatePostResponse post = response.as(CreatePostResponse.class);

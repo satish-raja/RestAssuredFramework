@@ -1,7 +1,12 @@
 package com.api.tests;
 
-import static com.api.constants.APIConstants.*;
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
 
+import com.api.constants.APIConstants.Schemas;
+import com.api.constants.APIConstants.StatusCodes;
 import com.api.models.request.CreateUserRequest;
 import com.api.models.request.CreateUserRequestBuilder;
 import com.api.models.response.CreateUserResponse;
@@ -10,12 +15,18 @@ import com.api.tests.base.BaseTest;
 import com.api.utils.AllureLogger;
 import com.api.utils.JsonSchemaValidatorUtil;
 import com.github.javafaker.Faker;
-import io.qameta.allure.*;
+
+import io.qameta.allure.Allure;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Link;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 import io.restassured.response.Response;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
 /**
  * ✅ This test class validates Create User API functionality with both
@@ -27,7 +38,6 @@ import org.testng.annotations.Test;
 @Link(name = "API Docs", url = "https://gorest.co.in/")
 @Severity(SeverityLevel.BLOCKER)
 public class CreateUserTests extends BaseTest {
-
 
     private UserService userService;
     private Faker faker;
@@ -51,7 +61,7 @@ public class CreateUserTests extends BaseTest {
         AllureLogger.attachResponse("Create User Response", response);
 
         Allure.step("✅ Assert status code is 201 Created");
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "❌ Status code mismatch. Expected 201 Created.");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "❌ Status code mismatch. Expected 201 Created.");
 
         assertResponseTimeWithinLimit(response);
 
@@ -77,7 +87,7 @@ public class CreateUserTests extends BaseTest {
 
     @Step("📐 Validate Create User response schema")
     private void validateCreateUserSchema(Response response) {
-        JsonSchemaValidatorUtil.validateJsonSchema(response, "schemas/user/create_user_response_schema.json");
+        JsonSchemaValidatorUtil.validateJsonSchema(response, Schemas.User.CREATE);
     }
 
     @Step("⏱ Validate response time is under 2 seconds")
@@ -128,6 +138,6 @@ public class CreateUserTests extends BaseTest {
         AllureLogger.attachResponse("Response for Scenario - " + scenario, response);
 
         Allure.step("❌ Expecting HTTP 422 for: " + scenario);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_UNPROCESSABLE_ENTITY, "❌ Expected 422 for scenario: " + scenario);
+        Assert.assertEquals(response.statusCode(), StatusCodes.UNPROCESSABLE_ENTITY, "❌ Expected 422 for scenario: " + scenario);
     }
 }

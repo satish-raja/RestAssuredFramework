@@ -12,7 +12,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static com.api.constants.APIConstants.*;
+import static com.api.constants.APIConstants.Tokens;
+import static com.api.constants.APIConstants.StatusCodes;
 
 @Epic("👤 User Management")
 @Feature("🗑 Delete User API")
@@ -30,7 +31,7 @@ public class DeleteUserTests extends BaseTest {
         userService = new UserService();
         faker = new Faker();
 
-        String token = System.getProperty("api.token", ACCESS_TOKEN);
+        String token = System.getProperty("api.token", Tokens.ACCESS_TOKEN);
         userService.setAuthToken(token);
     }
 
@@ -46,7 +47,7 @@ public class DeleteUserTests extends BaseTest {
         AllureLogger.attachJson("Create User Request", request);
         Response response = userService.createUser(request);
         AllureLogger.attachResponse("Create User Response", response);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "User creation failed");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "User creation failed");
 
         return response.jsonPath().getInt("id");
     }
@@ -62,7 +63,7 @@ public class DeleteUserTests extends BaseTest {
         Response deleteResponse = userService.deleteUser(userId);
         AllureLogger.attachResponse("Delete User Response", deleteResponse);
 
-        Assert.assertEquals(deleteResponse.statusCode(), STATUS_CODE_NO_CONTENT, "Expected 204 No Content for successful deletion");
+        Assert.assertEquals(deleteResponse.statusCode(), StatusCodes.NO_CONTENT, "Expected 204 No Content for successful deletion");
 
         // ✅ Optional schema check: Response should be empty
         Allure.step("✅ Verifying response body is empty for 204");
@@ -80,7 +81,7 @@ public class DeleteUserTests extends BaseTest {
         Response response = userService.deleteUser(invalidUserId);
         AllureLogger.attachResponse("Delete Invalid User Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NOT_FOUND, "Expected 404 Not Found for invalid user ID");
+        Assert.assertEquals(response.statusCode(), StatusCodes.NOT_FOUND, "Expected 404 Not Found for invalid user ID");
     }
 
     @Test(description = "🔴 Delete same user twice - Second attempt should return 404", groups = "negative")
@@ -94,7 +95,7 @@ public class DeleteUserTests extends BaseTest {
         Allure.step("🗑 First delete attempt for user ID: " + userId);
         Response firstDelete = userService.deleteUser(userId);
         AllureLogger.attachResponse("First Delete Response", firstDelete);
-        Assert.assertEquals(firstDelete.statusCode(), STATUS_CODE_NO_CONTENT, "Expected 204 No Content on first deletion");
+        Assert.assertEquals(firstDelete.statusCode(), StatusCodes.NO_CONTENT, "Expected 204 No Content on first deletion");
 
         // ✅ Optional schema check for first delete
         Assert.assertTrue(firstDelete.body().asString().isEmpty(), "Response body should be empty for first 204 delete");
@@ -103,6 +104,6 @@ public class DeleteUserTests extends BaseTest {
         Allure.step("🔁 Second delete attempt for same user ID: " + userId);
         Response secondDelete = userService.deleteUser(userId);
         AllureLogger.attachResponse("Second Delete Response", secondDelete);
-        Assert.assertEquals(secondDelete.statusCode(), STATUS_CODE_NOT_FOUND, "Expected 404 Not Found on second deletion attempt");
+        Assert.assertEquals(secondDelete.statusCode(), StatusCodes.NOT_FOUND, "Expected 404 Not Found on second deletion attempt");
     }
 }

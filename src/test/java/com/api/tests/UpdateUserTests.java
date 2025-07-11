@@ -1,5 +1,15 @@
 package com.api.tests;
 
+import static com.api.constants.APIConstants.StatusCodes.CREATED;
+import static com.api.constants.APIConstants.StatusCodes.NOT_FOUND;
+import static com.api.constants.APIConstants.StatusCodes.OK;
+import static com.api.constants.APIConstants.StatusCodes.UNPROCESSABLE_ENTITY;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+import com.api.constants.APIConstants.Schemas;
 import com.api.models.request.CreateUserRequest;
 import com.api.models.request.CreateUserRequestBuilder;
 import com.api.models.response.CreateUserResponse;
@@ -8,13 +18,18 @@ import com.api.tests.base.BaseTest;
 import com.api.utils.AllureLogger;
 import com.api.utils.JsonSchemaValidatorUtil;
 import com.github.javafaker.Faker;
-import io.qameta.allure.*;
-import io.restassured.response.Response;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
-import static com.api.constants.APIConstants.*;
+import io.qameta.allure.Allure;
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Link;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
+import io.restassured.response.Response;
 
 /**
  * 🔁 UpdateUserTests
@@ -59,7 +74,7 @@ public class UpdateUserTests extends BaseTest {
         AllureLogger.attachResponse("Create User Response", response);
 
         Allure.step("✅ Assert status code is 201 Created");
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "User creation failed");
+        Assert.assertEquals(response.statusCode(), CREATED, "User creation failed");
 
         int id = response.jsonPath().getInt("id");
         Allure.step("📌 Extracted User ID: " + id);
@@ -85,10 +100,10 @@ public class UpdateUserTests extends BaseTest {
         AllureLogger.attachResponse("Update User Response", updateResponse);
 
         Allure.step("✅ Assert status code is 200 OK");
-        Assert.assertEquals(updateResponse.statusCode(), STATUS_CODE_OK, "Expected 200 OK for successful update");
+        Assert.assertEquals(updateResponse.statusCode(), OK, "Expected 200 OK for successful update");
 
         Allure.step("📐 Validating response schema for update");
-        JsonSchemaValidatorUtil.validateJsonSchema(updateResponse, "schemas/user/update_user_response_schema.json");
+        JsonSchemaValidatorUtil.validateJsonSchema(updateResponse, Schemas.User.UPDATE);
 
         CreateUserResponse updatedUser = updateResponse.as(CreateUserResponse.class);
         Allure.step("🔍 Asserting response body matches updated fields");
@@ -119,7 +134,7 @@ public class UpdateUserTests extends BaseTest {
         AllureLogger.attachResponse("Update Response (Invalid ID)", response);
 
         Allure.step("✅ Assert status code is 404 Not Found");
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NOT_FOUND, "Expected 404 for non-existent user");
+        Assert.assertEquals(response.statusCode(), NOT_FOUND, "Expected 404 for non-existent user");
     }
 
     @Test(description = "🔴 Update user with invalid email format", groups = "negative")
@@ -143,6 +158,6 @@ public class UpdateUserTests extends BaseTest {
         AllureLogger.attachResponse("Update Response (Invalid Email)", response);
 
         Allure.step("✅ Assert status code is 422 Unprocessable Entity");
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_UNPROCESSABLE_ENTITY, "Expected 422 for invalid email format");
+        Assert.assertEquals(response.statusCode(), UNPROCESSABLE_ENTITY, "Expected 422 for invalid email format");
     }
 }

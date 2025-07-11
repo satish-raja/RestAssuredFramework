@@ -16,7 +16,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static com.api.constants.APIConstants.*;
+import static com.api.constants.APIConstants.Tokens;
+import static com.api.constants.APIConstants.StatusCodes;
 
 @Epic("💬 Comment Module")
 @Feature("🗑 Delete Comment API")
@@ -41,7 +42,7 @@ public class DeleteCommentTests extends BaseTest {
         postService = new PostService();
         commentService = new CommentService();
 
-        String token = System.getProperty("api.token", ACCESS_TOKEN);
+        String token = System.getProperty("api.token", Tokens.ACCESS_TOKEN);
         userService.setAuthToken(token);
         postService.setAuthToken(token);
         commentService.setAuthToken(token);
@@ -63,7 +64,7 @@ public class DeleteCommentTests extends BaseTest {
         AllureLogger.attachJson("Create User Request", userPayload);
         Response response = userService.createUser(userPayload);
         AllureLogger.attachResponse("Create User Response", response);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "❌ User creation failed");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "❌ User creation failed");
 
         return response.jsonPath().getInt("id");
     }
@@ -74,7 +75,7 @@ public class DeleteCommentTests extends BaseTest {
         AllureLogger.attachJson("Create Post Request", postPayload);
         Response response = postService.createPost(userId, postPayload);
         AllureLogger.attachResponse("Create Post Response", response);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "❌ Post creation failed");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "❌ Post creation failed");
 
         return response.jsonPath().getInt("id");
     }
@@ -90,7 +91,7 @@ public class DeleteCommentTests extends BaseTest {
         AllureLogger.attachJson("Create Comment Request", commentPayload);
         Response response = commentService.createComment(postId, commentPayload);
         AllureLogger.attachResponse("Create Comment Response", response);
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_CREATED, "❌ Comment creation failed");
+        Assert.assertEquals(response.statusCode(), StatusCodes.CREATED, "❌ Comment creation failed");
 
         return response.jsonPath().getInt("id");
     }
@@ -104,11 +105,7 @@ public class DeleteCommentTests extends BaseTest {
         Response response = commentService.deleteComment(commentId);
         AllureLogger.attachResponse("Delete Comment Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NO_CONTENT, "❌ Expected 204 No Content for valid comment deletion");
-
-        // Optional schema check hint (for later)
-        // Allure.step("📐 Validating schema of delete response (should be empty for 204)");
-        // Assert.assertTrue(response.body().asString().isEmpty(), "❌ Expected empty body for 204 response");
+        Assert.assertEquals(response.statusCode(), StatusCodes.NO_CONTENT, "❌ Expected 204 No Content for valid comment deletion");
     }
 
     @Test(
@@ -123,6 +120,6 @@ public class DeleteCommentTests extends BaseTest {
         Response response = commentService.deleteComment(commentId);
         AllureLogger.attachResponse("Second Delete Attempt Response", response);
 
-        Assert.assertEquals(response.statusCode(), STATUS_CODE_NOT_FOUND, "❌ Expected 404 Not Found when deleting already deleted comment");
+        Assert.assertEquals(response.statusCode(), StatusCodes.NOT_FOUND, "❌ Expected 404 Not Found when deleting already deleted comment");
     }
 }
