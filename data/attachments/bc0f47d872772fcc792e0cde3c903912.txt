@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:18:58 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=106
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"0bc1c01f6e72e04783b650dd4d00fede"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998900
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=66
+X-Ratelimit-Reset=16
+X-Request-Id=0776287e-8d2c-47bc-b697-f954f3b745e5
+X-Runtime=0.081357
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OFe3uIvcCisDWHGlatgA3DBlZRpVba2Q6bbP%2BVgL6p%2Bgd%2BE5WIX3ViSqs0d3EvfL00t%2FdTcLXbDmCEXVD53aO7irMJbGupexvEcAEw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d78f4b6ee16b32-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998900,
+  "name" : "Alfonzo Kub",
+  "email" : "rachelle.swift@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 1001 ms

@@ -1,0 +1,14 @@
+📌 Test Name: 63c404ca-21da-45f0-8535-ca98d4900bab
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Chandra Treutel",
+  "gender" : "female",
+  "email" : "chas.bogan@hotmail.com",
+  "status" : "active"
+}

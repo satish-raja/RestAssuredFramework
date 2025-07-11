@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:18:47 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=108
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"2e21e4f806b61204ef3e72c5ce46c75e"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998897
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=72
+X-Ratelimit-Reset=12
+X-Request-Id=98a1bbc1-1514-485e-b29f-c79b1d0386e6
+X-Runtime=0.086158
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GQNIYB3EGvjj%2B09kq9ifKOEB%2FZNNKJSHXGNG3nEddPf2S2CaXXIxV6EuSnZ2Dj%2FHQF%2BQEkIVzCLGycJ7QAYpHdqcB5u%2Fm%2Fd1VIBzDg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d78f0b0d3ce836-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998897,
+  "name" : "Stephnie Lang",
+  "email" : "graciela.langosh@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 970 ms

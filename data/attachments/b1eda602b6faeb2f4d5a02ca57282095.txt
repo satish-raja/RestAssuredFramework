@@ -1,0 +1,14 @@
+📌 Test Name: 9a7ba7dd-0eba-4b03-bc26-84199ab46149
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mr. Sung Sauer",
+  "gender" : "male",
+  "email" : "karleen.erdman@gmail.com",
+  "status" : "active"
+}

@@ -1,0 +1,13 @@
+📌 Test Name: a5303904-eb2e-4348-b665-3d69003c5b30
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220287/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Freddie Kautzer I",
+  "email" : "trent.larson@hotmail.com",
+  "body" : "Initial comment content"
+}

@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:18:31 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=112
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"3c97dcdc48d8826e838aba46db46ea2c"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998891
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=86
+X-Ratelimit-Reset=4
+X-Request-Id=56c452c9-b5cd-4368-a307-2dff8fa9c570
+X-Runtime=0.059198
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Ee0WGIn79Pkuj1tuWtOf8aVfrpjybTR5QQ1XvcDtA6Yy4TNac%2Bm8YGhxlClpcLfameZbWN2%2FIR501oIkmXS3gWKbk6XstwjJ68o%3D"}]}
+Server=cloudflare
+CF-RAY=95d78ea93be4a8a1-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998891,
+  "name" : "Delete Twice User",
+  "email" : "drucilla.morar@gmail.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 396 ms

@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:18:25 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"23777a58c7ffb0d6a07d248249561812"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=88
+X-Ratelimit-Reset=2
+X-Request-Id=6be51933-31c8-4899-b28b-71af2d1e95ed
+X-Runtime=0.042584
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=If3X06LCZWl5l9r7s9HTe6ouLEQrLPJBKpN4w%2BETVsnXjGBi2KldmYmSTQ6TVJgXZSLSXs4k4H81Mbgz7EMAWK7VA4mp9ESfhvI%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d78e8429d372f9-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998888,
+  "name" : "Hung Beatty",
+  "email" : "vita.hayes@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 390 ms

@@ -1,0 +1,14 @@
+📌 Test Name: 73761249-efe0-4b0b-9d5b-7e05299d36ff
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/7998888
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Hung Beatty",
+  "gender" : "male",
+  "email" : "vita.hayes@yahoo.com",
+  "status" : "active"
+}

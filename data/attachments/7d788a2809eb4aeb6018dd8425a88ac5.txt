@@ -1,0 +1,14 @@
+📌 Test Name: 6f8cd4f2-4d88-4c01-84a0-1aed30dadd0c
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Evonne Witting",
+  "gender" : "male",
+  "email" : "kristyn.champlin@yahoo.com",
+  "status" : "active"
+}

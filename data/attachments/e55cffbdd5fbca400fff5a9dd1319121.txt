@@ -1,0 +1,8 @@
+📌 Test Name: bed4480b-f7c5-4023-a587-5f389dbbe1d4
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users/123456
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+📤 Body:
+null

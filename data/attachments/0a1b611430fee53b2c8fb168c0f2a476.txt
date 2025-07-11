@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:18:26 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=110
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"bc88e937e24d01241c204ca9ba786efa"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998889
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=87
+X-Ratelimit-Reset=2
+X-Request-Id=e79fd8a4-472a-4185-913c-afc69115b9de
+X-Runtime=0.052537
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=wdcCTpsUpNmP1CzsqRS4caemLEp0404vF27tGUiiq8AFHsypnAI1vhOjN6g3zbqfvtwmvTCU76cq4S7UvSaxsXCT7uv9nq3JDS%2FmnQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d78e887bbee99b-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998889,
+  "name" : "Verna Walter DDS",
+  "email" : "delmar.beatty@gmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 929 ms

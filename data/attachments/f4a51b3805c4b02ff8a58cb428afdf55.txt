@@ -1,0 +1,14 @@
+📌 Test Name: 4fa78d86-f8bc-46a1-b9c1-3a880f040f23
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Stephnie Lang",
+  "gender" : "male",
+  "email" : "graciela.langosh@gmail.com",
+  "status" : "active"
+}

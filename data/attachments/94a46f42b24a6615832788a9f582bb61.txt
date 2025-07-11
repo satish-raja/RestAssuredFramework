@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:18:32 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=107
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"8a92f3b4c2abb6a4df4954acfd8f1145"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998892
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=83
+X-Ratelimit-Reset=6
+X-Request-Id=f3e03426-48d3-4562-9f1f-af50e98b5842
+X-Runtime=0.054569
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=cqOOh4sD0vHrLSfdNETnQUI3PmhENBo%2BJ9oOeXwb0zGNa9k8c3KcQG7m0EsbV8Qiy9Ysy4E1FVkDA2avwz4MsMbaBHS1WjCV2vQ%3D"}]}
+Server=cloudflare
+CF-RAY=95d78eb0de1249fe-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998892,
+  "name" : "Daina Feeney",
+  "email" : "armand.swift@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 396 ms

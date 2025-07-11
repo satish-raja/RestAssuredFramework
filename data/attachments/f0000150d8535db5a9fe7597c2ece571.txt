@@ -1,0 +1,14 @@
+📌 Test Name: 737e1657-83ac-4d1a-9ee1-ab88f5c52199
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Daina Feeney",
+  "gender" : "female",
+  "email" : "armand.swift@hotmail.com",
+  "status" : "active"
+}
