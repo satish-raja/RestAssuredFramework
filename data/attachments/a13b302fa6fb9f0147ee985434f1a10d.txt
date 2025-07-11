@@ -1,0 +1,13 @@
+📌 Test Name: 0671a475-746a-421e-96ee-d533e9ca3c14
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220264/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "No Body",
+  "email" : "lonnie.weissnat@hotmail.com",
+  "body" : null
+}

@@ -1,0 +1,13 @@
+📌 Test Name: 60e8441a-bd4a-41e9-80c7-bfe018b17846
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/99999999/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Valid Name",
+  "email" : "jeremiah.balistreri@yahoo.com",
+  "body" : "Bad postId"
+}

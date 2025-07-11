@@ -1,1 +1,1 @@
-{"id":"301c7c597d4b307d2a9c0bf7e0e20c83","fullName":"com.api.tests.DeletePostTests.testGetDeletedPost_ShouldReturn404","name":"🔴 Get deleted post should return 404","status":"passed","testResultsByEnv":{"default":"32d9d65e251e14cfde31c6ecf0210490"}}
+{"id":"301c7c597d4b307d2a9c0bf7e0e20c83","fullName":"com.api.tests.DeletePostTests.testGetDeletedPost_ShouldReturn404","name":"🔴 Get deleted post should return 404","status":"passed","testResultsByEnv":{"default":"071587da439ca3ac2e8f3d5599632345"}}

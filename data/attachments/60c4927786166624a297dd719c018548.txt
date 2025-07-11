@@ -1,0 +1,14 @@
+📌 Test Name: aaac67c3-235a-419d-8846-33269e277fc8
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Khalilah Osinski",
+  "gender" : "male",
+  "email" : "sha.auer@hotmail.com",
+  "status" : "active"
+}

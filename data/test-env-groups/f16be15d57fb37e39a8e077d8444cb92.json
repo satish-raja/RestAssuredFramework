@@ -1,1 +1,1 @@
-{"id":"f16be15d57fb37e39a8e077d8444cb92","fullName":"com.api.tests.CreatePostTests.testCreatePost_ShouldSucceed","name":"🟢 Create post for a valid user","status":"passed","testResultsByEnv":{"default":"dcb1f2817702f12a5b38fd986a96ae68"}}
+{"id":"f16be15d57fb37e39a8e077d8444cb92","fullName":"com.api.tests.CreatePostTests.testCreatePost_ShouldSucceed","name":"🟢 Create post for a valid user","status":"passed","testResultsByEnv":{"default":"474a6481986a22e39a1807ee91e1aeb9"}}

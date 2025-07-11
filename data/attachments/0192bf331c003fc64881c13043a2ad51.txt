@@ -1,0 +1,14 @@
+📌 Test Name: 14e80ba0-1e77-49fa-aef6-b656e55f7344
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Cherri Haley",
+  "gender" : "male",
+  "email" : "dahlia.torp@gmail.com",
+  "status" : "active"
+}

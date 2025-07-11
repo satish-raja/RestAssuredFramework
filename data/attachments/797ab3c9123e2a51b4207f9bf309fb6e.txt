@@ -1,0 +1,14 @@
+📌 Test Name: c7038b9f-e146-4937-af02-a3bfc5c3d68e
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Edna Cronin",
+  "gender" : "female",
+  "email" : "olen.witting@hotmail.com",
+  "status" : "active"
+}

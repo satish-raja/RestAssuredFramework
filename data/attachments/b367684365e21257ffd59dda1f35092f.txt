@@ -1,0 +1,13 @@
+📌 Test Name: 5830b3bc-60ae-46ea-9527-ba2f84d5c641
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220265/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Verla",
+  "email" : "makeda.klein@gmail.com",
+  "body" : "Nice post!"
+}

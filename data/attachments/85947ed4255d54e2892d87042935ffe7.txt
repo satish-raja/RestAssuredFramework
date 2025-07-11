@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 08:10:45 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"fe261b4b7940b5caf47a391707c10d66"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=47
+X-Ratelimit-Reset=30
+X-Request-Id=3cf7c7f5-93c5-4207-bc77-a7c4170af947
+X-Runtime=0.075210
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=BYJfb8u7XoIlEcqNKUC%2FvqgoDVJOXyGeKXc8K6xNzevxVD1K5pNlPUhcaWPKX44Vab0pKG5bsUcr35tb0ulmC%2FVSv7AYKn3lVfU%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d6d3827b75d673-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 157159,
+  "post_id" : 220265,
+  "name" : "Verla",
+  "email" : "makeda.klein@gmail.com",
+  "body" : "Nice post!"
+}
+⏱️ Duration: 315 ms

@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 08:10:30 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"33f5f67fc327d6c5fce8dd4e98159239"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=80
+X-Ratelimit-Reset=8
+X-Request-Id=3113e369-f04a-456c-bbee-fa100442e31e
+X-Runtime=0.098563
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OO%2Bvg0SfwlipJVe9o1gdalfYWiZ0jUBwpo4qUJG1bcH6WRJnEgWnVALfb96jtKzC%2FO9s3q8cUpXJe1nyhL09gVWYXSp%2B8pSOByjhig%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d6d3248e5cd88a-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "email" : "carolyn.hackett@yahoo.com",
+  "name" : "Updated Name",
+  "gender" : "female",
+  "status" : "inactive",
+  "id" : 7998698
+}
+⏱️ Duration: 347 ms

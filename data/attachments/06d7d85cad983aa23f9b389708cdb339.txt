@@ -1,8 +1,0 @@
-📌 Test Name: 94e4ffe8-8a78-49dc-8e7c-cf46b16a4671
-📤 Method: GET
-🔗 URI: https://gorest.co.in/public/v2/users/123456
-📦 Headers:
-Accept: application/json
-Authorization: *****MASKED*****
-📤 Body:
-null

@@ -1,0 +1,44 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 08:10:45 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"255de7c6c55fb743d37c2c1ea0299b47"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Links-Current=https://gorest.co.in/public/v2/comments?page=1
+X-Links-Next=
+X-Links-Previous=
+X-Pagination-Limit=10
+X-Pagination-Page=1
+X-Pagination-Pages=1
+X-Pagination-Total=1
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=48
+X-Ratelimit-Reset=29
+X-Request-Id=8e2f7651-47fd-4c18-b6f2-5f4f3638c35a
+X-Runtime=0.077338
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=AfDePukATZ999boOgGQCW3yzOhwdEsYaWw1eQryoUkIA%2FqYHjfJoBFWRBA0%2FR7rDMgUEP6vLuPTZdYh7K2SsXgZV7UPdjLQUSOMqYA%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d6d380694d20c4-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+[ {
+  "id" : 157159,
+  "post_id" : 220265,
+  "name" : "Verla",
+  "email" : "makeda.klein@gmail.com",
+  "body" : "Nice post!"
+} ]
+⏱️ Duration: 322 ms

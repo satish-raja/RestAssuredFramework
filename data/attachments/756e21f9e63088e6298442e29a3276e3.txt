@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 08:10:46 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=109
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"586a285ee108253cb5c7c211894b6bad"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998707
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=45
+X-Ratelimit-Reset=30
+X-Request-Id=afb7a9cc-cf40-40a3-985b-4276e80d4321
+X-Runtime=0.087759
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Gb32TANMrcmE9nsGQZmI%2BClgUyJhyc8t5BUUCOiEmAfWcklBpk3snwr2M2R%2Ff1Fl13NH75VqZ%2FTMuYvKN41Xi%2FbOZfBIgQ5F9M5Q7g%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d6d3865a13c979-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998707,
+  "name" : "Rick Sanford",
+  "email" : "venice.stoltenberg@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 770 ms

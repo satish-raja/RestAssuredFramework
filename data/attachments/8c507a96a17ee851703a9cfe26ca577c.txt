@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 08:10:38 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=102
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"23d7d051ab2ae12ef3a00184d691b2a4"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998704
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=65
+X-Ratelimit-Reset=18
+X-Request-Id=5c057ff1-5354-47be-a529-a27e68fa0d79
+X-Runtime=0.051469
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Tdr56J510viRwgiLDF%2Bc%2FTbVfyOd315H%2B8qpM5UEedaJ%2BHtZC1GWHSZiKleSsFJ24HCE9fw7aJQYObRuAms8kSFi7KO2G3V1KdbbxA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d6d3576ea0394f-IAD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998704,
+  "name" : "Cherri Haley",
+  "email" : "dahlia.torp@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 316 ms
