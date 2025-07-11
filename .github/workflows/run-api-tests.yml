@@ -18,7 +18,6 @@ on:
         default: 'qa'
         type: choice
         options:
-          - dev
           - qa
           - staging
           - uat
@@ -50,6 +49,10 @@ jobs:
   run-tests:
     runs-on: ubuntu-latest
 
+    env:
+      # Inject API token from GitHub Secrets into runtime environment
+      API_TOKEN_QA: ${{ secrets.API_TOKEN_QA }}
+      
     steps:
       - name: ⬇️ Checkout repository
         uses: actions/checkout@v3
@@ -60,6 +63,12 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: 🛠️ Generate qa.properties from GitHub Secret
+        run: |
+          mkdir -p src/test/resources/config
+          echo "base.url=https://gorest.co.in/public/v2" > src/test/resources/config/qa.properties
+          echo "api.token=${API_TOKEN_QA}" >> src/test/resources/config/qa.properties
+          
       - name: 🧪 Run API Tests with Maven
         run: |
           mvn clean test -P${{ github.event.inputs.suite || 'api-tests' }} -Denv=${{ github.event.inputs.env || 'qa' }}
