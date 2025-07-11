@@ -1,0 +1,14 @@
+📌 Test Name: 5f10f90a-0864-410d-9b4d-328dcc6c88a4
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Sean Koelpin III",
+  "gender" : "male",
+  "email" : "cristie.walter@yahoo.com",
+  "status" : "active"
+}

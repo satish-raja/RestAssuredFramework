@@ -1,0 +1,14 @@
+📌 Test Name: e7bc6472-44e6-47d1-a865-e20470fa5b67
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Modesta Bergstrom",
+  "gender" : "male",
+  "email" : "anthony.rosenbaum@yahoo.com",
+  "status" : "active"
+}

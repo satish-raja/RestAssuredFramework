@@ -1,0 +1,14 @@
+📌 Test Name: ddcc6a92-08a0-421f-b5c8-bc440f23f619
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Dr. Rodrick Durgan",
+  "gender" : "female",
+  "email" : "courtney.koelpin@gmail.com",
+  "status" : "active"
+}

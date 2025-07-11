@@ -1,0 +1,14 @@
+📌 Test Name: 66607444-1678-432d-b9e5-1d3e671dd49d
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Loyd Brakus",
+  "gender" : "female",
+  "email" : "rosendo.fisher@hotmail.com",
+  "status" : "active"
+}

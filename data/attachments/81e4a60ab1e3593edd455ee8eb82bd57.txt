@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:42:24 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=113
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"360c2f9640e2066b3bce4ef6429f5434"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/8001979
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=01d3bad7-5572-460a-8a1f-25d46f9673f9
+X-Runtime=0.064628
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Ny34Vrb5vxGxAZ91nT7dX%2FVQ46vEyovrj2Qtt60v9cyizjDqVdv%2BRqX7GFPXvymOXYrMfVG%2FyLV6PTJWKGnF5%2BvCw8PX4lFxz3YJ9A%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95db786dda2b2ca4-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 8001979,
+  "name" : "Modesta Bergstrom",
+  "email" : "anthony.rosenbaum@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 987 ms

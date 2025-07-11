@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:43:01 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=108
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"48a336647b0d1d1afe51b440a2950ea5"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/8001992
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=62
+X-Ratelimit-Reset=20
+X-Request-Id=7ee0569a-466c-4fef-89ba-7f193228f5e0
+X-Runtime=0.085872
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=kS%2F4JoZi0c7bfjpcaZ1vSAAXegdsAZ7F%2FLYsxU28%2F41Okvipjl7H2a1LDk9bXl0vEkWkvPlvtS4auMW99DNuvRhsJfwKhB0REgM74Q%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95db795a0df5f0ae-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 8001992,
+  "name" : "Gonzalo Huels",
+  "email" : "gisela.langosh@yahoo.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 428 ms

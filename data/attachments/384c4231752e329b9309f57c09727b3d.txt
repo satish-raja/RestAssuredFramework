@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:42:33 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=110
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"458594fc34fe56abb597e9446e7c70bd"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/8001982
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=adea962d-e1c4-4bb1-8a28-46dccece6578
+X-Runtime=0.049290
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=gkYgQN%2FDvKi6635ncGD3%2FIm87%2Bychk2PvBk%2Bd728R3ufYKAUxY94tNuIhlRtPr2OiKGP33q8I%2FSX5pNmvkHMOx4m3JVKKVJFWsEl5Q%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95db78a2c84567c5-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 8001982,
+  "name" : "Mr. Barton Goyette",
+  "email" : "fonda.bartell@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 945 ms

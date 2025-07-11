@@ -1,0 +1,14 @@
+📌 Test Name: de582195-6bf3-4fc4-8b45-017292a1ac4f
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Damien Larson",
+  "gender" : "male",
+  "email" : "maryetta.raynor@yahoo.com",
+  "status" : "active"
+}

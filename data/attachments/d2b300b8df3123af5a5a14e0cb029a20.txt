@@ -1,0 +1,32 @@
+✅ Status Code: 404
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:42:42 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=no-cache
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=81
+X-Ratelimit-Reset=6
+X-Request-Id=7777d112-2f9b-4348-88a7-9950201f2605
+X-Runtime=0.044978
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=xQNqtmpAXrnsUXwMuiq0eG41ot53q1nFIA16J%2BYp6nFdpWXByCSLuBs4P8He%2BeFeR26yfYGnEO%2FtE8CBF43N7re70OhyvzPsgVTz7g%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95db78ddac10f06c-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "message" : "Resource not found"
+}
+⏱️ Duration: 945 ms

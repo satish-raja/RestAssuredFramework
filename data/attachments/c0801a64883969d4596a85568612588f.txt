@@ -1,0 +1,13 @@
+📌 Test Name: 50a03b9c-575d-4d3d-bd14-338a9c60e2ad
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220413/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : null,
+  "email" : "cathleen.nader@hotmail.com",
+  "body" : "Missing name"
+}

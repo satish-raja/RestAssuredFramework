@@ -1,0 +1,32 @@
+✅ Status Code: 422
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:42:22 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=70
+Connection=keep-alive
+Cache-Control=no-cache
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=9b43f601-1436-45e8-a2da-8ca74e7a4bd4
+X-Runtime=0.058473
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8w236uk%2Fu3PHhbIW%2BMe7g59AzGxNbAyyE4vL32fCLGl1XtaXmE0OBnYDKoLW%2FBSjR6SVFugFFNVM%2B%2Bcl%2BxXY0WrXtUFa5%2F63v%2FF%2Bng%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95db78613a54f07a-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+[ {
+  "field" : "gender",
+  "message" : "can't be blank, can be male of female"
+} ]
+⏱️ Duration: 952 ms

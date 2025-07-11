@@ -1,0 +1,12 @@
+📌 Test Name: 6a399702-c523-4352-8380-6a183d859a10
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users/8001989/posts
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Test Post",
+  "body" : "Post body to comment on"
+}

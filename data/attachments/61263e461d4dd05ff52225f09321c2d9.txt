@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:42:45 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=109
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"2664907f365fcff51f6a0cabfac625b3"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/8001988
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=78
+X-Ratelimit-Reset=9
+X-Request-Id=4a3bb308-0fcd-427f-8a05-6b0e6d797410
+X-Runtime=0.081198
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=b1%2FWSDY%2Bvjh3DLL1eWI8agNAVGtKmBQoCo6i4E2mNThY5Y3ttW%2FHi15CocW4fXPfyQef1bGv34fNX%2F5BBSrtrzYsk9xM75O0xhRGbg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95db78f73969485d-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 8001988,
+  "name" : "Sean Koelpin III",
+  "email" : "cristie.walter@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 418 ms

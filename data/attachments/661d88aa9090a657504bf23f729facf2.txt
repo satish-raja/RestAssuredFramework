@@ -1,0 +1,14 @@
+📌 Test Name: 01b312fe-f279-49b3-a7d6-3cce48cfd534
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "",
+  "gender" : "male",
+  "email" : "missing-name@yahoo.com",
+  "status" : "active"
+}

@@ -1,0 +1,13 @@
+📌 Test Name: 17a475b0-2cd0-4ce1-b7d3-a1dc525a285f
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220415/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Sandy Nikolaus",
+  "email" : "jackeline.aufderhar@hotmail.com",
+  "body" : "Initial comment content"
+}

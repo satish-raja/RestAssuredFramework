@@ -1,0 +1,14 @@
+📌 Test Name: 17a475b0-2cd0-4ce1-b7d3-a1dc525a285f
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Cinthia Turner",
+  "gender" : "male",
+  "email" : "keli.turner@gmail.com",
+  "status" : "active"
+}

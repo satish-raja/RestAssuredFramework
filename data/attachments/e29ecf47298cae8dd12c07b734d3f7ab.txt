@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:42:57 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"c1e4a43f7a95cf763fa64b57956e2fe6"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=64
+X-Ratelimit-Reset=18
+X-Request-Id=a7199527-8b6d-471b-a820-caf03320c8b6
+X-Runtime=0.043273
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=he7fzLQaW0oDixaAMuuaGnCgAR0zP%2F5iAxEN8medf5ueOL0VYCJ5EqtMS8T%2BrGRCCtO1CgPXcvAYKgRQTdKOqgMxHApnag%2BUZHqbOw%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95db793ced261449-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 157250,
+  "post_id" : 220414,
+  "name" : "Jenell",
+  "email" : "doloris.gibson@hotmail.com",
+  "body" : "Nice post!"
+}
+⏱️ Duration: 942 ms

@@ -1,0 +1,14 @@
+📌 Test Name: 99b15160-a046-43c4-8536-5002fc58fc9b
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Hailey Stiedemann",
+  "gender" : "female",
+  "email" : "cortez.stoltenberg@gmail.com",
+  "status" : "active"
+}

@@ -1,0 +1,14 @@
+📌 Test Name: 4fcb4999-63f8-4c34-ade5-fbdf334288b2
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Nereida Erdman",
+  "gender" : "male",
+  "email" : "freddie.harvey@hotmail.com",
+  "status" : "active"
+}

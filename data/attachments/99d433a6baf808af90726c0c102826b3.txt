@@ -1,0 +1,13 @@
+📌 Test Name: cb70030c-e855-42ef-b81b-656b1db04a84
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/posts/220414/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Jenell",
+  "email" : "doloris.gibson@hotmail.com",
+  "body" : "Nice post!"
+}

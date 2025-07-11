@@ -1,1 +1,1 @@
-{"id":"586d9ff7d87cd6c7f2072940acde7ee9","fullName":"com.api.tests.DeletePostTests.testDeletePostWithInvalidId_ShouldReturn404","name":"🔴 Delete post with invalid ID should return 404","status":"passed","testResultsByEnv":{"default":"a2a67e5cadd6fcf55011e55429eca92a"}}
+{"id":"586d9ff7d87cd6c7f2072940acde7ee9","fullName":"com.api.tests.DeletePostTests.testDeletePostWithInvalidId_ShouldReturn404","name":"🔴 Delete post with invalid ID should return 404","status":"passed","testResultsByEnv":{"default":"a0898c1c0c4d32f6794f42599e761337"}}

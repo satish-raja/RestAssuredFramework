@@ -1,0 +1,14 @@
+📌 Test Name: 91a1cd3d-6765-4c72-b297-7e481fe2d3d1
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/users/8001983
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Delete Twice User",
+  "gender" : "male",
+  "email" : "sherwood.skiles@gmail.com",
+  "status" : "inactive"
+}

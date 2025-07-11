@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:42:54 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=108
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"549e546bf43bf184a5128c9a4933858b"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/8001990
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=67
+X-Ratelimit-Reset=16
+X-Request-Id=24f59767-0382-4cc7-9d8e-4a36b124a69e
+X-Runtime=0.052450
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=5zRazGVN4EGL%2FXWg5KCK4bYbLpRB1rXv02BhDAx4VTcnpDEwhnub48amTUUVpLrbmqAixNv7GzC3iAszrd8lrImZrYgLR36y9cfjHQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95db792f2fee6c28-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 8001990,
+  "name" : "Loyd Brakus",
+  "email" : "rosendo.fisher@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 401 ms

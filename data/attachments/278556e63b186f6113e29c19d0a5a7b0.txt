@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:42:59 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=104
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"2e1f6baca0f0e08278a6ac54f967ff14"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/8001991
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=64
+X-Ratelimit-Reset=18
+X-Request-Id=1ae18e28-853c-447a-bece-c6ffa06f411b
+X-Runtime=0.077073
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rafJWp7oOWwnVoaZax4DiIKI11aXjd8JOYeiYOqKAB0wgHyTToPJatwmMbKj%2BASPFKSJpJK8FMeLnOaC7VQ9u4IQrcyQOU215sPbLA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95db7948fff86902-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 8001991,
+  "name" : "Cinthia Turner",
+  "email" : "keli.turner@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 936 ms

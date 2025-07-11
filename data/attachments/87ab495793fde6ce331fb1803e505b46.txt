@@ -1,0 +1,13 @@
+📌 Test Name: 66607444-1678-432d-b9e5-1d3e671dd49d
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220414/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Jenell",
+  "email" : "doloris.gibson@hotmail.com",
+  "body" : "Nice post!"
+}

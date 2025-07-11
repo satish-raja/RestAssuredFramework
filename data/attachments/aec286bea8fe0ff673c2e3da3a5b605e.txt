@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:42:36 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=109
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"867436230ab0ed75f0b17da4af78d85d"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/8001985
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=82
+X-Ratelimit-Reset=6
+X-Request-Id=b4b1e2db-f579-4db2-a27e-bb674b378e78
+X-Runtime=0.059331
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LCOP3PumcHzdCAqZ82XfAqEFS1Nd24kz4qMu0F0FPEh3YKVntmzdn%2FkMJeqppNRcY7h%2FTpt7T8VVNpjiGTBxaOzJhZtiTN%2B94kocqQ%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95db78bbddf87d57-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 8001985,
+  "name" : "Nereida Erdman",
+  "email" : "freddie.harvey@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 392 ms

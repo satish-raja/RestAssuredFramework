@@ -1,0 +1,13 @@
+📌 Test Name: 65d977dc-9e16-4af2-8aa3-5ad63e068f8e
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220413/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "No Body",
+  "email" : "elaine.reinger@yahoo.com",
+  "body" : null
+}

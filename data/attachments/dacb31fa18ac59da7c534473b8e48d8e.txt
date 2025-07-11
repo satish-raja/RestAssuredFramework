@@ -1,0 +1,14 @@
+📌 Test Name: 328eb675-3c7b-4788-b90e-489e6738e1d2
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Miss Tracey Walter",
+  "gender" : "male",
+  "email" : "christine.nolan@gmail.com",
+  "status" : "active"
+}

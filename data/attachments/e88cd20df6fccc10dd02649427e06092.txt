@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 21:42:34 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=113
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"3b76d766255e0ebc92841d5b945c9520"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/8001983
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=87
+X-Ratelimit-Reset=3
+X-Request-Id=c8504074-bc5d-4da2-a5cd-92f67ad8e25f
+X-Runtime=0.083973
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Pv9%2BTiC25c%2Bho3pg2vtT4%2Fa5N7fVz795TUOWoxolpdRnbNizPeTZlYBG0uZmt7VZ5TVFMCwXCQanPL0rFFB%2Fy6DlUROWjp5a8aRsWg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95db78ae1a32f07a-DFW
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 8001983,
+  "name" : "Delete Twice User",
+  "email" : "sherwood.skiles@gmail.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 425 ms

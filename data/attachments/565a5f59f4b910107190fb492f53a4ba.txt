@@ -1,0 +1,14 @@
+📌 Test Name: 6a399702-c523-4352-8380-6a183d859a10
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Troy Koepp",
+  "gender" : "male",
+  "email" : "ronny.rau@gmail.com",
+  "status" : "active"
+}

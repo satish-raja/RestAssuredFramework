@@ -1,0 +1,14 @@
+📌 Test Name: 3b020bc2-59a0-4b1c-aa42-31b1606ae429
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mr. Barton Goyette",
+  "gender" : "male",
+  "email" : "fonda.bartell@gmail.com",
+  "status" : "active"
+}
