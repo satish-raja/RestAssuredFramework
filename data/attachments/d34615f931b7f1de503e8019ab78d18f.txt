@@ -1,0 +1,13 @@
+📌 Test Name: 47ca1840-674a-4efe-bcdb-4d217dd1ca3c
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220275/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Faustino Mueller",
+  "email" : "lynna.hoppe@hotmail.com",
+  "body" : "Initial comment content"
+}

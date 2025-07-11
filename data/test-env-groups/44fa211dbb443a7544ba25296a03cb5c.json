@@ -1,1 +1,1 @@
-{"id":"44fa211dbb443a7544ba25296a03cb5c","fullName":"com.api.tests.CreateCommentTests.testCreateComment_MissingEmail_ShouldFail","name":"🔴 Missing email should return 422","status":"passed","testResultsByEnv":{"default":"c97e681c3eb682633182453c55393488"}}
+{"id":"44fa211dbb443a7544ba25296a03cb5c","fullName":"com.api.tests.CreateCommentTests.testCreateComment_MissingEmail_ShouldFail","name":"🔴 Missing email should return 422","status":"passed","testResultsByEnv":{"default":"1c996f72a269919d23ef4067435dd872"}}

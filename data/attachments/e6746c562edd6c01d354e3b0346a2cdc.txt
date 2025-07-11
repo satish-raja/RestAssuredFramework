@@ -1,0 +1,12 @@
+📌 Test Name: 2ed943eb-4de3-4d80-ba6e-3af128ea94cf
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/posts/220270
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "title" : "Updated Title",
+  "body" : "Updated body content"
+}

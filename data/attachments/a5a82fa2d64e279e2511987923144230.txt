@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 09:53:19 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=113
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"d0ecd9b12508dde6460feda987eda711"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998839
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=74
+X-Ratelimit-Reset=11
+X-Request-Id=f9963d0d-6a8a-43e5-bf28-aa5fc3d6ca6b
+X-Runtime=0.082249
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=PhpAKekBGskUzn01W27I73cbS96rKkH0dXnyIGSuEh6K7yzirwQ4hE56y%2F%2Bdq%2FyMBFPWJGq4PP109LZchbqh25w4bPl8QwZzEfvehg%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d769b9de867b21-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998839,
+  "name" : "Monte McCullough",
+  "email" : "elliot.heidenreich@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 846 ms

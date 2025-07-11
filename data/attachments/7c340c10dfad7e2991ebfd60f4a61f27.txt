@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 09:53:26 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"df2fe7720ffddf56f7b91735a71572bf"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=67
+X-Ratelimit-Reset=16
+X-Request-Id=fae1ef3d-5a40-4c78-99e7-e73a9fa5ea8f
+X-Runtime=0.065044
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=XURbHPeTDeySaqaI%2F1DuJpGvXoNnF8WNHUuJqxIxyAdwPaH8Uk1S66Mycu%2BBCwe%2FaIxWe5%2BkKih9LP7vOh8kB%2FoXQ9nNDhNiVI00kg%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d769e4bca20042-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 157163,
+  "post_id" : 220274,
+  "name" : "Carry",
+  "email" : "monty.fadel@yahoo.com",
+  "body" : "Nice post!"
+}
+⏱️ Duration: 813 ms

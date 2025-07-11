@@ -1,0 +1,14 @@
+📌 Test Name: 07dde9ff-e2b0-48f6-ac81-fac8c28a8eed
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Huey Waelchi",
+  "gender" : "male",
+  "email" : "caroyln.erdman@gmail.com",
+  "status" : "active"
+}

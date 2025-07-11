@@ -1,0 +1,14 @@
+📌 Test Name: 9ac83123-3eba-4acc-9a2e-b11cc22d9878
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Monte McCullough",
+  "gender" : "male",
+  "email" : "elliot.heidenreich@gmail.com",
+  "status" : "active"
+}

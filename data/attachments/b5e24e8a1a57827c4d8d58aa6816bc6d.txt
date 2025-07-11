@@ -1,0 +1,14 @@
+📌 Test Name: 01104dd0-f68d-4041-91a2-1110b11e49d5
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/users/7998832
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Updated Name",
+  "gender" : "female",
+  "email" : "pandora.dibbert@gmail.com",
+  "status" : "inactive"
+}

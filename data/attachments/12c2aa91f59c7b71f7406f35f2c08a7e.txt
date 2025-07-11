@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 09:52:59 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"e2e1b0443c6fe23415279b98ec787cc0"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=d70e2d4d-6ca6-4313-9bf7-9ad77c796e76
+X-Runtime=0.057158
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hfKyZBrCzqtJFGgNcx3atdInaFAu5Ske3QawpvrzJ4KBUKrd0XxAuc9bPfnBR42LkGnU0zQlYVZq%2BZ%2FW%2F50YKGHaoBKJ6%2BD7dvE%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d7693eab7e49f1-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998829,
+  "name" : "Glen Orn",
+  "email" : "dustin.fritsch@hotmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 809 ms

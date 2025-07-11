@@ -1,0 +1,14 @@
+📌 Test Name: ca71d356-0df9-4547-928a-9c2082067180
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Mr. Quentin Dickens",
+  "gender" : "male",
+  "email" : "shelby.collier@yahoo.com",
+  "status" : "active"
+}

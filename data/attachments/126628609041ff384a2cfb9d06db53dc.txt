@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 09:53:27 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=103
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"468d59d698b5d28c8cb0484fc4ec9d5a"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998841
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=67
+X-Ratelimit-Reset=16
+X-Request-Id=aa562675-dcdb-41d3-90c1-bc0fa1f8223a
+X-Runtime=0.055604
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=cN%2FAVBLDS3s4DDgBirqEKVMIbqYanQLUz63YmNAyd82NpVEBbrd60p2WNvHAhiBSY0yLAYRj7VTazuoetMHligLtx8URl7C8gSXRLw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d769eeff3a1041-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998841,
+  "name" : "Ariana Toy",
+  "email" : "renetta.zulauf@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 810 ms

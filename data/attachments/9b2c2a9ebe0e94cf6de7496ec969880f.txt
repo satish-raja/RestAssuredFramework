@@ -1,0 +1,14 @@
+📌 Test Name: 01104dd0-f68d-4041-91a2-1110b11e49d5
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Karlene Heller",
+  "gender" : "male",
+  "email" : "camila.swift@gmail.com",
+  "status" : "active"
+}

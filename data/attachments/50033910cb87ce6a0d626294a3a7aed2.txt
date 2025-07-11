@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 09:53:04 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=114
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"a957185897e6cac96f70ef94b140ec73"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998833
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=87
+X-Ratelimit-Reset=3
+X-Request-Id=c43875b1-bbed-4632-bd2c-9ce1e590dbf8
+X-Runtime=0.052128
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=n4rZWRhsokSkgWwHvnrHKYEwXdfsyaC5HJMKzKcmJS4yZOASFrnJRuwjcUVcfJakqZeNHqGE1acByVLT4vQx9x1o1QQj7Wu%2BzyaH%2BA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d7695edd4861b5-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998833,
+  "name" : "Delete Twice User",
+  "email" : "angla.bartoletti@gmail.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 322 ms

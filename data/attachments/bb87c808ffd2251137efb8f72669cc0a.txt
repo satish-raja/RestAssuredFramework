@@ -1,0 +1,14 @@
+📌 Test Name: d4db25d7-ebee-4978-a419-24e3a23afbfe
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Miss Dorsey Jacobson",
+  "gender" : "male",
+  "email" : "oliver.kshlerin@yahoo.com",
+  "status" : "active"
+}

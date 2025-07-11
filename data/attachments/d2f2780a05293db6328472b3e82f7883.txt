@@ -1,0 +1,13 @@
+📌 Test Name: bcf8eb68-0a26-4c96-a0dd-7fd5e4309998
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/comments/999999
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Carry",
+  "email" : "monty.fadel@yahoo.com",
+  "body" : "Nice post!"
+}

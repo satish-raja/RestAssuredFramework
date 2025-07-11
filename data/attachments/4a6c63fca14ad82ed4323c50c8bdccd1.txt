@@ -1,0 +1,13 @@
+📌 Test Name: f5164626-69fb-4f82-b9c3-f99301978bf3
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220276/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Kenton",
+  "email" : "tuan.nolan@gmail.com",
+  "body" : "Comment to be deleted"
+}

@@ -1,0 +1,7 @@
+📌 Test Name: 03de7276-6052-4e07-b634-35b8f1c51c98
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/posts/220272
+📦 Headers:
+Accept: application/json
+📤 Body:
+null
