@@ -1,7 +1,29 @@
+# === Build Output ===
 target/
 allure-results/
+
+# === IDEs ===
 .idea/
-*.log
-.settings/
+*.iml
 .project
 .classpath
+.settings/
+
+# === Logs ===
+*.log
+
+# === OS/Temp Files ===
+.DS_Store
+Thumbs.db
+
+# === Java-Specific ===
+*.class
+
+# Ignore real config files, but NOT the templates
+src/test/resources/config/*.properties
+!src/test/resources/config/*.properties.template
+
+
+# === Reports ===
+allure-report/
+test-output/

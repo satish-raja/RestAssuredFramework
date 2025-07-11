@@ -89,6 +89,25 @@ It supports full CRUD testing for the GoRest API, comes with reusable utilities,
   ├── test-output/                   # TestNG output
   ├── pom.xml
   └── README.md
+```
+
+---
+
+## 🔐 Configuration & Secrets
+
+> Do **not** commit sensitive data like API tokens or `qa.properties` to Git.
+
+- Copy the template:
+  ```bash
+  cp src/test/resources/config/qa.properties.template src/test/resources/config/qa.properties
+  ```
+- Add your actual token to `qa.properties`
+- The `qa.properties.template` is version-controlled to provide structure without secrets
+
+✅ Tokens can also be passed via command line: `-Dapi.token=abc123xyz`
+
+---
+
 
 ## 🧪 Running Tests
 
@@ -104,7 +123,9 @@ mvn clean test -Psmoke-tests -Denv=qa
 📊 Generate Allure Report Locally
 allure serve allure-results
 
-🧪 Maven Profiles (TestNG Suites)
+```
+
+### 🧪 Maven Profiles (TestNG Suites)
   | Profile ID         | Test Suite Path                           |
   | ------------------ | ----------------------------------------- |
   | api-tests          | `testng-suites/restAssuredTestsSuite.xml` |
@@ -130,11 +151,14 @@ This framework supports three types of CI triggers:
 ```bash
 # CI build example
 mvn clean test -Papi-tests -Denv=qa
+```
 
 🔍 [View Action Logs & Artifacts »](https://github.com/satish-raja/RestAssuredFramework/actions)
 
 📘 Allure Report (Live)
 👉 [Click to View Allure Report](https://satish-raja.github.io/RestAssuredFramework/)
+
+---
 
 👨‍💻 Author
     Satish Raja
