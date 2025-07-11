@@ -1,15 +1,12 @@
 name: 🚀 Run API Tests (CI + Daily + Manual)
 
 on:
-  # 🔁 Trigger on push to main
   push:
     branches: [ "main" ]
 
-  # ✅ Trigger on PR to main
   pull_request:
     branches: [ "main" ]
 
-  # 👤 Manual trigger with dropdowns
   workflow_dispatch:
     inputs:
       env:
@@ -37,7 +34,6 @@ on:
           - auth-tests
           - post-service-tests
 
-  # ⏰ Schedule at 3:00 AM IST = 21:30 UTC
   schedule:
     - cron: '30 21 * * *'
 
@@ -49,10 +45,6 @@ jobs:
   run-tests:
     runs-on: ubuntu-latest
 
-    env:
-      # Inject API token from GitHub Secrets into runtime environment
-      API_TOKEN_QA: ${{ secrets.API_TOKEN_QA }}
-      
     steps:
       - name: ⬇️ Checkout repository
         uses: actions/checkout@v3
@@ -65,21 +57,27 @@ jobs:
 
       - name: 🛠️ Generate qa.properties from GitHub Secret
         run: |
-            mkdir -p src/test/resources/config
-        
-            if [ "${{ github.event.inputs.env }}" = "qa" ]; then
-              echo "base.url=https://gorest.co.in/public/v2" > src/test/resources/config/qa.properties
-              echo "api.token=${{ secrets.API_TOKEN_QA }}" >> src/test/resources/config/qa.properties
-            elif [ "${{ github.event.inputs.env }}" = "uat" ]; then
-              echo "base.url=https://uat.gorest.co.in/public/v2" > src/test/resources/config/qa.properties
-              echo "api.token=${{ secrets.API_TOKEN_UAT }}" >> src/test/resources/config/qa.properties
-            elif [ "${{ github.event.inputs.env }}" = "staging" ]; then
-              echo "base.url=https://staging.gorest.co.in/public/v2" > src/test/resources/config/qa.properties
-              echo "api.token=${{ secrets.API_TOKEN_STAGING }}" >> src/test/resources/config/qa.properties
-            else
-              echo "❌ Invalid or unsupported environment: ${{ github.event.inputs.env }}"
-              exit 1
-            fi
+          mkdir -p src/test/resources/config
+
+          # Default to 'qa' if no env input is provided (e.g. on push/schedule)
+          env_input="${{ github.event.inputs.env || 'qa' }}"
+
+          if [ "$env_input" = "qa" ]; then
+            echo "base.url=https://gorest.co.in/public/v2" > src/test/resources/config/qa.properties
+            echo "api.token=${{ secrets.API_TOKEN_QA }}" >> src/test/resources/config/qa.properties
+
+          elif [ "$env_input" = "uat" ]; then
+            echo "base.url=https://uat.gorest.co.in/public/v2" > src/test/resources/config/qa.properties
+            echo "api.token=${{ secrets.API_TOKEN_UAT }}" >> src/test/resources/config/qa.properties
+
+          elif [ "$env_input" = "staging" ]; then
+            echo "base.url=https://staging.gorest.co.in/public/v2" > src/test/resources/config/qa.properties
+            echo "api.token=${{ secrets.API_TOKEN_STAGING }}" >> src/test/resources/config/qa.properties
+
+          else
+            echo "❌ Invalid or unsupported environment: $env_input"
+            exit 1
+          fi
 
       - name: 🧪 Run API Tests with Maven
         run: |
@@ -88,7 +86,7 @@ jobs:
       - name: 📊 Generate Allure Report
         run: |
           rm -rf allure-report
-          npx allure generate allure-results -o allure-report
+          npx allure generate allure-results -o allure-report || echo "⚠️ Allure generation failed"
 
       - name: 🚀 Publish Allure Report to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
