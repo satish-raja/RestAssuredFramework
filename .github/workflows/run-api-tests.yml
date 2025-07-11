@@ -65,10 +65,22 @@ jobs:
 
       - name: 🛠️ Generate qa.properties from GitHub Secret
         run: |
-          mkdir -p src/test/resources/config
-          echo "base.url=https://gorest.co.in/public/v2" > src/test/resources/config/qa.properties
-          echo "api.token=${API_TOKEN_QA}" >> src/test/resources/config/qa.properties
-          
+            mkdir -p src/test/resources/config
+        
+            if [ "${{ github.event.inputs.env }}" = "qa" ]; then
+              echo "base.url=https://gorest.co.in/public/v2" > src/test/resources/config/qa.properties
+              echo "api.token=${{ secrets.API_TOKEN_QA }}" >> src/test/resources/config/qa.properties
+            elif [ "${{ github.event.inputs.env }}" = "uat" ]; then
+              echo "base.url=https://uat.gorest.co.in/public/v2" > src/test/resources/config/qa.properties
+              echo "api.token=${{ secrets.API_TOKEN_UAT }}" >> src/test/resources/config/qa.properties
+            elif [ "${{ github.event.inputs.env }}" = "staging" ]; then
+              echo "base.url=https://staging.gorest.co.in/public/v2" > src/test/resources/config/qa.properties
+              echo "api.token=${{ secrets.API_TOKEN_STAGING }}" >> src/test/resources/config/qa.properties
+            else
+              echo "❌ Invalid or unsupported environment: ${{ github.event.inputs.env }}"
+              exit 1
+            fi
+
       - name: 🧪 Run API Tests with Maven
         run: |
           mvn clean test -P${{ github.event.inputs.suite || 'api-tests' }} -Denv=${{ github.event.inputs.env || 'qa' }}
