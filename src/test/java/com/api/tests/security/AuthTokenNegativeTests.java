@@ -6,6 +6,7 @@ import com.api.tests.base.BaseTest;
 import io.qameta.allure.*;
 import io.restassured.response.Response;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
@@ -70,33 +71,11 @@ public class AuthTokenNegativeTests extends BaseTest {
         Assert.assertEquals(response.statusCode(), STATUS_CODE_UNAUTHORIZED, "Expected 401 for invalid token");
     }
 
-    @Test(enabled = false, groups = "security", description = "🔴 Expired token - returns 401 or 403")
+    @Test(enabled = true, groups = "security", description = "🔴 Expired token - returns 401 or 403")
     @Story("❌ Expired Token Access")
     @Severity(SeverityLevel.MINOR)
     @Description("Simulates behavior when accessing with an expired token (401 or 403)")
     public void testExpiredToken_ShouldReturn401Or403() {
-        String expiredToken = "Bearer your_expired_token_here";
-
-        Allure.step("🧪 Trying to fetch user with expired token");
-
-        Response response = given()
-                .baseUri(BASE_URL)
-                .basePath("/users/" + DUMMY_USER_ID)
-                .header("Accept", "application/json")
-                .header("Authorization", expiredToken)
-                .when()
-                .get()
-                .then()
-                .extract()
-                .response();
-
-        Allure.step("🔐 Response status: " + response.statusCode());
-        Allure.attachment("Response Body", response.asPrettyString());
-
-        int status = response.statusCode();
-        Assert.assertTrue(
-                status == STATUS_CODE_UNAUTHORIZED || status == 403,
-                "Expected 401 or 403 for expired token, but got: " + status
-        );
+    	throw new SkipException("Skipping test — expired token not available");
     }
 }
