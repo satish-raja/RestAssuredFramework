@@ -1,0 +1,37 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:26:37 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"f352d0f526d88e83b94e4c893a815c41"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=82b9f61f-8be1-46ea-ad06-9b7fd6fddf4b
+X-Runtime=0.058815
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=t9FYzAw338%2FsgfT7GJ5RvykMRFmJHETcDIVaE59n1UH0NPD4T%2BFkPi1ouNxGJDQZQkBKVvoJIxIJhlO5CboXeouceQ4yQh69GlB2Tw%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d79a83ef27e1b4-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998925,
+  "name" : "Leland Greenfelder I",
+  "email" : "felicia.mitchell@yahoo.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 819 ms

@@ -1,0 +1,13 @@
+📌 Test Name: 099b08ea-ff80-4c33-9403-cef56b8a9b6a
+📤 Method: DELETE
+🔗 URI: https://gorest.co.in/public/v2/comments/157178
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Jaimie",
+  "email" : "virgil.pfeffer@gmail.com",
+  "body" : "Comment to be deleted"
+}

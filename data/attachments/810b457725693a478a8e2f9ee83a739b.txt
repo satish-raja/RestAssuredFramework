@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:27:09 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=118
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"296b12aaa113fe3a22374f52effa7d52"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998939
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=68
+X-Ratelimit-Reset=15
+X-Request-Id=c7906a7d-aaba-4eed-b673-4616e48f1cad
+X-Runtime=0.054320
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=SOOgRq90t938qnWv%2BeiXPS0cv%2Fva6R%2Bil5XmCVIrBa7MRhZJWqVFltS6uGhvnK%2Bvmfat6V9Hh%2FXB%2FwNG5Nv1JPYs7mFH7Xmrq0N8sA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d79b488c0ce12b-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998939,
+  "name" : "Albina Cummerata Sr.",
+  "email" : "adrienne.stokes@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 805 ms

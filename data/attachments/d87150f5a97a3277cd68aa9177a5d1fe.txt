@@ -1,0 +1,14 @@
+📌 Test Name: 7848558b-b9a2-4351-9a8f-9105d6c9b37e
+📤 Method: PUT
+🔗 URI: https://gorest.co.in/public/v2/users/7998927
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Updated Name",
+  "gender" : "female",
+  "email" : "nathanial.sanford@hotmail.com",
+  "status" : "inactive"
+}

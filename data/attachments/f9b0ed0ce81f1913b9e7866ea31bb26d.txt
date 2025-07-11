@@ -1,0 +1,13 @@
+📌 Test Name: a4cfa32d-64c1-41bd-92dd-ae66f8f44039
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/posts/220297/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Jaimie",
+  "email" : "virgil.pfeffer@gmail.com",
+  "body" : "Comment to be deleted"
+}

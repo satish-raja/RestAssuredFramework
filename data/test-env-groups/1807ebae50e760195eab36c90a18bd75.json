@@ -1,1 +1,1 @@
-{"id":"1807ebae50e760195eab36c90a18bd75","fullName":"com.api.tests.DeleteUserTests.testDeleteUser_ValidId_ShouldSucceed","name":"🟢 Delete existing user - Should return 204","status":"passed","testResultsByEnv":{"default":"7f1147681973e2cdce9dc847a3a39b41"}}
+{"id":"1807ebae50e760195eab36c90a18bd75","fullName":"com.api.tests.DeleteUserTests.testDeleteUser_ValidId_ShouldSucceed","name":"🟢 Delete existing user - Should return 204","status":"passed","testResultsByEnv":{"default":"4913be83a4e6382eb4e885268c56a22a"}}

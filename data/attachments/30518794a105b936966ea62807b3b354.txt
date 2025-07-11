@@ -1,0 +1,14 @@
+📌 Test Name: 13a0dd63-769e-48ec-ba9a-fc1f40bc9ccd
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Miss Barry Tremblay",
+  "gender" : "male",
+  "email" : "shea.mcglynn@yahoo.com",
+  "status" : "active"
+}

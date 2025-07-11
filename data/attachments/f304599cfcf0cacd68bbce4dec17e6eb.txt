@@ -1,0 +1,14 @@
+📌 Test Name: 3b26c8c5-4621-49af-a49a-821e81fa87c6
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Sammy Frami",
+  "gender" : "female",
+  "email" : "sydney.schumm@hotmail.com",
+  "status" : "active"
+}

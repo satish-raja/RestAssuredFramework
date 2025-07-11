@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:26:38 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=107
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"367556c3e678216f829d7ace0b73fe87"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998926
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=89
+X-Ratelimit-Reset=1
+X-Request-Id=2bbb9e64-8f77-49e6-8020-cb4be16d05ed
+X-Runtime=0.067676
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=rZZgWBAzUkDKaQIItGKJnUfDQA8YNJ0NNq3N%2BNr0HarESY5FhEllxM0at5%2Fnm%2FNu745EHJUcNynh8HtxHP6ZePIqC9miFrViUzDP0A%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d79a8aed910ef9-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998926,
+  "name" : "Sammy Frami",
+  "email" : "sydney.schumm@hotmail.com",
+  "gender" : "female",
+  "status" : "active"
+}
+⏱️ Duration: 833 ms

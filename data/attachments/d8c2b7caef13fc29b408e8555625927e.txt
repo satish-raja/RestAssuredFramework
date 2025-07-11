@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:26:42 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=116
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"a1900e1ab63da619772ccb27979d7bf5"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998928
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=87
+X-Ratelimit-Reset=3
+X-Request-Id=14f34360-f031-490b-812d-eb4aaf2abe6b
+X-Runtime=0.074468
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=F3R2X%2FEeUQWn3jx0HCqutf5Bfdpij5WtSO15eQH%2Fpxeugu6qgVDoKOBglGKM2AJmpvAw9tFKA2afQ0Vde6KebUTEN%2BFLd5o6DDGqcw%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d79aa46bf98052-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998928,
+  "name" : "Delete Twice User",
+  "email" : "rosamaria.jacobson@gmail.com",
+  "gender" : "male",
+  "status" : "inactive"
+}
+⏱️ Duration: 349 ms

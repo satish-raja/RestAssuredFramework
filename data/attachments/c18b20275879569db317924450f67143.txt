@@ -1,0 +1,14 @@
+📌 Test Name: d4193b61-3c45-46d7-9fd4-adeb74043e65
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Wesley Miller DDS",
+  "gender" : "male",
+  "email" : "rolando.ward@yahoo.com",
+  "status" : "active"
+}

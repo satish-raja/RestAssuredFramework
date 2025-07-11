@@ -1,0 +1,14 @@
+📌 Test Name: 0ff492a2-806f-4b3e-9431-d26575a45b51
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Kristofer Hermiston",
+  "gender" : "male",
+  "email" : "chris.mckenzie@gmail.com",
+  "status" : "active"
+}

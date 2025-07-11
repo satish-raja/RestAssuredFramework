@@ -1,0 +1,13 @@
+📌 Test Name: 39e6593a-917b-4bcc-b188-4a69e6627bd6
+📤 Method: GET
+🔗 URI: https://gorest.co.in/public/v2/posts/220295/comments
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Roosevelt",
+  "email" : "freddy.waelchi@hotmail.com",
+  "body" : "Nice post!"
+}

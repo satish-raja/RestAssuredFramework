@@ -1,0 +1,37 @@
+✅ Status Code: 201
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:27:06 GMT
+Content-Type=application/json; charset=utf-8
+Content-Length=105
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"be5028f98cd941ab53507dbf96dd6b67"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Location=https://gorest.co.in/public/v2/users/7998938
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=70
+X-Ratelimit-Reset=14
+X-Request-Id=f4316f9b-6c13-4610-86bf-346d9a4ce6ac
+X-Runtime=0.108030
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=k%2BHv%2B8ThxVkC6tqf69w7Z270F1gDj9f8uFmALOJqmwn%2Bs80J2sGcvfUhMDunDexp4eTdIDD90kHHOVkoiBkiq4v2Ka2UclhqK3KaOA%3D%3D"}]}
+Server=cloudflare
+CF-RAY=95d79b399bc3e819-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+{
+  "id" : 7998938,
+  "name" : "Keesha Doyle I",
+  "email" : "silas.harber@gmail.com",
+  "gender" : "male",
+  "status" : "active"
+}
+⏱️ Duration: 861 ms

@@ -1,1 +1,1 @@
-{"id":"aa16af4052c4b47511d06291a5230611","fullName":"com.api.tests.CreateCommentTests.testCreateComment_MissingBody_ShouldFail","name":"🔴 Missing body should return 422","status":"passed","testResultsByEnv":{"default":"ebeb849a112f5989616eb0af8528244f"}}
+{"id":"aa16af4052c4b47511d06291a5230611","fullName":"com.api.tests.CreateCommentTests.testCreateComment_MissingBody_ShouldFail","name":"🔴 Missing body should return 422","status":"passed","testResultsByEnv":{"default":"e30337af633f3b38a75702d1f1dc10bb"}}

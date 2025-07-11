@@ -1,0 +1,14 @@
+📌 Test Name: 4d616ace-bb00-45ea-8255-d899b1a574d2
+📤 Method: POST
+🔗 URI: https://gorest.co.in/public/v2/users
+📦 Headers:
+Accept: application/json
+Authorization: *****MASKED*****
+Content-Type: application/json
+📤 Body:
+{
+  "name" : "Test User",
+  "gender" : "female",
+  "email" : "",
+  "status" : "active"
+}

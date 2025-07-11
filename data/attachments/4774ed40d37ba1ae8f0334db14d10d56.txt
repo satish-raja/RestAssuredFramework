@@ -1,0 +1,88 @@
+✅ Status Code: 200
+📥 Headers:
+Date=Fri, 11 Jul 2025 10:26:47 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Cache-Control=max-age=0, private, must-revalidate
+Etag=W/"5e41b322c924ec311efc7c307278262a"
+Feature-Policy=camera 'none'; gyroscope 'none'; microphone 'none'; usb 'none'; fullscreen 'self'
+Referrer-Policy=strict-origin-when-cross-origin
+Vary=Origin
+X-Content-Type-Options=nosniff
+X-Download-Options=noopen
+X-Frame-Options=SAMEORIGIN
+X-Links-Current=https://gorest.co.in/public/v2/posts?page=1
+X-Links-Next=https://gorest.co.in/public/v2/posts?page=2
+X-Links-Previous=
+X-Pagination-Limit=10
+X-Pagination-Page=1
+X-Pagination-Pages=7
+X-Pagination-Total=66
+X-Permitted-Cross-Domain-Policies=none
+X-Ratelimit-Limit=90
+X-Ratelimit-Remaining=82
+X-Ratelimit-Reset=6
+X-Request-Id=127cf79e-8f38-465d-9c6d-9c35429f186f
+X-Runtime=0.101230
+X-Xss-Protection=0
+Cf-Cache-Status=DYNAMIC
+Nel={"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To={"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=Gx%2BfcLoycKJdsPIzgSb1VkDqkm%2BwFxqPfWb4XYtX64AFU6rijTEK3RZ3tIRZzVkOd0ZHkABB0StyoomPonA9p5osZmt%2FGghO%2B1juMA%3D%3D"}]}
+Content-Encoding=gzip
+Server=cloudflare
+CF-RAY=95d79ac3ffe7608a-ORD
+alt-svc=h3=":443"; ma=86400
+📄 Body:
+[ {
+  "id" : 220290,
+  "user_id" : 7998932,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}, {
+  "id" : 220281,
+  "user_id" : 7998894,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}, {
+  "id" : 220269,
+  "user_id" : 7998836,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}, {
+  "id" : 220260,
+  "user_id" : 7998702,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}, {
+  "id" : 220251,
+  "user_id" : 7998671,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}, {
+  "id" : 220242,
+  "user_id" : 7998636,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}, {
+  "id" : 220233,
+  "user_id" : 7998618,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}, {
+  "id" : 219982,
+  "user_id" : 7998168,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}, {
+  "id" : 219613,
+  "user_id" : 7995815,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+}, {
+  "id" : 219582,
+  "user_id" : 7994772,
+  "title" : "Get Post Title",
+  "body" : "Get post body text"
+} ]
+⏱️ Duration: 851 ms
